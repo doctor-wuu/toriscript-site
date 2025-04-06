@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===============================
+   ⬇︎ 独自スタイルここから
+=================================*/
+
+/* h2, h3, h4の直前が<p>なら上マージンを詰める（文と見出しの間が空きすぎるのを防ぐ） */
+.prose :where(p + h2),
+.prose h2 {
+  position: relative;
+  display: block;
+  padding: 1rem 0.5rem;
+  margin: 1.25rem 0 1rem;
+}
+
+/* 上線 */
+.prose h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1em;
+  width: calc(100% + 2em);
+  height: 2px;
+  background-color: #707070;
+}
+
+/* 下線（既にあるもの） */
+.prose h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -1em;
+  width: calc(100% + 2em);
+  height: 2px;
+  background-color: #707070;
+}
+
+.prose :where(p + h3),
+.prose :where(p + h4) {
+  margin-top: 0.25rem !important;
+}
+.prose h1 {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+.prose p {
+  text-shadow: 0.03em 0.03em 0.1em rgba(0, 0, 0, 0.06) !important;
+}
+
+
+
+
+
+/* ===============================
+   ⬇︎ ol（番号付きリスト）のフェードインアニメーション
+=================================*/
+
+/* olリスト全体にアニメーションを適用 */
+ol li {
+  opacity: 0;
+  animation: fadeIn 0.6s ease-out forwards;
+  animation-delay: var(--delay, 0s);
+}
+
+/* 各リスト項目に段階的な遅延 */
+ol li:nth-child(1) { --delay: 0.2s; }
+ol li:nth-child(2) { --delay: 0.4s; }
+ol li:nth-child(3) { --delay: 0.6s; }
+ol li:nth-child(4) { --delay: 0.8s; }
+ol li:nth-child(5) { --delay: 1.0s; }
+ol li:nth-child(6) { --delay: 1.2s; }
+ol li:nth-child(7) { --delay: 1.4s; }
+ol li:nth-child(8) { --delay: 1.6s; }
+ol li:nth-child(9) { --delay: 1.8s; }
+ol li:nth-child(10) { --delay: 2.0s; }
+
+/* アニメーションの定義（下からスッと浮かび上がる） */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===============================
+   ⬇︎ リンクのスタイル（個別記事ページのみ）
+=================================*/
+
+.article-page .prose a {
+  position: relative;
+  color: #82A0AA; /* 通常のリンク色 */
+  text-decoration: none;
+  font-weight: 700; /* 通常時も少し太く */
+  transition: color 0.3s ease;
+}
+
+/* マーカー風アンダーライン（下半分に伸びる） */
+.article-page .prose a::before {
+  content: '';
+  position: absolute;
+  inset: 60% 0 0 0; /* 上40%は透明、下40%がマーカー */
+  background: #f5f5f5;
+  z-index: -1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+/* ホバー時にマーカーが伸びる */
+.article-page .prose a:hover::before {
+  transform: scaleX(1);
+}
+
+/* ホバー時のテキスト色変化 */
+.article-page .prose a:hover {
+  color: #4d6e75;
+  font-weight: 700;
+}
+
+/* ===============================
+   ⬇︎ 表（Markdownテーブル）の装飾
+=================================*/
+
+.article-page .prose table {
+  max-width: 40rem;           /* テーブルの最大幅を少し狭める */
+  margin: 2rem auto;          /* 上下に余白 + 中央寄せ */
+  border: 2px solid #66544E;  /* 外枠を濃く表示 */
+  border-collapse: collapse;  /* 枠の重なり防止 */
+}
+
+.prose thead {
+  background-color: #f0f0f0;  /* ヘッダー背景（薄グレー） */
+  color: #333;
+  font-weight: 600;
+}
+
+.prose th {
+  background-color: #f2f2f2;  /* thセルの背景色 */
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border: 1px solid #ccc;
+  color: #66544E;             /* th内の文字色（茶系） */
+}
+
+.prose td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  color: #4a4a4a;             /* 通常テキスト色（濃グレー） */
+}
+
+.prose tbody tr:nth-child(odd) {
+  background-color: #fafafa;  /* 偶数行は背景薄グレー */
+}
+
+.prose tbody tr:hover {
+  background-color: #f5f5f5;  /* ホバー時に背景を変化させる */
+}
+/* 目次ナビゲーション全体のスタイル */
+.toc {
+  padding: 1rem 1.25rem;
+  border: 2px solid #ddd;
+  border-radius: 0.5rem;
+  background-color: #fdfdfd;
+  font-size: 0.95rem;
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+/* .toc 内の ul はマークなしにする（Tailwind proseの影響を打ち消す） */
+.toc ul {
+  list-style: none !important; /* ← ← ← これが効きます！ */
+  padding-left: 0;
+  margin: 0;
+}
+
+
+/* LI共通マージン */
+.toc li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1rem; /* ポチ用のスペース */
+}
+
+/* aタグ（リンク）のスタイル */
+.toc li a {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.toc li a:hover {
+  color: #374151;
+}
+
+/* 見出し階層別のインデントとポチ（ハイフン）スタイル */
+.toc li.depth-2 a {
+  font-size: 1.05rem;   /* 少しだけ大きめ */
+  font-weight: 600;     /* 太字（bold より少し軽い） */
+  color: #4b5563;       /* 文字色も少し強めにするのもおすすめ */
+}
+
+
+.toc li.depth-3 {
+  padding-left: 2.5rem;
+}
+.toc li.depth-3::before {
+  content: '-';
+  position: absolute;
+  left: 1.7rem;
+  color: #999;
+}
+
+.toc li.depth-4 {
+  padding-left: 2rem;
+}
+.toc li.depth-4::before {
+  content: '-';
+  position: absolute;
+  left: 1rem;
+  color: #bbb;
+}
+
+.toc li::marker {
+  content: none !important;
+}
+
+.intro {
+  font-size: 1rem;
+  color: #808080;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-bottom: 1.4rem;
+  line-height: 1.7;
+}
+
+.intro-image {
+  margin-bottom: 1.5rem;     /* 画像と目次の間に余白 */
+  border-radius: 0.2rem;     /* 少し角丸 */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08); /* 控えめな影 */
+  max-width: 100%;           /* レスポンシブ対応 */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.break-jp {
+  line-break: strict;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+

@@ -1,0 +1,87 @@
+---
+// src/pages/index.astro
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets'; // ✅ 追加！
+
+const articles = await getCollection('articles');
+---
+<Layout title="記事一覧">
+  <div slot="main" class="flex flex-col justify-start max-w-[950px] mx-auto pl-2 pr-8">
+
+    <ul class="space-y-8">
+  {articles.map((article) => {
+    const thumb = article.data.introImage || '/images/blank.jpg';
+    return (
+      <li>
+        <!-- ✅ ボーダーの幅を限定 -->
+        <div class="border-b border-gray-200 pb-6 max-w-[700px]">
+          <a
+            href={`/articles/${article.slug}`}
+            class="flex items-start gap-[20px] hover:opacity-80 transition"
+          >
+            <!-- ✅ サムネイル -->
+            <img
+              src={thumb}
+              alt={`${article.data.title} のサムネイル`}
+              class="w-[220px] h-auto object-cover rounded-md flex-shrink-0"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <!-- ✅ テキスト -->
+            <div class="flex flex-col justify-start w-full max-w-[460px]">
+              <h2 class="text-xl font-bold text-[#6a6a6a] mb-4 break-jp break-words max-w-full overflow-hidden line-clamp-2 leading-snug">
+                {article.data.title}
+              </h2>
+              {article.data.intro && (
+                <p class="text-sm text-[#888888] leading-snug line-clamp-3">
+                  {article.data.intro}
+                </p>
+              )}
+            </div>
+          </a>
+        </div>
+      </li>
+    );
+  })}
+</ul>
+  </div>
+  <!-- ✅ 右カラム（カテゴリ一覧） -->
+<div slot="sidebar">
+  <aside class="text-sm text-[#66544E] leading-relaxed space-y-4">
+    <div>
+      <h2 class="text-base font-bold">カテゴリー</h2>
+      <p class="text-xs text-gray-400">カテゴリ一覧から記事を探す</p>
+    </div>
+
+    <ul class="divide-y divide-gray-200 border-t border-b">
+      <li>
+        <a href="/category/screenwriting" class="flex items-center justify-between py-2 hover:underline">
+          <span>脚本術・理論</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="/category/genre-guide" class="flex items-center justify-between py-2 hover:underline">
+          <span>映画ジャンル別ガイド</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="/category/column" class="flex items-center justify-between py-2 hover:underline">
+          <span>コラム</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+</Layout>

@@ -1,0 +1,20 @@
+---
+// SidebarCategoryList.astro
+import { categoryMap } from '@/data/categoryMap.ts';
+---
+
+<aside class="border rounded p-4 bg-white text-sm">
+  <h2 class="text-base font-bold text-gray-800 mb-1">カテゴリー</h2>
+  <p class="text-xs text-gray-400 mb-3">カテゴリ一覧から記事を探す</p>
+
+  <ul class="space-y-2">
+    {Object.entries(categoryMap).map(([id, { slug, label }]) => (
+      <li>
+        <a href={`/category/${slug}`} class="flex justify-between items-center text-gray-800 hover:text-[#82A0AA]">
+          {label}
+          <span class="text-[#82A0AA] text-lg font-semibold">＞</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</aside>

@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { categoryMap } from '@/data/categoryMap.ts';
+
+const { category } = Astro.params;
+
+// 🧠 これは HTML を生成する本体処理
+const allArticles = await getCollection('articles');
+const articles = allArticles.filter(
+  (article) => categoryMap[article.data.category]?.slug === category
+);
+const categoryLabel = categoryMap[
+  allArticles.find((a) => categoryMap[a.data.category]?.slug === category)?.data.category
+]?.label;
+
+// ✅ これがルーティング処理！ export を忘れずに！！
+export async function getStaticPaths() {
+  const allArticles = await getCollection('articles');
+  const uniqueSlugs = new Set(
+    allArticles
+      .map((article) => {
+        const id = article.data.category;
+        return categoryMap[id]?.slug;
+      })
+      .filter(Boolean)
+  );
+
+  return Array.from(uniqueSlugs).map((slug) => ({
+    params: { category: slug },
+  }));
+}
+---
+
+
+<Layout title={`${categoryLabel} の記事一覧`}>
+  <div class="max-w-[48rem] mx-auto">
+    <h1 class="text-2xl font-bold mb-6 text-center text-[#4a4a4a]">
+      {categoryLabel} の記事一覧
+    </h1>
+
+    <ul class="space-y-6">
+      {articles.map((article) => (
+        <li class="border-b pb-4">
+          <a href={`/articles/${article.slug}`} class="block hover:underline">
+            <h2 class="text-xl font-semibold">{article.data.title}</h2>
+            {article.data.description && (
+              <p class="text-sm text-gray-500">{article.data.description}</p>
+            )}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Layout>

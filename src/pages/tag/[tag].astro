@@ -1,0 +1,49 @@
+---
+// src/pages/tag/[tag].astro
+import { getCollection } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
+import { tagMap } from '@/data/tagMap.ts';
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('articles');
+  const allTags = Array.from(
+    new Set(allArticles.flatMap((article) => article.data.tags ?? []))
+  );
+  return allTags.map((tag) => ({
+    params: { tag }
+  }));
+}
+
+const { tag } = Astro.params;
+const allArticles = await getCollection('articles');
+
+// 該当タグを持つ記事だけフィルター
+const articles = allArticles.filter(
+  (article) => article.data.tags?.includes(tag)
+);
+
+const tagLabel = tagMap[tag] ?? tag;
+---
+
+<Layout title={`タグ: ${tagLabel}`}>
+  <div class="max-w-[48rem] mx-auto">
+    <h1 class="text-2xl font-bold text-gray-800 mb-6">タグ: {tagLabel}</h1>
+
+    {articles.length > 0 ? (
+      <ul class="space-y-6">
+        {articles.map((article) => (
+          <li class="border-b pb-4">
+            <a href={`/articles/${article.slug}`} class="block hover:underline">
+              <h2 class="text-xl font-semibold">{article.data.title}</h2>
+              {article.data.description && (
+                <p class="text-sm text-gray-500">{article.data.description}</p>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p class="text-gray-500">記事が見つかりませんでした。</p>
+    )}
+  </div>
+</Layout>

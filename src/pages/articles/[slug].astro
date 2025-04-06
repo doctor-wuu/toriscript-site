@@ -1,0 +1,208 @@
+---
+import { getCollection, getEntryBySlug } from 'astro:content';
+import { getHeadingsFromHtml } from '@/utils/getHeadingsFromHtml';
+import ArticleLayout from '@/layouts/ArticleLayout.astro';
+import { categoryMap } from '@/data/categoryMap.ts';
+import { tagMap } from '@/data/tagMap.ts';
+
+const { slug } = Astro.params;
+const post = await getEntryBySlug('articles', slug);
+const content = post ? await post.render() : null;
+const html = content?.html ?? post?.rendered?.html ?? '';
+const { headings } = await getHeadingsFromHtml(html);
+
+
+const authorMap = {
+  1: '鳥羽才一',
+  2: '山田脚本郎',
+  3: 'シナリオ花子',
+};
+
+export async function getStaticPaths() {
+  const posts = await getCollection('articles');
+  return posts.map(post => ({
+    params: { slug: post.slug }
+  }));
+}
+
+const categoryId = post?.data.category;
+const categoryData = categoryMap[categoryId];
+const categorySlug = categoryData?.slug;
+const categoryLabel = categoryData?.label;
+---
+
+<ArticleLayout title={post?.data.title} headings={headings}>
+  <!-- ✅ パンくずスロット -->
+  <div slot="breadcrumbs">
+    <div class="flex items-center text-sm text-gray-500 ">
+      <a href="/" class="hover:underline flex items-center gap-1"><span>Home</span></a>
+      <span class="mx-1">＞</span>
+      {categoryLabel && (
+  <>
+    <a href={`/category/${categorySlug}`} class="hover:underline">
+      {categoryLabel}
+    </a>
+    <span class="mx-1">＞</span>
+  </>
+)}
+
+      <span
+        class="text-[#4a4a4a] inline-block max-w-[15em] overflow-hidden text-ellipsis whitespace-nowrap align-middle"
+        title={post?.data.title}
+      >
+        {post?.data.title}
+      </span>
+    </div>
+  </div>
+
+
+<!-- ✅ ヘッダー -->
+<!-- ✅ titleBlockスロット：左右の赤カラムだけ作る -->
+<div class="max-w-7xl mx-auto flex px-4 w-full">
+  <!-- ⬅️ 左の赤カラム -->
+  <aside class="hidden lg:block w-[6rem] "></aside>
+
+  <!-- 🎯 中央エリア（まだ空） -->
+  <div class="flex-1 flex justify-start">
+    <div class="w-full max-w-[48rem]">
+      <!-- ✅ ここに後でタイトルなどを入れる -->
+    </div>
+  </div>
+
+  <!-- ➡️ 右の赤カラム -->
+  <aside class="hidden lg:block w-[20rem] "></aside>
+</div>
+
+<!-- ✅ titleBlockスロット：左右の赤カラムだけ作る -->
+<div slot="titleBlock" class="max-w-7xl mx-auto flex px-4 w-full">
+  <!-- ⬅️ 左の赤カラム -->
+  <aside class="hidden lg:block w-[7rem] "></aside>
+
+  <!-- 🎯 中央エリア -->
+  <div class="flex-1 flex justify-start">
+    <div class="w-full max-w-[52rem]">
+      <!-- ✅ 中身を戻す -->
+      <div class="flex justify-between items-start mb-4 text-sm text-gray-500">
+        <div class="flex items-center gap-4">
+          {categoryLabel && (
+            <span class="bg-[#8C82AA] text-white text-xs font-semibold px-2 py-1 rounded">
+              {categoryLabel}
+            </span>
+          )}
+          <span>{post?.data.date.toLocaleDateString('ja-JP')}</span>
+        </div>
+        <span class="text-xs mt-1">Written by {authorMap[post?.data.author] ?? 'Unknown'}</span>
+      </div>
+
+      <h1 class="text-[2.5rem]  leading-[1.2] text-[#A1A1A1] mb-0 border-none break-jp text-left tracking-[0.05em]">
+        {post?.data.title}
+      </h1>
+    </div>
+  </div>
+
+  <!-- ➡️ 右の赤カラム -->
+  <aside class="hidden lg:block w-[20rem] "></aside>
+</div>
+
+
+
+
+  <!-- ✅ アイキャッチ + リード文 -->
+  <div slot="intro" class="prose mx-auto article-page max-w-[48rem]">
+    {post?.data.introImage && (
+      <img
+        src={post.data.introImage}
+        alt={`${post.data.title} のサムネイル`}
+        width="1280"
+        height="960"
+        class="mx-auto mb-6 rounded shadow"
+        loading="lazy"
+        decoding="async"
+      />
+    )}
+    {post?.data.intro && <p class="text-[#808080]">{post.data.intro}</p>}
+  </div>
+
+  <!-- ✅ 目次（TOC） -->
+<div slot="toc">
+  {headings.length > 0 && (
+    <section
+      class="toc mb-6 mx-auto max-w-[42rem] text-left"
+    >
+      <h2 class="text-lg font-semibold text-[#66544E] mb-2">Contents</h2>
+      <ul>
+        {headings.filter(h => h.depth <= 3).map(h => (
+          <li class={`depth-${h.depth}`}>
+            <a href={`#${h.id}`}>{h.text}</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</div>
+
+
+  <!-- ✅ 本文 -->
+  <div class="prose mx-auto article-page max-w-[48rem] mt-8" set:html={html}></div>
+
+  <!-- ✅ 右カラムのカテゴリを渡す -->
+  <div slot="sidebar">
+    <aside class="text-sm text-[#66544E] leading-relaxed space-y-4">
+      <!-- 見出し -->
+      <div>
+        <h2 class="text-base font-bold">カテゴリー</h2>
+        <p class="text-xs text-gray-400">カテゴリ一覧から記事を探す</p>
+      </div>
+
+      <!-- リスト -->
+      <ul class="divide-y divide-gray-200 border-t border-b">
+        <li>
+          <a href="/category/screenwriting" class="flex items-center justify-between py-2 hover:underline">
+            <span>脚本術・理論</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/category/genre-guide" class="flex items-center justify-between py-2 hover:underline">
+            <span>映画ジャンル別ガイド</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/category/column" class="flex items-center justify-between py-2 hover:underline">
+            <span>コラム</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- ✅ タグセクション（新規） -->
+  {post?.data.tags && post.data.tags.length > 0 && (
+    <aside class="text-sm text-[#66544E] leading-relaxed mt-8">
+      <div>
+        <h2 class="text-base font-bold"></h2>
+      </div>
+
+      <ul class="flex flex-wrap gap-2 mt-3">
+        {post.data.tags.map(tag => (
+          <li>
+            <a
+              href={`/tag/${tag}`}
+              class="text-xs text-[#82A0AA] border border-[#82A0AA] px-2 py-1 rounded hover:bg-[#f5f5f5] transition"
+            >
+              {tagMap[tag] ?? tag}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </aside>
+  )}
+</div>
+  </div>
+</ArticleLayout>

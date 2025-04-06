@@ -1,0 +1,23 @@
+{
+  "name": "toriscript-static-site",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "astro": "^5.5.6",
+    "jsdom": "^26.0.0",
+    "node-html-parser": "^7.0.1",
+    "rehype-slug": "^6.0.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@types/jsdom": "^21.1.7"
+  }
+}
