@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,ts,tsx,md}'],
+  safelist: [
+    "toc",
+    "toc-list",
+    "depth-2",
+    "depth-3",
+    "depth-4"
+  ],
   theme: {
     extend: {
   fontFamily: {
