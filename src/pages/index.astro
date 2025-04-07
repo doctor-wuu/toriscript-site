@@ -11,13 +11,13 @@ const articles = await getCollection('articles');
 
     <ul class="space-y-8">
   {articles.map((article) => {
-    const thumb = article.data.introImage || '/images/blank.jpg';
+    const thumb = `${import.meta.env.BASE_URL}${article.data.introImage || 'images/blank.jpg'}`;
     return (
       <li>
         <!-- ✅ ボーダーの幅を限定 -->
         <div class="border-b border-gray-200 pb-6 max-w-[700px]">
           <a
-            href={`/articles/${article.slug}`}
+            href={`${import.meta.env.BASE_URL}articles/${article.slug}`}
             class="flex items-start gap-[20px] hover:opacity-80 transition"
           >
             <!-- ✅ サムネイル -->

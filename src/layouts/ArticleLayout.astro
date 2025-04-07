@@ -15,7 +15,7 @@ const { title, headings } = Astro.props;
    <!-- ✅ ヘッダー -->
 <header class="py-4 flex flex-col items-center">
   <a href="/" class="block">
-    <img src="/images/tori-logo2.png" alt="Tori Script ロゴ" class="h-[69px] mx-auto" />
+    <img src={`${import.meta.env.BASE_URL}/images/tori-logo2.png`}alt="Tori Script ロゴ" class="h-[69px] mx-auto" />
   </a>
 </header>
 

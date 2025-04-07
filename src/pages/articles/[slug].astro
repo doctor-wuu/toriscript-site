@@ -40,7 +40,7 @@ const categoryLabel = categoryData?.label;
       <span class="mx-1">＞</span>
       {categoryLabel && (
   <>
-    <a href={`/category/${categorySlug}`} class="hover:underline">
+    <a href={`${import.meta.env.BASE_URL}category/${categorySlug}`}class="hover:underline">
       {categoryLabel}
     </a>
     <span class="mx-1">＞</span>
@@ -111,8 +111,7 @@ const categoryLabel = categoryData?.label;
   <!-- ✅ アイキャッチ + リード文 -->
   <div slot="intro" class="prose mx-auto article-page max-w-[48rem]">
     {post?.data.introImage && (
-      <img
-        src={post.data.introImage}
+      <img src={`${import.meta.env.BASE_URL}${post.data.introImage}`}
         alt={`${post.data.title} のサムネイル`}
         width="1280"
         height="960"
@@ -193,8 +192,7 @@ const categoryLabel = categoryData?.label;
       <ul class="flex flex-wrap gap-2 mt-3">
         {post.data.tags.map(tag => (
           <li>
-            <a
-              href={`/tag/${tag}`}
+            <a href={`${import.meta.env.BASE_URL}tag/${tag}`}>
               class="text-xs text-[#82A0AA] border border-[#82A0AA] px-2 py-1 rounded hover:bg-[#f5f5f5] transition"
             >
               {tagMap[tag] ?? tag}
