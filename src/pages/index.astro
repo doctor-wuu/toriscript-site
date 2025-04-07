@@ -57,7 +57,7 @@ const articles = await getCollection('articles');
 
     <ul class="divide-y divide-gray-200 border-t border-b">
       <li>
-        <a href="/category/screenwriting" class="flex items-center justify-between py-2 hover:underline">
+        <a href={`${import.meta.env.BASE_URL}category/screenwriting`} class="flex items-center justify-between py-2 hover:underline">
           <span>脚本術・理論</span>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -65,7 +65,7 @@ const articles = await getCollection('articles');
         </a>
       </li>
       <li>
-        <a href="/category/genre-guide" class="flex items-center justify-between py-2 hover:underline">
+        <a href={`${import.meta.env.BASE_URL}category/genre-guide`} class="flex items-center justify-between py-2 hover:underline">
           <span>映画ジャンル別ガイド</span>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -73,7 +73,7 @@ const articles = await getCollection('articles');
         </a>
       </li>
       <li>
-        <a href="/category/column" class="flex items-center justify-between py-2 hover:underline">
+        <a href={`${import.meta.env.BASE_URL}category/column`} class="flex items-center justify-between py-2 hover:underline">
           <span>コラム</span>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
