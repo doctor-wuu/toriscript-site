@@ -126,9 +126,7 @@ const categoryLabel = categoryData?.label;
   <!-- ✅ 目次（TOC） -->
 <div slot="toc">
   {headings.length > 0 && (
-    <section
-      class="toc mb-6 mx-auto max-w-[42rem] text-left"
-    >
+    <section class="toc prose text-sm mb-6 mx-auto max-w-[42rem] text-left">
       <h2 class="text-lg font-semibold text-[#66544E] mb-2">Contents</h2>
       <ul>
         {headings.filter(h => h.depth <= 3).map(h => (
