@@ -167,10 +167,10 @@ ol li:nth-child(10) { --delay: 2.0s; }
 }
 /* 目次ナビゲーション全体のスタイル */
 .toc {
-  padding: 1rem 1.25rem;
-  border: 2px solid #ddd;
-  border-radius: 0.5rem;
-  background-color: #fdfdfd;
+  padding: 1rem 1.25rem !important;
+  border: 2px solid #ddd !important;
+  border-radius: 0.5rem !important;
+  background-color: #fdfdfd !important;
   font-size: 0.95rem;
   max-width: 40rem;
   margin: 2rem auto;
@@ -258,16 +258,4 @@ ol li:nth-child(10) { --delay: 2.0s; }
   word-break: keep-all;
   overflow-wrap: break-word;
 }
-.toc h2::before,
-.toc h2::after {
-  content: none !important;
-  display: none !important;
-}
 
-.toc {
-  padding: 1rem 1.25rem;
-  border: 2px solid #ccc;
-  border-radius: 0.5rem;
-  background-color: #fdfdfd;
-  box-shadow: 0 0 0 1px #ccc;
-}
