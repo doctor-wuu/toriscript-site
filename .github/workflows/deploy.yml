@@ -33,10 +33,16 @@ jobs:
       - name: Build
         run: npm run build
 
-      # ✅ これだけでOK
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
+          path: ./dist
+
+      # ✅ ← 追加：念のための汎用アップロード（必要なら）
+      - name: Upload fallback artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
           path: ./dist
 
   deploy:
