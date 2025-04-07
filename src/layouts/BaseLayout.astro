@@ -1,6 +1,6 @@
 ---
+// src/layouts/BaseLayout.astro
 const { title } = Astro.props;
-
 ---
 
 <html lang="ja">
@@ -9,43 +9,35 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
 
-    <!-- ✅ global.css をインポート -->
-    <style is:global lang="postcss">
-      @import "../styles/global.css";
-    </style>
+    <!-- グローバルCSS -->
+    <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles/global.css`} />
+
+    <!-- Google アナリティクス -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-147344458"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-147344458');
+    </script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
+      crossorigin="anonymous"></script>
   </head>
 
-  <body class="article-page font-sans text-[#4a4a4a] bg-white">
-    <!-- ✅ ヘッダー -->
-    <header class="py-4 flex flex-col items-center">
-      <a href="/" class="block">
-  <img
-    src={`${import.meta.env.BASE_URL}images/tori-logo2.png`}
-    alt="Tori Script ロゴ"
-    class="max-h-[69px] w-auto mx-auto"
-  />
-</a>
-    </header>
+  <body class="font-sans text-gray-800 bg-white article-page">
+    <!-- ロゴや共通ヘッダー -->
+    <slot name="logo" />
 
-    <!-- ✅ パンくず（slot="breadcrumbs"） -->
-    <div class="w-full border-t border-gray-200">
-      <div class="max-w-4xl mx-auto px-4">
-        <slot name="breadcrumbs" />
-      </div>
-    </div>
+    <!-- パンくずリストなど -->
+    <slot name="breadcrumbBorder" />
+    <slot name="breadcrumbs" />
 
-    <!-- ✅ 灰色背景のタイトルブロック -->
-    <div class="w-full bg-[#f5f5f5] px-4 flex flex-col justify-center" style="min-height: 281px;">
-      <div class="max-w-4xl mx-auto w-full py-8">
-        <slot name="header" />
-      </div>
-    </div>
+    <!-- タイトルバー -->
+    <slot name="titleBlock" />
 
-    <!-- ✅ メインエリア：イントロ＋目次＋本文 -->
-    <main class="mx-auto px-4 py-8" style="max-width: none;">
-      <slot name="intro" />
-      <slot name="toc" />
-      <slot />
-    </main>
+    <!-- メイン本文 -->
+    <slot />
   </body>
 </html>

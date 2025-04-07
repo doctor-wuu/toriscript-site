@@ -1,76 +1,75 @@
 ---
-// props: title, headings
-
-const { title, headings } = Astro.props;
+// src/layouts/ArticleLayout.astro
+import BaseLayout from './BaseLayout.astro';
+const { title } = Astro.props;
 ---
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
-    <link rel="stylesheet" href={`${import.meta.env.BASE_URL}src/styles/global.css`} />
-  </head>
-  <body class="article-page font-sans text-[#4a4a4a] bg-white">
 
-   <!-- ✅ ヘッダー -->
-<header class="py-4 flex flex-col items-center">
-  <a href="/" class="block">
-    <img src={`${import.meta.env.BASE_URL}/images/tori-logo2.png`}alt="Tori Script ロゴ" class="h-[69px] mx-auto" />
-  </a>
-</header>
+<BaseLayout title={title}>
+  <div slot="logo">
+    <header class="py-4 flex flex-col items-center">
+      <a href="/" class="block">
+        <img src={`${import.meta.env.BASE_URL}images/tori-logo2.png`} alt="Tori Script ロゴ" class="h-[69px] mx-auto" />
+      </a>
+    </header>
+  </div>
 
-<!-- ✅ ロゴ下のライン（パンくずとは分離） -->
-<div class="w-full border-t border-gray-200"></div>
+  <div slot="breadcrumbBorder">
+    <div class="w-full border-t border-gray-200"></div>
+  </div>
 
-<!-- ✅ パンくずリスト：中央揃え -->
-<!-- ✅ パンくずリスト：中央揃え -->
-<div class="w-full py-1">
-  <div class="max-w-7xl mx-auto flex px-4">
-    <!-- 左の空き -->
-    <aside class="hidden lg:block w-[6rem] 0"></aside>
-
-    <!-- パンくず本体 -->
-    <div class="flex-1 flex justify-center">
-      <div class="w-full max-w-[48rem]">
-        <slot name="breadcrumbs" />
+  <div slot="breadcrumbs">
+    <div class="w-full py-1">
+      <div class="max-w-7xl mx-auto flex px-4">
+        <aside class="hidden lg:block w-[6rem]"></aside>
+        <div class="flex-1 flex justify-center">
+          <div class="w-full max-w-[48rem]">
+            <slot name="breadcrumbs" />
+          </div>
+        </div>
+        <aside class="hidden lg:block w-[20rem]"></aside>
       </div>
     </div>
-
-    <!-- 右の空き -->
-    <aside class="hidden lg:block w-[20rem] "></aside>
   </div>
-</div>
 
+  <div slot="titleBlock">
+    <div class="w-full bg-[#f5f5f5] min-h-[281px] flex flex-col justify-center">
+      <slot name="titleBlock" />
+    </div>
+  </div>
 
+  <main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
+    <aside class="hidden lg:block w-[6rem]"></aside>
 
-<!-- ✅ タイトルバー：本文と同じ位置に中央揃え -->
-<!-- ✅ タイトルバー：灰色の帯だけにする -->
-<div class="w-full bg-[#f5f5f5] min-h-[281px] flex flex-col justify-center">
-  <slot name="titleBlock" />
-</div>
+    <div class="flex-1 max-w-[48rem]">
+      <slot name="intro" />
+      <slot name="toc" />
+      <slot />
+      <script is:inline>
+  document.addEventListener("DOMContentLoaded", () => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
 
+    const targets = document.querySelectorAll(".article-page ol li");
+    targets.forEach((el, i) => {
+      el.classList.add("fade-in-on-scroll");
+      el.style.transitionDelay = `${i * 0.2}s`;
+      observer.observe(el);
+    });
+  });
+</script>
+    </div>
 
-
-
-
-
-    <!-- ✅ 3カラムレイアウト：本文と右カラム -->
-    <main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
-      <!-- ⬅️ 左の見えないプレースホルダ -->
-      <aside class="hidden lg:block w-[6rem] "></aside>
-
-      <!-- 🎯 中央の本文エリア -->
-      <div class="flex-1 max-w-[48rem]">
-        <slot name="intro" />
-        <slot name="toc" />
-        <slot />
-      </div>
-
-      <!-- ➡️ 右カラム -->
-      <aside class="hidden lg:block w-[20rem] ">
-        <slot name="sidebar" />
-      </aside>
-    </main>
-  </body>
-  
-</html>
+    <aside class="hidden lg:block w-[20rem]">
+      <slot name="sidebar" />
+    </aside>
+  </main>
+</BaseLayout>

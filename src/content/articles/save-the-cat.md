@@ -1,5 +1,5 @@
 ---
-title: "【完全ガイド】脚本の書き方とは？映画・漫画・ライトノベルのシナリオ作りの基本"
+title: "タイトルタイトルタイトルタイトルタイトルタイトルタチイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル"
 category: 1
 author: 1
 tags: ["sci-fi", "save-the-cat", "spielberg"]
@@ -104,7 +104,9 @@ introImage: "/images/save-the-cat.jpg"
 
 ### [Save the Catの法則（ブレイク・スナイダー）](https://amzn.to/4ikKAlX)
 
-[![Save the Cat](https://toriscript.s3.amazonaws.com/upload/images/article_image/image/258/d6471d8e-648d-472a-9655-e27806867e19.jpg)](https://amzn.to/4ikKAlX)
+<a href="https://amzn.to/4ikKAlX" class="image-link">
+  <img src="https://toriscript.s3.amazonaws.com/upload/images/article_image/image/258/d6471d8e-648d-472a-9655-e27806867e19.jpg" alt="Save the Cat" />
+</a>
 
 ヒット映画の構成を分析し、成功するシナリオの共通点をまとめた名著。  
 三幕構成をさらに細かく10のストーリービートに分解し、展開の作り方を解説。

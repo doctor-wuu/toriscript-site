@@ -4,7 +4,6 @@ import { getCollection } from 'astro:content';
 import Layout from '@/layouts/Layout.astro';
 import { tagMap } from '@/data/tagMap.ts';
 
-
 export async function getStaticPaths() {
   const allArticles = await getCollection('articles');
   const allTags = Array.from(
@@ -31,20 +30,21 @@ const tagLabel = tagMap[tag] ?? tag;
     <h1 class="text-2xl font-bold text-gray-800 mb-6">タグ: {tagLabel}</h1>
 
     {articles.length > 0 ? (
-      <ul class="space-y-6">
-        {articles.map((article) => (
-          <li class="border-b pb-4">
-            <a href={`${import.meta.env.BASE_URL}articles/${article.slug}`} class="block hover:underline">
-              <h2 class="text-xl font-semibold">{article.data.title}</h2>
-              {article.data.description && (
-                <p class="text-sm text-gray-500">{article.data.description}</p>
-              )}
-            </a>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p class="text-gray-500">記事が見つかりませんでした。</p>
-    )}
+  <ul class="space-y-6">
+    {articles.map((article) => (
+      <li class="border-b pb-4">
+        <a href={`/articles/${article.slug}`} class="block hover:underline">
+          <h2 class="text-xl font-semibold">{article.data.title}</h2>
+          {article.data.description && (
+            <p class="text-sm text-gray-500">{article.data.description}</p>
+          )}
+        </a>
+      </li>
+    ))}
+  </ul>
+) : (
+  <p class="text-sm text-gray-400">この記事カテゴリにはまだ投稿がありません。</p>
+)}
+
   </div>
 </Layout>
