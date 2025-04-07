@@ -2,9 +2,9 @@ import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import rehypeSlug from "rehype-slug";
 
-
 export default defineConfig({
-  integrations: [tailwind(), ], // ← ✅ 1つにまとめる！
+  base: '/toriscript-site/', // ← ⭐ここ追加！（リポジトリ名と一致）
+  integrations: [tailwind()],
   markdown: {
     rehypePlugins: [rehypeSlug],
   },
@@ -17,7 +17,7 @@ export default defineConfig({
             title: z.string(),
             date: z.date(),
             category: z.string(),
-            categoryLabel: z.string().optional(), // 👈 これがないと undefined 扱いされる
+            categoryLabel: z.string().optional(),
             description: z.string().optional(),
             intro: z.string().optional(),
             introImage: z.string().optional()
@@ -26,4 +26,3 @@ export default defineConfig({
     },
   },
 });
-
