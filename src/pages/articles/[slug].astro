@@ -126,16 +126,18 @@ const categoryLabel = categoryData?.label;
   <!-- ✅ 目次（TOC） -->
 <div slot="toc">
   {headings.length > 0 && (
-    <section class="toc prose text-sm mb-6 mx-auto max-w-[42rem] text-left">
-      <h2 class="text-lg font-semibold text-[#66544E] mb-2">Contents</h2>
-      <ul>
-        {headings.filter(h => h.depth <= 3).map(h => (
-          <li class={`depth-${h.depth}`}>
-            <a href={`#${h.id}`}>{h.text}</a>
-          </li>
-        ))}
-      </ul>
-    </section>
+    <section class="toc mb-6 mx-auto max-w-[42rem] text-left">
+  <h2 class="text-lg font-semibold text-[#66544E] mb-2">Contents</h2>
+  <ul class="toc-list list-decimal ml-6 space-y-1 text-sm text-[#404040]">
+    {headings
+      .filter((h) => h.depth <= 3)
+      .map((h) => (
+        <li class={`depth-${h.depth}`}>
+          <a href={`#${h.id}`} class="hover:underline">{h.text}</a>
+        </li>
+      ))}
+  </ul>
+</section>
   )}
 </div>
 
