@@ -1,12 +1,15 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
 import rehypeSlug from "rehype-slug";
+import externalLinks from "remark-external-links"; // ✅ 追加
 
 export default defineConfig({
-  base: '/toriscript-site/', // ← ⭐ここ追加！（リポジトリ名と一致）
   integrations: [tailwind()],
   markdown: {
     rehypePlugins: [rehypeSlug],
+    remarkPlugins: [
+      [externalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }] // ✅ 外部リンクに対応
+    ],
   },
   content: {
     collections: {
