@@ -18,7 +18,7 @@ export default defineConfig({
         schema: ({ z }) =>
           z.object({
             title: z.string(),
-            pubDate: z.date(),
+            pubDate: z.string(),
             category: z.string(),
             categoryLabel: z.string().optional(),
             description: z.string().optional(),
