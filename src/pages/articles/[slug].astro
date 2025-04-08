@@ -91,7 +91,7 @@ const categoryLabel = categoryData?.label;
               {categoryLabel}
             </span>
           )}
-          <span>{post?.data.date.toLocaleDateString('ja-JP')}</span>
+          <span>{post.data.pubDate && new Date(post.data.pubDate).toLocaleDateString("ja-JP")}</span>
         </div>
         <span class="text-xs mt-1">Written by {authorMap[post?.data.author] ?? 'Unknown'}</span>
       </div>
