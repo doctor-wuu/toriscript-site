@@ -1,5 +1,6 @@
 ---slug: les-miserables-movie
-title: 変わった男と変われなかった男。映画版【レ・ミゼラブル】description: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！pubDate: "2019-10-04"category: 1 # 1=screenwriting, 2=genre-guide, 3=columnauthor: 1 #基本的に1introImage: /images/intro/Les-miserables-movie.jpgintro: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！tags:  - victor-hugo
+title: 変わった男と変われなかった男。映画版【レ・ミゼラブル】pubDate: "2019-10-04"category: 1 # 1=screenwriting, 2=genre-guide, 3=columnauthor: 1 #基本的に1
+description: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！introImage: /images/intro/Les-miserables-movie.jpgintro: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！tags:  - victor-hugo
   - musical
   - film
   - over-2h
