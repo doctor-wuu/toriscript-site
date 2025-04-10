@@ -7,7 +7,6 @@ category: 3
 author: 1
 introImage: /images/intro/gaikaku-housuiro.jpg
 intro: 都会を守護する地下神殿と聞くと怪しい宗教施設か何かかと思ってしまうかもしれません。あったらあったで面白いでしょうが──煌びやかだったり信者が蠢いていたりしない、ただただ機能美の素晴らしい、首都圏外郭放水路の見学ツアーに参加してみませんか？
-
 tags:
   - tourism
   - japan
@@ -44,7 +43,6 @@ tags:
 
 <p>いくら放水路がすごいとはいえ、江戸川の存在なくしてその真価は発揮できません。放水路を安定運用できるのは江戸川の懐の深さあってこそ。首都圏外郭放水路を見学した後は、江戸川沿いを歩いて、放水された水に思いを馳せましょう。</p>
 
-## 見出しサンプル
 <table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
 <tbody>
 <tr>
@@ -73,5 +71,6 @@ tags:
 </tr>
 </tbody>
 </table>
+
 ---
 
