@@ -91,4 +91,8 @@ tags:
 
 ![画像8](/images/gaikaku-housuiro-8.jpg)
 
+![テスト](/images/gaikaku-housuiro-1.jpg)
+
+[直リンク確認](/images/gaikaku-housuiro-1.jpg)
+
 ---
