@@ -36,27 +36,31 @@ const categoryLabel = categoryData?.label;
 
 <ArticleLayout title={post?.data.title} headings={headings}>
   <!-- ✅ パンくずスロット -->
-  <div slot="breadcrumbs">
-    <div class="flex items-center text-sm text-gray-500 ">
-      <a href="/" class="hover:underline flex items-center gap-1"><span>Home</span></a>
-      <span class="mx-1">＞</span>
-      {categoryLabel && (
-  <>
-    <a href={`/category/${categorySlug}`} class="hover:underline">
-      {categoryLabel}
+<div slot="breadcrumbs">
+  <div class="flex items-center text-sm text-gray-500 ">
+    <a href={import.meta.env.BASE_URL} class="hover:underline flex items-center gap-1">
+      <span>Home</span>
     </a>
     <span class="mx-1">＞</span>
-  </>
-)}
 
-      <span
-        class="text-[#4a4a4a] inline-block max-w-[15em] overflow-hidden text-ellipsis whitespace-nowrap align-middle"
-        title={post?.data.title}
-      >
-        {post?.data.title}
-      </span>
-    </div>
+    {categoryLabel && (
+      <>
+        <a href={`${import.meta.env.BASE_URL}category/${categorySlug}`} class="hover:underline">
+          {categoryLabel}
+        </a>
+        <span class="mx-1">＞</span>
+      </>
+    )}
+
+    <span
+      class="text-[#4a4a4a] inline-block max-w-[15em] overflow-hidden text-ellipsis whitespace-nowrap align-middle"
+      title={post?.data.title}
+    >
+      {post?.data.title}
+    </span>
   </div>
+</div>
+
 
 
 <!-- ✅ ヘッダー -->
