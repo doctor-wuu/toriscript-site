@@ -1,6 +1,10 @@
----slug: les-miserables-movie
-title: 変わった男と変われなかった男。映画版【レ・ミゼラブル】pubDate: "2019-10-04"category: 1 # 1=screenwriting, 2=genre-guide, 3=columnauthor: 1 #基本的に1
-description: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！introImage: /images/intro/Les-miserables-movie.jpgintro: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！tags:  - victor-hugo
+---
+slug: les-miserables-movie
+title: 変わった男と変われなかった男。映画版【レ・ミゼラブル】
+pubDate: "2019-10-04"
+category: 1 # 1=screenwriting, 2=genre-guide, 3=columnauthor: 1 #基本的に1
+description: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！introImage: /images/intro/Les-miserables-movie.jpgintro: 全ては一つのパンから始まった──人は変われるのか。悪とは、正義とは何か。一人の男の生涯を160分の歌で描いた、ミュージカル映画の大巨編！tags:
+  - victor-hugo
   - musical
   - film
   - over-2h
@@ -11,7 +15,7 @@ description: 全ては一つのパンから始まった──人は変われる�
   - russell-crowe
   - anne-hathaway
   - universal
----## レ・ミゼラブルの概要
+---<a href="https://example.com" target="_blank" rel="noopener">リンクテキスト</a>![代替テキスト](/images/article/unique-id/sample.jpg)1. 項目その12. 項目その23. 項目その3<a href="https://example.com" target="_blank" rel="noopener">リンクテキスト</a>## レ・ミゼラブルの概要
 <p>[miserables]とは不幸・惨め・悲惨など、辛い内容を広く包括した言葉。作中ではタイトルが示す通り、貧困・虐待・迫害・死別と、これでもか！　と人生の不幸が視聴者の心に襲い掛かる。<br><br>もちろん不幸なことばかりではないものの、基本的に落ち着きや安らぎといった言葉はエンディングまで訪れない。裏をかえせば95％の鬱屈するシーンがあるからこそのエンディング──得られるカタルシスは相当のものである。<br>
 <br>
 2012年公開、原作は【ヴィクトル・ユゴー】、そして同名のミュージカルを下敷きに作られた。ミュージカルのほうをもとにしているからか、人間ドラマの部分はやや薄味で、歴史的背景はほぼ語られないので、原作の大まかな前知識を持っていたほうがより楽しめる作品となっている。</p>
