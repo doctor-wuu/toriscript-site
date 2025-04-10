@@ -7,7 +7,7 @@ const { title } = Astro.props;
 <BaseLayout title={title}>
   <div slot="logo">
     <header class="py-4 flex flex-col items-center">
-      <a href="/" class="block">
+      <a href={import.meta.env.BASE_URL} class="block">
         <img src={`${import.meta.env.BASE_URL}images/tori-logo2.png`} alt="Tori Script ロゴ" class="h-[69px] mx-auto" />
       </a>
     </header>
