@@ -9,5 +9,11 @@ export const tagMap = {
   "hugh-jackman": "ヒュー・ジャックマン",
   "russell-crowe": "ラッセル・クロウ",
   "anne-hathaway": "アン・ハサウェイ",
-  "universal": "ユニバーサル・ピクチャーズ"
+  "universal": "ユニバーサル・ピクチャーズ",
+  "tourism": "観光",
+  "japan": "日本",
+  "tokyo": "東京",
+  "capital-area": "首都圏",
+  "flood-control": "放水路",
+  "underground": "地下"
 };
