@@ -254,8 +254,9 @@
   background: #fff;
   border-radius: 6px;
   color: #333;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 48rem; /* 大きすぎるのを防ぐ */
 }
 
 .note-box::before {
@@ -265,7 +266,7 @@
   right: 0;
   width: 6px;
   height: 24px;
-  background-color: #82A0AA; /* お好みでカラー変更 */
+  background-color: #82A0AA;
   border-top-right-radius: 1px;
   border-bottom-left-radius: 1px;
 }
@@ -274,3 +275,4 @@
   margin: 0;
   line-height: 1.6;
 }
+
