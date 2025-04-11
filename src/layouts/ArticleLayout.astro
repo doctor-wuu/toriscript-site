@@ -44,6 +44,13 @@ const { title } = Astro.props;
       <slot name="intro" />
       <slot name="toc" />
       <slot />
+
+    <!-- ✅ 中央カラムに配置 -->
+    <div class="mt-12">
+      <slot name="pager" />
+    </div>
+  </div>
+
       <script is:inline>
   document.addEventListener("DOMContentLoaded", () => {
     const observer = new IntersectionObserver(
@@ -72,9 +79,6 @@ const { title } = Astro.props;
       <slot name="sidebar" />
     </aside>
     
-    <!-- 🔽 記事末に前後リンク用スロット -->
-<div class="mt-12">
-  <slot name="pager" />
-</div>
+
   </main>
 </BaseLayout>
