@@ -276,3 +276,10 @@
   line-height: 1.6;
 }
 
+img.responsive-img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
