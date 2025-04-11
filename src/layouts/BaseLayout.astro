@@ -1,6 +1,7 @@
 ---
 // src/layouts/BaseLayout.astro
 const { title } = Astro.props;
+import { SITE } from '@/config';
 ---
 
 <html lang="ja">
@@ -24,6 +25,10 @@ const { title } = Astro.props;
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
       crossorigin="anonymous"></script>
+
+      <!-- ✅ ファビコン追加 -->
+    <link rel="icon" href="/favicon.png" />
+    <!-- 他のメタ情報やCSS -->
   </head>
 
   <body class="font-sans text-gray-800 bg-white article-page">
