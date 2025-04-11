@@ -112,7 +112,19 @@ const categoryLabel = categoryData?.label;
 
   <!-- ✅ 本文 -->
   <div class="prose mx-auto article-page max-w-[48rem] mt-8" set:html={html}></div>
-
+  <!-- ✅ 前後記事リンクスロット -->
+  <div slot="pager" class="flex justify-between items-center gap-4 max-w-[48rem] mx-auto mt-12">
+    {prevPost && (
+      <a href={`/articles/${prevPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block w-full text-left">
+        ← {prevPost.data.title}
+      </a>
+    )}
+    {nextPost && (
+      <a href={`/articles/${nextPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block w-full text-right">
+        {nextPost.data.title} →
+      </a>
+    )}
+  </div>
   <!-- ✅ サイドバー -->
   <div slot="sidebar">
     <aside class="text-sm text-[#66544E] leading-relaxed space-y-4">
@@ -135,17 +147,5 @@ const categoryLabel = categoryData?.label;
     )}
   </div>
 
-  <!-- ✅ 前後記事リンクスロット -->
-  <div slot="pager" class="flex justify-between items-center gap-4 max-w-[48rem] mx-auto mt-12">
-    {prevPost && (
-      <a href={`/articles/${prevPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block w-full text-left">
-        ← {prevPost.data.title}
-      </a>
-    )}
-    {nextPost && (
-      <a href={`/articles/${nextPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block w-full text-right">
-        {nextPost.data.title} →
-      </a>
-    )}
-  </div>
+
 </ArticleLayout>
