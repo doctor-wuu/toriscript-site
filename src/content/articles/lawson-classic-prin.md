@@ -57,7 +57,7 @@ tags:
 ## 商品データ
 
 ![商品データ](/toriscript-site/images/lawson-classic-prin/4.jpg)
-あっ
+
 <div class="overflow-x-auto">
 <table class="skeletonTable" style="margin: 0;" border="0" width="100%" cellspacing="0" cellpadding="1" align="left">
 <tbody>
@@ -91,12 +91,7 @@ tags:
 </tr>
 </tbody>
 </table>
-
-
 </div>
 
-ああ
-<br>
-あー
 
 ---
