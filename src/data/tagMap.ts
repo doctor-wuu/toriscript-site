@@ -27,5 +27,7 @@ export const tagMap = {
   "nakano-bussan": "中野物産",
   "sweetener": "甘味料",
   "cyclamate": "チクロ",
-  "kyoto": "京都"
+  "kyoto": "京都",
+  "potato-fry": "ポテトフライ",
+  "toho-seika": "東豊製菓"
 };
