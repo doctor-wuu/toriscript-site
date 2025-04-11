@@ -51,7 +51,16 @@ const { title } = Astro.props;
     </div>
   </div>
 
-      <script is:inline>
+      
+    </div>
+
+    <aside class="hidden lg:block w-[20rem]">
+      <slot name="sidebar" />
+    </aside>
+    
+
+  </main>
+  <script is:inline>
   document.addEventListener("DOMContentLoaded", () => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -73,12 +82,4 @@ const { title } = Astro.props;
     });
   });
 </script>
-    </div>
-
-    <aside class="hidden lg:block w-[20rem]">
-      <slot name="sidebar" />
-    </aside>
-    
-
-  </main>
 </BaseLayout>
