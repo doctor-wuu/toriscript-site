@@ -58,7 +58,6 @@ tags:
 
 ![商品データ](/toriscript-site/images/lawson-classic-prin/4.jpg)
 
-<p>
 <table class="skeletonTable" style="margin: 0;" border="0" width="100%" cellspacing="0" cellpadding="1" align="left">
 <tbody>
 <tr>
@@ -91,7 +90,7 @@ tags:
 </tr>
 </tbody>
 </table>
-</p>
+
 ああ
 <br>
 あー
