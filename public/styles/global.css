@@ -265,9 +265,9 @@
   right: 0;
   width: 6px;
   height: 24px;
-  background-color: #e263d8; /* お好みでカラー変更 */
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 3px;
+  background-color: #82A0AA; /* お好みでカラー変更 */
+  border-top-right-radius: 1px;
+  border-bottom-left-radius: 1px;
 }
 
 .note-box p {
