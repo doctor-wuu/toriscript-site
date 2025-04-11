@@ -3,7 +3,10 @@
 import { getCollection } from 'astro:content';
 import Layout from '@/layouts/Layout.astro';
 
-const articles = await getCollection('articles');
+// 🔽 pubDate の降順に並べ替え（新しい記事が先頭に来る）
+const articles = (await getCollection('articles')).sort((a, b) => {
+  return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
+});
 ---
 
 <Layout title="記事一覧">
