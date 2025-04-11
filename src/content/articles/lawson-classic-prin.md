@@ -19,7 +19,7 @@ tags:
 ---
 
 ## プリンにおけるクラシックの定義
-![クラシカルなプリン](/toriscript-site/images/lawson-classic-prin/1.jpg)
+![クラシカルなプリン](/toriscript-site/images/lawson-classic-prin/1.jpg)
 <p>定番スイーツはと訊けば、3人に一人はプリンと答えることでしょう。それだけに妥協のできない商品──もちろん三大コンビニでも必ずラインナップに入っています。プライベートブランドを含めて数多くの商品、そしてネーミングがある中、ローソンは『クラシック』と形容。【とろ生カスタードプリン】や【プッチンプリン】【焼きプリン】などそれぞれの特徴を表す部分が、クラシック──良く解釈すれば『伝統を重んじたプリン』ということでしょうか。
 
 この場合の伝統とは日本に伝来したのちのカスタードプリンを指し、西洋料理としてのpudding(プディング)は恐らく無関係。プリンの伝来した江戸後期の日本には、プリンを構成する主な材料【卵】【砂糖】【牛乳】が揃っていたため、現代のものとそこまで差異はなかったと思われます。
@@ -32,7 +32,7 @@ tags:
 </p>
 
 ## さくらんぼは載ってない
-![ローソンのクラシックプリン](/toriscript-site/images/lawson-classic-prin/2.jpg)
+![ローソンのクラシックプリン](/toriscript-site/images/lawson-classic-prin/2.jpg)
 <p>クラシックの名前からローソン【クラシックプリン】の見た目に懐かしさを覚えるかといえば、実はそうでもありません。一つはクリームの形。カップ入りという点で仕方のない面もありますが、均等にならされ、絞り袋のひだも、ツノもほとんどありません。
 
 何より『あの頃』を感じさせる、さくらんぼが載っていない！　税込み200円という値段を考えればシラップ漬け＋着色なんて面倒な果物は入れられないのでしょう──でも本音をいえば、クラシカルなプリンには、真っ赤なさくらんぼが載っていてほしかったですね。
@@ -50,8 +50,43 @@ tags:
 
 ### クラシックプリンの総評
 美味しい、けどクラシックらしさはあまりなかったです。
-## 商品データ<table class="skeletonTable" style="margin: 0;" border="0" width="100%" cellspacing="0" cellpadding="1" align="left"><tbody><tr><td style="width: 140px;" bgcolor="#cecece">品名</td><td bgcolor="#ffffff">クラシックプリン（Classic Pudding）</td></tr><tr><td bgcolor="#cecece">販売</td><td bgcolor="#ffffff">ローソン（Uchi Cafe）</td></tr><tr><td bgcolor="#cecece">製造</td><td bgcolor="#ffffff">コスモフーズ株式会社</td></tr><tr><td bgcolor="#cecece">原材料名</td><td bgcolor="#ffffff">牛乳、卵、糖類（砂糖、異性化液糖）、クリーム、植物油脂、ゼラチン、脱脂粉乳、乳化剤、糊料（増粘多糖類）、pH調整剤、香料、（原材料の一部に大豆を含む）</td></tr><tr><td bgcolor="#cecece">栄養成分表示</td><td bgcolor="#ffffff">熱量226kcal、たんぱく質7.8g、脂質11.4g、糖質23.0g、食物繊維0g、ナトリウム90mg</td></tr><tr><td bgcolor="#cecece">価格</td><td bgcolor="#ffffff">税込み200円</td></tr>
+## 商品データ
+
+:::5[商品データ]
+<p>
+<table class="skeletonTable" style="margin: 0;" border="0" width="100%" cellspacing="0" cellpadding="1" align="left">
+<tbody>
+<tr>
+<td style="width: 140px;" bgcolor="#cecece">品名</td>
+<td bgcolor="#ffffff">クラシックプリン（Classic Pudding）</td>
+</tr>
+<tr>
+<td bgcolor="#cecece">販売</td>
+<td bgcolor="#ffffff">ローソン（Uchi Cafe）</td>
+</tr>
+<tr>
+<td bgcolor="#cecece">製造</td>
+<td bgcolor="#ffffff">コスモフーズ株式会社</td>
+</tr>
+<tr>
+<td bgcolor="#cecece">原材料名</td>
+<td bgcolor="#ffffff">牛乳、卵、糖類（砂糖、異性化液糖）、クリーム、植物油脂、ゼラチン、脱脂粉乳、乳化剤、糊料（増粘多糖類）、pH調整剤、香料、（原材料の一部に大豆を含む）</td>
+</tr>
+<tr>
+<td bgcolor="#cecece">栄養成分表示</td>
+<td bgcolor="#ffffff">熱量226kcal、たんぱく質7.8g、脂質11.4g、糖質23.0g、食物繊維0g、ナトリウム90mg</td>
+</tr>
+<tr>
+<td bgcolor="#cecece">価格</td>
+<td bgcolor="#ffffff">税込み200円</td>
+</tr>
 <tr>
 <td bgcolor="#cecece">公式サイト</td>
 <td bgcolor="#ffffff"><a href="https://www.instagram.com/p/CFDW5jpAGAh/" target="_blank" rel="noopener">https://www.instagram.com/p/CFDW5jpAGAh/</a></td>
-</tr></tbody></table>
+</tr>
+</tbody>
+</table>
+</p>
+
+
+---
