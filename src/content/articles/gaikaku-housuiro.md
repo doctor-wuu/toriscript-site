@@ -46,7 +46,7 @@ tags:
 ## こちらも忘れてはいけない。真のヒーロー江戸川
 
 ![江戸川](/toriscript-site/images/gaikaku-housuiro/8.jpg)<p>いくら放水路がすごいとはいえ、江戸川の存在なくしてその真価は発揮できません。放水路を安定運用できるのは江戸川の懐の深さあってこそ。首都圏外郭放水路を見学した後は、江戸川沿いを歩いて、放水された水に思いを馳せましょう。</p> 
-<p>
+<div class="overflow-x-auto">
 <table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
 <tbody>
 <tr>
@@ -75,6 +75,4 @@ tags:
 </tr>
 </tbody>
 </table>
-</p>
-
----
+</div>
