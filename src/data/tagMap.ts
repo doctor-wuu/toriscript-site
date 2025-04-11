@@ -15,5 +15,11 @@ export const tagMap = {
   "tokyo": "東京",
   "capital-area": "首都圏",
   "flood-control": "放水路",
-  "underground": "地下"
+  "underground": "地下",
+  "prin": "プリン",
+  "snack": "お菓子",
+  "treat": "おやつ",
+  "sweets": "スイーツ",
+  "convenience-store": "コンビニ",
+  "lawson": "ローソン"
 };
