@@ -21,5 +21,11 @@ export const tagMap = {
   "treat": "おやつ",
   "sweets": "スイーツ",
   "convenience-store": "コンビニ",
-  "lawson": "ローソン"
+  "lawson": "ローソン",
+  "sukonbu": "酢こんぶ",
+  "dagashi": "駄菓子",
+  "nakano-bussan": "中野物産",
+  "sweetener": "甘味料",
+  "cyclamate": "チクロ",
+  "kyoto": "京都"
 };
