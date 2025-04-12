@@ -47,5 +47,5 @@ export const tagMap = {
   "Workout": "筋トレ",
   "Training": "トレーニング",
   "Bodybuilding": "身体づくり",
-  "Cost performance": "コスパ"
+  "Cost-performance": "コスパ"
 };
