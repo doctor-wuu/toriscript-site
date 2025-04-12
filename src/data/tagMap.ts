@@ -40,5 +40,12 @@ export const tagMap = {
   "based-on-comic": "漫画原作",
   "animation": "アニメ",
   "Fantasy": "ファンタジー",
-  "animal": "動物"
+  "animal": "動物",
+  "meiji": "明治",
+  "apollo": "アポロ",
+  "protein-bar": "プロテインバー",
+  "Workout": "筋トレ",
+  "Training": "トレーニング",
+  "Bodybuilding": "身体づくり",
+  "Cost performance": "コスパ"
 };
