@@ -47,5 +47,9 @@ export const tagMap = {
   "Workout": "筋トレ",
   "Training": "トレーニング",
   "Bodybuilding": "身体づくり",
-  "Cost-performance": "コスパ"
+  "Cost-performance": "コスパ",
+  "Steven-Spielberg": "スティーブン・スピルバーグ",
+  "Chris-Columbus": "クリス・コロンバス",
+  "Richard-Donner": "リチャード・ドナー",
+  "Goonies": "グーニーズ"
 };
