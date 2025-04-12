@@ -32,5 +32,8 @@ export const tagMap = {
   "toho-seika": "東豊製菓",
   "fortune-telling": "占い",
   "chocolate": "チョコレート",
-  "chirin": "チーリン製菓"
+  "chirin": "チーリン製菓",
+  "morinaga": "森永製菓",
+  "lemon-soda": "ラムネ",
+  "glucose": "ブドウ糖"
 };
