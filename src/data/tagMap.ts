@@ -35,5 +35,10 @@ export const tagMap = {
   "chirin": "チーリン製菓",
   "morinaga": "森永製菓",
   "lemon-soda": "ラムネ",
-  "glucose": "ブドウ糖"
+  "glucose": "ブドウ糖",
+  "Osamu-Tezuka": "手塚治虫",
+  "based-on-comic": "漫画原作",
+  "animation": "アニメ",
+  "Fantasy": "ファンタジー",
+  "animal": "動物"
 };
