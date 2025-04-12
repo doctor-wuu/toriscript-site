@@ -29,5 +29,8 @@ export const tagMap = {
   "cyclamate": "チクロ",
   "kyoto": "京都",
   "potato-fry": "ポテトフライ",
-  "toho-seika": "東豊製菓"
+  "toho-seika": "東豊製菓",
+  "fortune-telling": "占い",
+  "chocolate": "チョコレート",
+  "chirin": "チーリン製菓"
 };
