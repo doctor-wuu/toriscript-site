@@ -886,10 +886,8 @@ BIG＝8.43円
 
 
 
-![プロテイン](/toriscript-site/images/protein-bar/31.jpg)
 
-<a href="https://amzn.to/42j6IWU" target="_blank" rel="noopener">
-  <img src="https://toriscript.com/images/article/protein-bar/31.jpg" alt="クリックで詳細へ" />
-</a>
+
+<a href="https://amzn.to/42j6IWU" target="_blank" rel="noopener">![おいしいプロテイン](/toriscript-site/images/protein-bar/31.jpg)</a>
 
 美味い、不味いに関わらず、どれも運動後に食べるものではないと思います。バナナとかパインにはなれそうもありません。もっと言えば水分補給を兼ねている水に溶くタイプの普通のプロテインが一番オススメ。ちなみに私がいつも飲んでいるプロテインは平均するとグラム単価4円ほどです。
