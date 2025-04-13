@@ -1,4 +1,9 @@
 export const tagMap = {
+  "save-the-cat": "Save the Cat!",
+  "script": "脚本",
+  "scenario": "シナリオ",
+  "creative": "創作",
+  "story": "物語",
   "victor-hugo": "ヴィクトル・ユーゴー",
   "musical": "ミュージカル",
   "film": "映画",
@@ -54,5 +59,10 @@ export const tagMap = {
   "Goonies": "グーニーズ",
   "glico": "江崎グリコ",
   "root": "大根",
-  "pickles": "漬物"
+  "pickles": "漬物",
+  "save-the-cat": "Save the Cat!",
+  "script": "脚本",
+  "scenario": "シナリオ",
+  "creative": "創作",
+  "story": "物語"
 };
