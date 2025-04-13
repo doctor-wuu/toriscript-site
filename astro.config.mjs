@@ -4,7 +4,8 @@ import rehypeSlug from "rehype-slug";
 import externalLinks from "remark-external-links"; // ✅ 追加
 
 export default defineConfig({
-  base: '/toriscript-site/',
+  base: '/',
+  site: 'https://toriscript.com',
   integrations: [tailwind()],
   markdown: {
     rehypePlugins: [rehypeSlug],
