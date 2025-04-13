@@ -52,5 +52,7 @@ export const tagMap = {
   "Chris-Columbus": "クリス・コロンバス",
   "Richard-Donner": "リチャード・ドナー",
   "Goonies": "グーニーズ",
-  "glico": "江崎グリコ"
+  "glico": "江崎グリコ",
+  "root": "大根",
+  "pickles": "漬物"
 };
