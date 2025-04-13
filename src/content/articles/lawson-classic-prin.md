@@ -6,7 +6,7 @@ description: やわらかいプリン、固いプリン、そんなの人の勝�
 pubDate: "2021-07-18"
 category: 3
 author: 2
-introImage: /images/intro/lawson-classic-prin.jpg
+introImage: images/intro/lawson-classic-prin.jpg
 intro: やわらかいプリン、固いプリン、そんなの人の勝手──といいつつトレンドとは移り変わるもの。ローソンより2019年6月に発売された『クラシックプリン』が示すクラシック像は、どの時代の味のことをいっているのでしょうか。
 tags:
   - prin

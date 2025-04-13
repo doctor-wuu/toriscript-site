@@ -6,7 +6,7 @@ description: 人間は迷う生き物です。本日のランチならいざ知�
 pubDate: "2021-07-20"
 category: 3
 author: 3
-introImage: /images/intro/petit-petit-uranai.jpg
+introImage: images/intro/petit-petit-uranai.jpg
 intro: 人間は迷う生き物です。本日のランチならいざ知らず、どこへ行こうか何を買おうか、人生とは選択の連続──ビル・ゲイツだって同じはず。どうしても決断できない時には『プチプチうらない』に頼ってみてはどうでしょう。
 tags:
   - snack

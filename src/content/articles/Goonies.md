@@ -6,7 +6,7 @@ description: 誰にだって、良いところも悪いとこもたくさんあ�
 pubDate: "2021-10-01"
 category: 2
 author: 1
-introImage: /images/intro/Goonies.jpg
+introImage: images/intro/Goonies.jpg
 intro: 誰にだって、良いところも悪いとこもたくさんある。人生だって山あり谷あり──すべては選択の連続だ。誰と仲良くするのか、どう行動するのか、それは子供時代から始まっている。仲間と意思が未来を作った、少年マイキーとグーニーズの物語。
 tags:
   - film

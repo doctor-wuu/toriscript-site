@@ -6,7 +6,7 @@ description: 真っ赤な箱に笑顔の少年。ビスコはいつもそばに�
 pubDate: "2021-10-21"
 category: 3
 author: 1
-introImage: /images/intro/bisco.jpg
+introImage: images/intro/bisco.jpg
 intro: 真っ赤な箱に笑顔の少年。ビスコはいつもそばにいた。嬉しい時も悲しい時も、小腹が減った時も、酒の肴……はどうだろうか？　とにかく、物心ついた時から我々を見守ってくれている。身近すぎて紹介が遅れたが、今回は『彼』と今一度向き合ってみたい。
 
 tags:

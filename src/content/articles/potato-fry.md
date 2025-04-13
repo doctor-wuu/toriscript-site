@@ -6,7 +6,7 @@ description: 価値観は時代と共に移ろいゆく。美味しければ売�
 pubDate: "2021-07-19"
 category: 3
 author: 1
-introImage: /images/intro/potato-fry.jpg
+introImage: images/intro/potato-fry.jpg
 intro: 価値観は時代と共に移ろいゆく。美味しければ売れたお菓子界でも、糖質カット(ロカボ)やギルトフリー等、健康志向が目立ってきている。油や糖質はもう古いのか──否、変わらない良さも必ずある。ポテトフライに見る、男の世界。
 tags:
   - snack

@@ -6,7 +6,7 @@ description: アポロ11号が月面へ降り立った1969年、あの頃は誰�
 pubDate: "2021-07-20"
 category: 3
 author: 1
-introImage: /images/intro/apollo.jpg
+introImage: images/intro/apollo.jpg
 intro: アポロ11号が月面へ降り立った1969年、あの頃は誰もが宇宙の旅を夢見ていた。時は流れて半世紀、キューブリックの描いた2001年を経て、未だに宇宙は憧れの地で──遠い月に想いを馳せる『アポロ』について。
 tags:
   - snack

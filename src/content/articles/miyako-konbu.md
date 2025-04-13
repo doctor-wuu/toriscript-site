@@ -6,7 +6,7 @@ description: 質実剛健──都こんぶには四字熟語がよく似合う�
 pubDate: "2021-07-19"
 category: 3
 author: 1
-introImage: /images/intro/miyako-konbu.jpg
+introImage: images/intro/miyako-konbu.jpg
 intro: 質実剛健──都こんぶには四字熟語がよく似合う。煌びやかな駄菓子売り場にあって、真っ赤な箱に白抜きの文字。これ以上ないほどにシンプルを貫く駄菓子が90年間愛され続ける理由を探った。
 tags:
   - snack

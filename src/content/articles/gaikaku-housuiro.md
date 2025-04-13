@@ -5,7 +5,7 @@ title: その威容はさながら地下神殿！　首都圏外郭放水路の�
 pubDate: "2021-07-15"
 category: 3
 author: 1
-introImage: /images/intro/gaikaku-housuiro.jpg
+introImage: images/intro/gaikaku-housuiro.jpg
 intro: 都会を守護する地下神殿と聞くと怪しい宗教施設か何かかと思ってしまうかもしれません。あったらあったで面白いでしょうが──煌びやかだったり信者が蠢いていたりしない、ただただ機能美の素晴らしい、首都圏外郭放水路の見学ツアーに参加してみませんか？
 tags:
   - tourism

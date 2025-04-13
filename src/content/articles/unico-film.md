@@ -6,7 +6,7 @@ description: 愛とか恋とかだけでは生きていけない──そんな�
 pubDate: "2021-07-18"
 category: 2
 author: 1
-introImage: /images/intro/unico-film.jpg
+introImage: images/intro/unico-film.jpg
 intro: 愛とか恋とかだけでは生きていけない──そんな現代的価値観に真っ向から逆らう、ユニコーンのユニコ。愛し愛されることで世界は平和になるはずだった。生きることを善しとされない聖なる獣の物語。
 tags:
   - film
