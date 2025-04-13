@@ -51,5 +51,6 @@ export const tagMap = {
   "Steven-Spielberg": "スティーブン・スピルバーグ",
   "Chris-Columbus": "クリス・コロンバス",
   "Richard-Donner": "リチャード・ドナー",
-  "Goonies": "グーニーズ"
+  "Goonies": "グーニーズ",
+  "glico": "江崎グリコ"
 };
