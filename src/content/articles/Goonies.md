@@ -67,7 +67,7 @@ tags:
 
 
 
-![フラテリ一家](/toriscript-site/images/Goonies/1.jpg)
+![フラテリ一家](/images/Goonies/1.jpg)
 
 牢獄にて一人の男が自殺している。胸元には『関係者各位（TO WHO IT MAY CONCERN）』と書かれた手紙。看守が開くと、
 
@@ -91,7 +91,7 @@ tags:
 
 
 
-![グーニーズ](/toriscript-site/images/Goonies/2.jpg)
+![グーニーズ](/images/Goonies/2.jpg)
 
 『グーン・ドックス』のグーン（退屈）に物申す主人公・マイキー。そこにマウスがやってくる。
 
@@ -107,7 +107,7 @@ tags:
 
 
 
-![機械仕掛けのオモチャ](/toriscript-site/images/Goonies/3.jpg)
+![機械仕掛けのオモチャ](/images/Goonies/3.jpg)
 
 やっと語れるとばかりにカーチェイスを見たとまくしたてるチャンクに、過去の嘘を並べて相手にしない3人。そこに第3の刺客・お隣さんのデータが「テスト飛行」と称して空から突入。網戸を壊してしまう。
 
@@ -127,7 +127,7 @@ tags:
 
 
 
-![グーニーズ](/toriscript-site/images/Goonies/4.jpg)
+![グーニーズ](/images/Goonies/4.jpg)
 
 グーニーズは立ち入り禁止を言い渡された屋根裏に良いものがないか探しに行く。止めるのはマイキーだけ。まるで立ち入るなと脅すかのように轟く雷鳴。そんな不穏な雰囲気の中、ブランドが海賊の描かれた本を見つける。
 
@@ -139,7 +139,7 @@ tags:
 
 
 
-![地図](/toriscript-site/images/Goonies/5.jpg)
+![地図](/images/Goonies/5.jpg)
 
 <h5 class="note-box">地図はレプリカも販売されている</h5>
 
@@ -179,7 +179,7 @@ tags:
 
 
 
-![自転車に乗る男](/toriscript-site/images/Goonies/6.jpg)
+![自転車に乗る男](/images/Goonies/6.jpg)
 
 補助輪付きの小さな自転車にまたがった姿が哀愁を誘う。タイミング悪く、そこをエルギンの息子・トロイたちに見つかる。馬鹿にしたトロイがブランドの腕をつかみ、自転車ごと引きずられることに──どこまでも運がない。やっと拘束から逃れるも、そこはカーブ寸前。自転車のブレーキで間に合うはずもなく、ブランドは崖に飛び出してしまう。E.T.を意識しているのかは不明。
 
@@ -197,7 +197,7 @@ tags:
 
 
 
-![スロース](/toriscript-site/images/Goonies/7.jpg)
+![スロース](/images/Goonies/7.jpg)
 
 ジェイクが立ち去り、マイキーは食べ物を求める鎖の男にそっと食事を差し出す。喜び狂う男に怯え、地下を後にしたマイキーを捕まえたのは──彼の兄・ブランドだった。元から追い返す気だったママは、5人をあっさりと開放する。
 
@@ -225,7 +225,7 @@ tags:
 
 
 
-![女の子](/toriscript-site/images/Goonies/8.jpg)
+![女の子](/images/Goonies/8.jpg)
 
 引き留めようとするブランド。しかしそこに、外で魚の死骸に襲われたと勘違いしたアンディとステフが駆け込んでくる。ボロっちいわ照明をつければ爆発するわで、明らかに普通の場所ではない。少しだけレストランを探索させてほしいと頼む4人。渋るブランドに、なぜかアンディが甘えて説得する。
 
@@ -239,7 +239,7 @@ tags:
 
 
 
-![ウォーターサーバー](/toriscript-site/images/Goonies/9.jpg)
+![ウォーターサーバー](/images/Goonies/9.jpg)
 
 
 地図をもとに階段の下を掘ろうとするマイキー。またチャンクを利用しようというマウスの提案に怒り、チャンクがウォーターサーバーを倒してしまう。そして──こぼれた水が流れ出る先の暖炉にあったのは、さらに下へ向かうための穴。ずっと何かをいじっていたデータは偽札印刷機を発見。家を救えると叫ぶも、ぬか喜びに終わる。
@@ -258,7 +258,7 @@ tags:
 
 
 
-![チャンク](/toriscript-site/images/Goonies/10.jpg)
+![チャンク](/images/Goonies/10.jpg)
 
 
 一方のチャンクは無事に逃げおおせ、車通りのある道に出る。そのうちの一台を呼び止めて、
@@ -285,7 +285,7 @@ tags:
 
 
 
-![グーニーズ](/toriscript-site/images/Goonies/11.jpg)
+![グーニーズ](/images/Goonies/11.jpg)
 
 「罠だろ、ウイリー？」
 
@@ -339,7 +339,7 @@ tags:
 
 
 
-![グーニーズ](/toriscript-site/images/Goonies/12.jpg)
+![グーニーズ](/images/Goonies/12.jpg)
 
 我先にと井戸から脱出を試みるメンバーに、マイキーが演説する。
 
@@ -373,7 +373,7 @@ tags:
 
 
 
-![チャンクとスロース](/toriscript-site/images/Goonies/13.jpg)
+![チャンクとスロース](/images/Goonies/13.jpg)
 
 男は自分のことをスロースと名乗る。ちょっと小突いただけで太っちょのチャンクを転ばせるほどの力が──グーニーズの新たな戦力になってくれることだろう。この新しい仲間は意思疎通も意外にでき、愛嬌も抜群だ。
 
@@ -433,7 +433,7 @@ tags:
 
 
 
-![骨ピアノ](/toriscript-site/images/Goonies/14.jpg)
+![骨ピアノ](/images/Goonies/14.jpg)
 
 マイキーたちが進んだ先には、骸骨などで作られた不気味なオブジェが。
 
@@ -455,7 +455,7 @@ tags:
 
 
 
-![片目のウイリー](/toriscript-site/images/Goonies/15.jpg)
+![片目のウイリー](/images/Goonies/15.jpg)
 
 めくりあげた眼帯の下に眼窩はなく、骨で埋まっていた。ウイリーは怪我で片目になったのではなく、生まれつきの片目だったのだ。
 
@@ -470,7 +470,7 @@ tags:
 
 
 
-![お宝](/toriscript-site/images/Goonies/16.jpg)
+![お宝](/images/Goonies/16.jpg)
 
 呆然とするメンバーに宝を持ち出すよう指示を出すマイキー。でも天秤の金貨だけはウイリーのもの。彼だってグーニーズの仲間──平等に分け合うべきだ。そこに襲撃をかけてくるフラテリ一家。
 
@@ -492,7 +492,7 @@ tags:
 
 
 
-![スロースTシャツ](/toriscript-site/images/Goonies/17.jpg)
+![スロースTシャツ](/images/Goonies/17.jpg)
 
 チャンクの頼みを聞いて果敢に戦うスロース。
 
@@ -578,14 +578,14 @@ tags:
 
 
 
-![グーニーズ](/toriscript-site/images/Goonies/18.jpg)
+![グーニーズ](/images/Goonies/18.jpg)
 
 多くの財宝はどこかに行ってしまった──けれど、グーニーズは宝とは比較にならないほど素敵な冒険の記憶、そして仲間たちと同じ空の下で迎える【明日】を手に入れたのだった。
 <a href="https://amzn.to/2Yd1HSM" target="_blank" rel="noopener">
 
 
 
-![ブルーレイ](/toriscript-site/images/Goonies/19.jpg)
+![ブルーレイ](/images/Goonies/19.jpg)
 
 </a>
 <div class="overflow-x-auto">

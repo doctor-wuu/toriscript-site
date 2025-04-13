@@ -24,7 +24,7 @@ tags:
 
 
 
-![駄菓子](/toriscript-site/images/bin-ramune/1.jpg)
+![駄菓子](/images/bin-ramune/1.jpg)
 <h5 class="note-box">少ないお小遣いで妥協は許されない]</h5>
 
 
@@ -32,7 +32,7 @@ tags:
 
 
 
-![ポテトフライ](/toriscript-site/images/bin-ramune/2.jpg)
+![ポテトフライ](/images/bin-ramune/2.jpg)
 <h5 class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ（[参考記事](/articles/potato-fry)）</a></h5>
 
 別ベクトルではないものの、低価格帯で勝負しなければいけない以上、両者はほとんどトレードオフの関係といってもいい。
@@ -41,7 +41,7 @@ tags:
 
 
 
-![カタヌキ](/toriscript-site/images/bin-ramune/3.jpg)
+![カタヌキ](/images/bin-ramune/3.jpg)
 <h5 class="note-box">カタヌキは娯楽にほぼ全振り。味は甘みを付けた小麦粉程度</h5>
 
 だからといって『だ』がなんなのかと訊かれても困ってしまうが、個人的には諸説の一つ・駄賃(労力への対価)の『だ』、転じて企業努力への対価(金銭だけでなく子供たちの笑顔)ということにしておきたい。なんとも利益の少ない駄菓子らしくて、おさまりがいいとは思わないだろうか。
@@ -50,13 +50,13 @@ tags:
 
 
   
-![ビンラムネ](/toriscript-site/images/bin-ramune/4.jpg)
+![ビンラムネ](/images/bin-ramune/4.jpg)
 
 模造は駄菓子の華ともいうように、ビンラムネも名前そのまま、瓶入りのラムネ飲料を模した駄菓子。数少ないストロー付きの駄菓子だ。これだけ聞くと普通の駄菓子のようだが、ビンラムネは一味違う。なんと『瓶』『ラムネ』共に、その機能までを完全に再現している、駄菓子界きっての正直者なのだ。
 
 
 
-![にんじん。にんじん……？](/toriscript-site/images/bin-ramune/5.jpg)
+![にんじん。にんじん……？](/images/bin-ramune/5.jpg)
 
 『にんじん』もそうだが駄菓子界での欺瞞は、厳しい大人社会と違って、そのほとんどが許容される(たまに怒られるが)。鍵は使えなくていいし、パイプだって火はつかない。ただの『まねっこ』で十分なのである。
 
@@ -90,7 +90,7 @@ tags:
 
 
 
-![バヤリース](/toriscript-site/images/bin-ramune/6.jpg)
+![バヤリース](/images/bin-ramune/6.jpg)
 <h5 class="note-box">たしかに少しだけ形状が似ている</h5>
 
 紙・インターネット問わず、ビンラムネはバヤリースの瓶を参考にしたという表記が見られる。見比べてみると、なるほど凹凸の配置が似てはいる。
@@ -116,7 +116,7 @@ tags:
 
  
 
-![ラムちゃん](/toriscript-site/images/bin-ramune/7.jpg)
+![ラムちゃん](/images/bin-ramune/7.jpg)
 <h5 class="note-box">小さなビンラムネを両手で抱え持つサイズ感がいい</h5>
 
 パッケージを先に載せているのだから気付くも何もないが、ビンラムネのキャラクター『ラムちゃん』だ。古くは『ピーターラビット』に代表されるように、『ミッフィー(うさこちゃん)』や『マイメロディ』など、ウサギのキャラクターは9割かわいい。そしてご多分に漏れずラムちゃんもえらくかわいい。
@@ -137,7 +137,7 @@ tags:
 
 
   
-![妖精](/toriscript-site/images/bin-ramune/8.jpg)
+![妖精](/images/bin-ramune/8.jpg)
 <h5 class="note-box">どこかで会った気がする</h5>
 
 もう一人、ビンラムネを語る上で忘れてはいけないのがロゴに寄り添う妖精さんだ。彼女についても岡田さんに尋ねてみたが、一切素性は分からなかった。
@@ -149,7 +149,7 @@ tags:
 
 
 
-![説明文](/toriscript-site/images/bin-ramune/9.jpg)
+![説明文](/images/bin-ramune/9.jpg)
 
 ビンラムネを飲用するにあたって必ず論争が起こるのが、そのスタイルだ。はたしてストローは上から刺すのか、底に刺すのか──。そう、にんじんに続いてまたである。
 
@@ -163,13 +163,13 @@ tags:
 
 
 
-![謀反style](/toriscript-site/images/bin-ramune/10.jpg)
+![謀反style](/images/bin-ramune/10.jpg)
 
 ラムちゃんもこの飲み方だが、かわいいから許す。
 
 
 
-![これぞ正統派！](/toriscript-site/images/bin-ramune/11.jpg)
+![これぞ正統派！](/images/bin-ramune/11.jpg)
 
 やはり初めて飲用する際は、このようにビンの上部にストローを刺してほしい。謀反スタイルよりも飲んでいる感が強いのでオススメだ。
 
@@ -184,7 +184,7 @@ tags:
 
 
 
-![皿に出すのは間違いだ](/toriscript-site/images/bin-ramune/12.jpg)
+![皿に出すのは間違いだ](/images/bin-ramune/12.jpg)
 
 にんじんでの経験から、粉を皿に出すことはしなかった──というのは建前で、実際に皿に出した粉をストローで吸っている様を想像すれば分かるように、なんだか危ない感じがする。前にやったことはあるが、吸いにくいし散らかるので自重した。
 
@@ -208,7 +208,7 @@ tags:
 
 
 
-![成分表示](/toriscript-site/images/bin-ramune/13.jpg)
+![成分表示](/images/bin-ramune/13.jpg)
 <h5 class="note-box">100gとはモカナとラムネ半々の値だろうか。最後までミステリアス</h5>
   
 <div class="overflow-x-auto">

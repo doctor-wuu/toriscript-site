@@ -23,12 +23,12 @@ tags:
 
 ### 駄菓子と占いの深い繋がり
 
-![占い師](/toriscript-site/images/petit-petit-uranai/1.jpg)  
+![占い師](/images/petit-petit-uranai/1.jpg)  
 
 普段は神や仏を信じていなくても、縁起の良し悪しは少し気にする──そんな生き方はあたりまえ。なにかにつけて日本人は無宗教だと取り沙汰されますが、行事の六曜を気にしたりと【縁起】こそが日本人の宗教のような気がします。中でも身近なのが占いで、朝の占いコーナーから下駄占いにおみくじなど、日本では色々な占いの姿を見ることができます。
 
 
-![当たるも八卦、当たらぬも八卦](/toriscript-site/images/petit-petit-uranai/2.jpg) 
+![当たるも八卦、当たらぬも八卦](/images/petit-petit-uranai/2.jpg) 
 
 もちろん駄菓子界でも占い要素が取り入れられています。点取占い(お菓子ではないけど駄菓子屋に売っているアレ)や当たり付き商品が最たる例。当たり付き商品でも『印字が綺麗・汚い』『ある文字の印刷位置が違う』『パッケージの形が違う』と当たりやすいなどという迷信的願掛けが流布していることからも分かるように、子供も占いが大好きなのです。
 
@@ -36,7 +36,7 @@ tags:
 
 
 
-![ゴールできない](/toriscript-site/images/petit-petit-uranai/3.jpg)
+![ゴールできない](/images/petit-petit-uranai/3.jpg)
 昔もそうだったかは覚えていませんが、ゴールできるかどうかでも運が試される例も。今回はゴールできませんでした……
 
 ### 世界一（？）安価な占い商品、プチプチうらない
@@ -54,7 +54,7 @@ tags:
 
 
 
-![プチプチ](/toriscript-site/images/petit-petit-uranai/4.jpg)  
+![プチプチ](/images/petit-petit-uranai/4.jpg)  
 
 梱包材で有名な『プチプチ』は通称ではなく<a href="http://www.putiputi.co.jp/" target="_blank" rel="noopener">川上産業</a>の商標というのは広く知られていること。硬さは全く違うものの、プチプチうらないの見た目はプチプチと少し似ています。
 
@@ -69,24 +69,24 @@ tags:
 
 
 
-![横から](/toriscript-site/images/petit-petit-uranai/5.jpg)  
+![横から](/images/petit-petit-uranai/5.jpg)  
 
 上からは記号の輪郭すら見えません。横からも結果を覗き見るのはなかなか難しい……
 
 
 
-![カンニング](/toriscript-site/images/petit-petit-uranai/6.jpg)  
+![カンニング](/images/petit-petit-uranai/6.jpg)  
 記号が見やすいように編集してこれ。たまに上の隙間に挟まって辛うじて見えることもあります。カンニングした良い結果を渡したり、悪い結果を押し付けたりもできるという、人間性が問われる仕様。
 
 
 
-![うらない結果](/toriscript-site/images/petit-petit-uranai/7.jpg)  
+![うらない結果](/images/petit-petit-uranai/7.jpg)  
 
 試しに一つ、おしゃべりを占ってみると〇が出ました。
 
 
 
-![うらないの見方](/toriscript-site/images/petit-petit-uranai/8.jpg)  
+![うらないの見方](/images/petit-petit-uranai/8.jpg)  
 
 〇はややよい、とのこと。普通よりは良いということでしょうが、なかなか厳しい。
 
@@ -99,7 +99,7 @@ tags:
 
 
 
-![プチプチうらない](/toriscript-site/images/petit-petit-uranai/9.jpg)
+![プチプチうらない](/images/petit-petit-uranai/9.jpg)
 <h5 class="note-box">全部出すとカラフルでちょっと楽しい</h5>
 
 占い結果を見るついでにチョコ玉を全て出してみました。普段は1粒ずつ食べてしまうため、なかなか壮観。色が良い具合に散ってビー玉のようで、コロコロと目にも楽しい。色は赤・黄・オレンジ・黄緑の4種類で、色は特に占いとは関係ないとのこと。
@@ -114,7 +114,7 @@ tags:
 
 
 
-![表示](/toriscript-site/images/petit-petit-uranai/10.jpg)  
+![表示](/images/petit-petit-uranai/10.jpg)  
 <div class="overflow-x-auto">
 <table class="skeletonTable" border="0" cellspacing="0" cellpadding="1">
 <tbody>

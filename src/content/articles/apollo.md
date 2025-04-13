@@ -23,7 +23,7 @@ tags:
 
 
 
-![鮎焼き](/toriscript-site/images/apollo/1.jpg)
+![鮎焼き](/images/apollo/1.jpg)
 
 名は体を表すという成句が通用しない食品業界。特にお菓子は元になった物の名前をそのまま使うケースが非常に多い。<a href="http://www.hokkaido-jin.jp/issue/sp/200405/sp09_hakodate.html" target="_blank" rel="noopener">函館山</a>や<a href="https://www.shirase.co.jp/sweets.html" target="_blank" rel="noopener">神宮スギ</a>などが分かりやすい例だ。高級菓子だと由緒があったりと、これがどうしてか様になる。<a href="横浜ナポリタン" target="_blank" rel="noopener">横浜ナポリタン</a>のように余計わからなくなる例はそうそうない。
 
@@ -37,19 +37,19 @@ tags:
 
 
 
-![アポロ司令船](/toriscript-site/images/apollo/2.jpg)
+![アポロ司令船](/images/apollo/2.jpg)
 
 この機体に見覚えはあるだろうか。そう、アポロ11号の司令船(地球に帰還した部分)である。アポロの三角錐の形状は、この部分をもとにしたものだったのだ。由来は共にギリシャ神話の太陽神『アポロン』から。名前は以前より登録してあったこともあり、アポロ11号発射の7月16日から約3週間後に発売された。
 
 
 
-![アポロ旧パッケージ](/toriscript-site/images/apollo/3.jpg)
+![アポロ旧パッケージ](/images/apollo/3.jpg)
 
 旧パッケージも、それを知ってから見るとフォントの力強さといい、伸びるスピード線といい、そこはかとなく宇宙感がある気がしてくる。
 
 
 
-![司令塔のハッチ](/toriscript-site/images/apollo/4.jpg)
+![司令塔のハッチ](/images/apollo/4.jpg)
 
 チョコでは珍しいクリアパーツも宇宙を意識してか──ハッチを内側から見ると丸窓がついているので、その可能性もありそうだ。金の枠もそっくり。
   
@@ -57,7 +57,7 @@ tags:
 
 
 
-![宇宙探索](/toriscript-site/images/apollo/5.jpg)
+![宇宙探索](/images/apollo/5.jpg)
 
 人は都市伝説に心を惹かれる。それはもう、どうしようもないほどに。特に証明しにくいほど、いかにも真実らしく語られるもの。
 
@@ -81,7 +81,7 @@ tags:
 
 
 
-![アポロ](/toriscript-site/images/apollo/6.jpg)
+![アポロ](/images/apollo/6.jpg)
 
 ギザギザした三角錐が特徴的なチョコレート。上部のイチゴと土台のチョコのツートンカラーと相まって、非常にユニーク性の高いビジュアルである。
 
@@ -93,7 +93,7 @@ tags:
 
 
 
-![宙アポロ](/toriscript-site/images/apollo/7.jpg)
+![宙アポロ](/images/apollo/7.jpg)
 
 先述のように1969年発売で、2019年で50周年を迎えた。それを記念して作られたのが『宙（そら）アポロ』！　宇宙を目指したアポロに相応しい商品だったといえるだろう。なお、チョコレート成分は入っていないため、味や溶け具合はかなり本家とは違った。
 
@@ -103,7 +103,7 @@ tags:
 
  
 
-![ヨーグルト](/toriscript-site/images/apollo/8.jpg)
+![ヨーグルト](/images/apollo/8.jpg)
 
 明治の食品パッケージといえば、味が想像しやすいシズル感のあるデザインだ。チョコやアイスはもちろん、<a href="https://amzn.to/2QRLUm8" target="_blank" rel="noopener">ヨーグレット</a>までパッケージを見ただけで味と食感を思い浮かべることができるようになっている。
 
@@ -111,7 +111,7 @@ tags:
 
 
 
-![アポロ前面](/toriscript-site/images/apollo/9.jpg)
+![アポロ前面](/images/apollo/9.jpg)
 
 言われてみると等間隔に並ぶ苺や、アポロのイラストの角度・個数が変わった覚えがない。これらは象徴として意識して守っているとのことなので、今後どれだけ斬新な表現方法が生まれようと、きっと変わらず、同じ顔を見せてくれることだろう。
 
@@ -129,7 +129,7 @@ tags:
 
 
 
-![きのこの山とアポロ](/toriscript-site/images/apollo/10.jpg)
+![きのこの山とアポロ](/images/apollo/10.jpg)
 
 <h5 class="note-box">きのこの柄がまっすぐ刺さっていないのも知らなかった</h5>
 
@@ -145,7 +145,7 @@ tags:
 
 
 
-![アポロちゃん](/toriscript-site/images/apollo/11.jpg)
+![アポロちゃん](/images/apollo/11.jpg)
 
 <h5 class="note-box">アポロちゃんの身長は『アポロ3個分』といったところか</h5>
 
@@ -163,7 +163,7 @@ tags:
 
 
 
-![アポロ](/toriscript-site/images/apollo/12.jpg)
+![アポロ](/images/apollo/12.jpg)
 
 <h5 class="note-box">三角形から宇宙を感じるのは私だけだろうか</h5>
 
@@ -188,7 +188,7 @@ tags:
 
 
 
-![月](/toriscript-site/images/apollo/13.jpg)
+![月](/images/apollo/13.jpg)
 
 21世紀も1/5が過ぎてしまった現在、あの頃思い描いた月や他の惑星への移住は未だ計画というより予想の段階で、ほぼ何も進んでないといっていい。
 
@@ -198,7 +198,7 @@ tags:
 
 
 
-![アポロ成分表示](/toriscript-site/images/apollo/14.jpg)
+![アポロ成分表示](/images/apollo/14.jpg)
 
 <h5 class="note-box">コズミックなエナジーは成分に含まれていない。残念</h5>
 

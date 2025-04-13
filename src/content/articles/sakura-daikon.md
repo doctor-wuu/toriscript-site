@@ -28,7 +28,7 @@ tags:
 
 
 
-![輪切り2枚のさくら大根](/toriscript-site/images/sakura-daikon/1.jpg)
+![輪切り2枚のさくら大根](/images/sakura-daikon/1.jpg)
 
 内容量は2枚で35g以上になるように調節されている。駄菓子での表示は稀な原料原産地名の項目もあり【国産(だいこん)】となっている。産地は埼玉・新潟・群馬のいずれかで、京野菜の<a href="https://amzn.to/3nfTTIw" target="_blank" rel="noopener">京ざくら</a>は関係ない。
 
@@ -36,7 +36,7 @@ tags:
 
 
 
-![通常版のさくら大根](/toriscript-site/images/sakura-daikon/2.jpg)
+![通常版のさくら大根](/images/sakura-daikon/2.jpg)
 
 <h5 class="note-box">通常版。安直に、さくらちゃんと呼んでおくことにする(苺を想起させる見た目だが)</h5>
 
@@ -46,7 +46,7 @@ tags:
 
 
 
-![ぱりぱり！の原始人風キャラクター](/toriscript-site/images/sakura-daikon/4.jpg)
+![ぱりぱり！の原始人風キャラクター](/images/sakura-daikon/4.jpg)
 
 <h5 class="note-box">ぱりぱり！　の原始人風キャラクター。大根の発祥と時期を考えると古代エジプト周辺の人かもしれない</h5>
 
@@ -60,7 +60,7 @@ tags:
 
 
 
-![赤い食べ物の例](/toriscript-site/images/sakura-daikon/5.jpg)
+![赤い食べ物の例](/images/sakura-daikon/5.jpg)
 
 <h5 class="note-box">古今東西赤い食べ物はたくさんある</h5>
 
@@ -82,7 +82,7 @@ twitterでは2018年の購入ツイートがあるため、まだ売っている
 
 
 
-![山と川](/toriscript-site/images/sakura-daikon/6.jpg)
+![山と川](/images/sakura-daikon/6.jpg)
 
 <h5 class="note-box">たいてい境界には山や川がある</h5>
 
@@ -112,7 +112,7 @@ twitterでは2018年の購入ツイートがあるため、まだ売っている
 
 
 
-![さくら大根](/toriscript-site/images/sakura-daikon/7.jpg)
+![さくら大根](/images/sakura-daikon/7.jpg)
 
 <h5 class="note-box">駄菓子にあるまじきシズル感。ここで発揮されてもちょっと困る</h5>
 

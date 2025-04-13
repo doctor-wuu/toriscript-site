@@ -123,7 +123,7 @@ tags:
 
 
 
-<a href="https://amzn.to/4ikKAlX" target="_blank" rel="noopener">![stc](/toriscript-site/images/save-the-cat/2.jpg) </a>
+<a href="https://amzn.to/4ikKAlX" target="_blank" rel="noopener">![stc](/images/save-the-cat/2.jpg) </a>
 
 ハリウッドのヒット映画の構成を分析し、成功するシナリオの共通点をまとめた名著。三幕構成をさらに細かく10のストーリービートに分解し、具体的な展開の作り方を解説しています。  
   
@@ -137,7 +137,7 @@ tags:
 
 
 
-<a href="https://amzn.to/4hAGpkP" target="_blank" rel="noopener">![マンガ脚本概論（さそうあきら）](/toriscript-site/images/save-the-cat/3.jpg)  </a>
+<a href="https://amzn.to/4hAGpkP" target="_blank" rel="noopener">![マンガ脚本概論（さそうあきら）](/images/save-the-cat/3.jpg)  </a>
 
 漫画だけでなく、全てのシナリオ作りに通ずる本。どのように物語を作るのか、コマ割りや視覚的な演出まで総合的に意識しながら、物語の推進力はどこにあるかが丁寧に解説されています。漫画原作や、マンガっぽい話を考えている人は必読の一冊。
 
@@ -147,7 +147,7 @@ tags:
 
 
 
-<a href="https://amzn.to/4iJ4eYG" target="_blank" rel="noopener">![ベストセラー小説の書き方（ディーン・R・クーンツ）](/toriscript-site/images/save-the-cat/4.jpg)  </a>
+<a href="https://amzn.to/4iJ4eYG" target="_blank" rel="noopener">![ベストセラー小説の書き方（ディーン・R・クーンツ）](/images/save-the-cat/4.jpg)  </a>
 
 ベストセラー作家のディーン・R・クーンツが、小説のストーリー構成やキャラクター作り、執筆のテクニックを解説した一冊。脚本だけでなく、小説やライトノベルの執筆にも応用できる実践的な内容が詰まっています。出版事情に関しては日本と違う部分があります。
 
@@ -155,7 +155,7 @@ tags:
 
 
 
-<a href="https://amzn.to/4hDQBsS" target="_blank" rel="noopener">![ライトノベルの書き方（冲方丁）](/toriscript-site/images/save-the-cat/5.jpg) </a>
+<a href="https://amzn.to/4hDQBsS" target="_blank" rel="noopener">![ライトノベルの書き方（冲方丁）](/images/save-the-cat/5.jpg) </a>
 
 『<a href="https://amzn.to/4kLQ76N" target="_blank" rel="noopener">マルドゥック・スクランブル</a>』などを手掛けた冲方丁が、ライトノベルのストーリー作りの技法を解説。ライトノベル特有のキャラクターの作り方や、読者を引き込むためのコツが学べます。ライトノベル作家ならではの軽快な読み口で「ラノベしか読んだことがない」という人でもスルスル内容が頭に入ってきます。
 
