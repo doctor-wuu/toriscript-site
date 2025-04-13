@@ -3,10 +3,10 @@
 slug: save-the-cat
 title: 【完全ガイド】脚本の書き方とは？映画・漫画・ライトノベルのシナリオ作りの基本
 description: 脚本シナリオ作りを諦めない。映画・漫画・ラノベすべてに使える、物語構造の王道『Save the Cat』とは？
-pubDate: "2025-04-08"
+pubDate: "2025-04-10"
 category: 1
 author: 1
-introImage: images/intro/save-the-cat.jpg
+introImage: /images/intro/save-the-cat.jpg
 intro: 映画、漫画、ライトノベルのストーリー構成には異なる点もありますが『物語』の作り方には共通するルールがあります。特に、ハリウッド式の脚本術で定番の「起承転結」「三幕構成」や「Save the Cat！」の考え方を知らないと、ルールも分からずゲームやスポーツをプレイするようなもの。しっかりと基本を理解し、あらゆるシナリオ作りに役立てましょう！
 tags:
   - film
@@ -123,7 +123,7 @@ tags:
 
 
 
-<a href="https://amzn.to/4ikKAlX" target="_blank" rel="noopener">![stc](/images/save-the-cat/2.jpg) </a>
+<a href="https://amzn.to/4ikKAlX" target="_blank" rel="noopener">![stc](/images/save-the-cat/1.jpg) </a>
 
 ハリウッドのヒット映画の構成を分析し、成功するシナリオの共通点をまとめた名著。三幕構成をさらに細かく10のストーリービートに分解し、具体的な展開の作り方を解説しています。  
   
@@ -137,7 +137,7 @@ tags:
 
 
 
-<a href="https://amzn.to/4hAGpkP" target="_blank" rel="noopener">![マンガ脚本概論（さそうあきら）](/images/save-the-cat/3.jpg)  </a>
+<a href="https://amzn.to/4hAGpkP" target="_blank" rel="noopener">![マンガ脚本概論（さそうあきら）](/images/save-the-cat/2.jpg)  </a>
 
 漫画だけでなく、全てのシナリオ作りに通ずる本。どのように物語を作るのか、コマ割りや視覚的な演出まで総合的に意識しながら、物語の推進力はどこにあるかが丁寧に解説されています。漫画原作や、マンガっぽい話を考えている人は必読の一冊。
 
@@ -147,7 +147,7 @@ tags:
 
 
 
-<a href="https://amzn.to/4iJ4eYG" target="_blank" rel="noopener">![ベストセラー小説の書き方（ディーン・R・クーンツ）](/images/save-the-cat/4.jpg)  </a>
+<a href="https://amzn.to/4iJ4eYG" target="_blank" rel="noopener">![ベストセラー小説の書き方（ディーン・R・クーンツ）](/images/save-the-cat/3.jpg)  </a>
 
 ベストセラー作家のディーン・R・クーンツが、小説のストーリー構成やキャラクター作り、執筆のテクニックを解説した一冊。脚本だけでなく、小説やライトノベルの執筆にも応用できる実践的な内容が詰まっています。出版事情に関しては日本と違う部分があります。
 
@@ -155,15 +155,14 @@ tags:
 
 
 
-<a href="https://amzn.to/4hDQBsS" target="_blank" rel="noopener">![ライトノベルの書き方（冲方丁）](/images/save-the-cat/5.jpg) </a>
+<a href="https://amzn.to/4hDQBsS" target="_blank" rel="noopener">![ライトノベルの書き方（冲方丁）](/images/save-the-cat/4.jpg) </a>
 
 『<a href="https://amzn.to/4kLQ76N" target="_blank" rel="noopener">マルドゥック・スクランブル</a>』などを手掛けた冲方丁が、ライトノベルのストーリー作りの技法を解説。ライトノベル特有のキャラクターの作り方や、読者を引き込むためのコツが学べます。ライトノベル作家ならではの軽快な読み口で「ラノベしか読んだことがない」という人でもスルスル内容が頭に入ってきます。
 
 ### 荒木飛呂彦の漫画術（荒木飛呂彦）
 
 
-
-<a href="https://amzn.to/4iuDvzr" target="_blank" rel="noopener">:::6[荒木飛呂彦の漫画術（荒木飛呂彦）]  </a>
+<a href="https://amzn.to/4iuDvzr" target="_blank" rel="noopener">![荒木飛呂彦の漫画術（荒木飛呂彦）](/images/save-the-cat/5.jpg)  </a>
 
 <a href="https://amzn.to/4iUEHMj" target="_blank" rel="noopener">『ジョジョの奇妙な冒険』シリーズ</a>の作者・荒木飛呂彦が、漫画のシナリオ作りやキャラクター構築について語った指南書。ストーリーの構成やキャラの魅力を高めるポイントが豊富に紹介されています。
 
@@ -182,6 +181,3 @@ tags:
 ### 犬派の意見はどうなる？
 
 というような唐突さこそ引きの極意──この手法は冲方丁さんの本で解説されています。こんな感じで読み手を翻弄してやりましょう！
-
-
-![画像1](/images/save-the-cat/1.jpg)
