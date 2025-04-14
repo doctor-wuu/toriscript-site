@@ -6,7 +6,7 @@ description: ダイエットで食事やお菓子の一部を置き換えたり�
 pubDate: "2025-04-08"
 category: 3
 author: 3
-introImage: /images/intro/protein-bar.jpg
+introImage: images/intro/protein-bar.jpg
 intro: ダイエットで食事やお菓子の一部を置き換えたり、補食としても人気のプロテインバー。同じ食べるのであれば価格や栄養だけでなく味も追求したいところ。市販品はどれもそこそこ味が担保されているはずなので、コンビニ・スーパー・ドラッグストアで手に入るものの中から選び、厳しめに採点してみました。
 tags: 
   - snack
