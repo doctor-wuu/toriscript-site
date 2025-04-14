@@ -45,7 +45,10 @@ const authorMap = {
   categoryLabel={categoryLabel}
   categorySlug={categorySlug}
   tag={post?.data.tags?.[0] ?? null}
->
+  authorLabel={authorMap[post?.data.author] ?? 'Unknown'}
+  pubDate={post.data.pubDate}
+/>
+
 
   <!-- ✅ パンくず -->
   <div slot="breadcrumbs">
@@ -63,32 +66,13 @@ const authorMap = {
   </div>
 
   <!-- ✅ タイトルブロック -->
-  <div slot="titleBlock" class="max-w-7xl mx-auto flex px-4 w-full">
-  <aside class="hidden lg:block w-[7rem] "></aside>
-  <div class="flex-1 flex justify-start">
-    <div class="w-full max-w-[52rem]">
-      <div class="flex justify-between items-start mb-4 text-sm text-gray-500">
-        <div class="flex items-center gap-4">
-          {categoryLabel && (
-            <span class="bg-[#8C82AA] text-white text-xs font-semibold px-2 py-1 rounded">
-              {categoryLabel}
-            </span>
-          )}
-          <span>
-            {post.data.pubDate && new Date(post.data.pubDate).toLocaleDateString("ja-JP")}
-          </span>
-        </div>
-        <span class="text-xs mt-1">
-          Written by {authorMap[post?.data.author] ?? 'Unknown'}
-        </span>
-      </div>
-      <h1 class="text-[2.5rem] leading-[1.2] text-[#A1A1A1] mb-0 break-jp">
-        {post?.data.title}
-      </h1>
-    </div>
-  </div>
-  <aside class="hidden lg:block w-[20rem] "></aside>
-</div>
+{pubDate && (
+  <span>
+    {new Date(pubDate).toLocaleDateString("ja-JP")}
+  </span>
+)}
+<span class="text-xs mt-1">Written by {authorLabel}</span>
+
 
   <!-- ✅ リード -->
   <div slot="intro" class="prose mx-auto article-page max-w-[48rem]">
