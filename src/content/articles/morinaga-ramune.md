@@ -6,7 +6,7 @@ description: 砂糖、ショ糖、ぶどう糖。糖と名のつくものは数�
 pubDate: "2021-07-20"
 category: 3
 author: 1
-introImage: /images/intro/morinaga-ramune.jpg
+introImage: images/intro/morinaga-ramune.jpg
 intro: 砂糖、ショ糖、ぶどう糖。糖と名のつくものは数あれど、脳の栄養はただ一つ。驚異のぶどう糖90％を誇る森永のラムネで全集中！
 tags:
   - snack
