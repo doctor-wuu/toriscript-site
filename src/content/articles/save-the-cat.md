@@ -6,7 +6,7 @@ description: 脚本シナリオ作りを諦めない。映画・漫画・ラノ�
 pubDate: "2025-04-10"
 category: 1
 author: 1
-introImage: images/intro/save-the-cat.jpg
+introImage: /images/intro/save-the-cat.jpg
 intro: 映画、漫画、ライトノベルのストーリー構成には異なる点もありますが『物語』の作り方には共通するルールがあります。特に、ハリウッド式の脚本術で定番の「起承転結」「三幕構成」や「Save the Cat！」の考え方を知らないと、ルールも分からずゲームやスポーツをプレイするようなもの。しっかりと基本を理解し、あらゆるシナリオ作りに役立てましょう！
 tags:
   - film
