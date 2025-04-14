@@ -32,10 +32,11 @@ const prevPost = allPosts[currentIndex - 1];
 const nextPost = allPosts[currentIndex + 1];
 
 
-const categoryId = post?.data.category;
-const categoryData = categoryMap?.[categoryId] ?? null;
-const categorySlug = categoryData?.slug;
-const categoryLabel = categoryData?.label ?? categoryId ?? '未分類';
+const categoryId = post?.data.category ?? null;
+const categoryData = categoryId ? categoryMap?.[categoryId] : null;
+const categoryLabel = categoryData?.label ?? categoryId ?? null;
+const categorySlug = categoryData?.slug ?? categoryId ?? null;
+
 
 
 
@@ -47,6 +48,7 @@ const categoryLabel = categoryData?.label ?? categoryId ?? '未分類';
   slug={slug}
   category={categoryId}
   categoryLabel={categoryLabel}
+  tag={post?.data.tags?.[0] ?? null}
 />
 
   <!-- ✅ パンくずスロット -->
