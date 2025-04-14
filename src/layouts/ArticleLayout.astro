@@ -53,7 +53,10 @@ const breadcrumbJson = {
       </a>
     </header>
   </div>
-
+<!-- パンくずの上に細いボーダー -->
+<div slot="breadcrumbBorder">
+  <div class="w-full border-t border-gray-200"></div>
+</div>
   <!-- パンくずスロット -->
 <div slot="breadcrumbs">
   <div class="w-full py-1">
@@ -80,10 +83,7 @@ const breadcrumbJson = {
 
 <!-- タイトルバー -->
 
-<!-- パンくずの上に細いボーダー -->
-<div slot="breadcrumbBorder">
-  <div class="w-full border-t border-gray-200"></div>
-</div>
+
 
 <div slot="titleBlock">
   <div class="w-full bg-[#f5f5f5] min-h-[281px] flex items-center"> <!-- ← これ重要 -->
