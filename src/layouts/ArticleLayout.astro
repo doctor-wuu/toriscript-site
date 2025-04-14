@@ -7,7 +7,7 @@ const middleCrumb = category
   ? {
       "@type": "ListItem",
       "position": 2,
-      "name": category,
+      "name": categoryLabel ?? category,
       "item": `https://toriscript.com/articles/category/${category}/`
     }
   : tag
