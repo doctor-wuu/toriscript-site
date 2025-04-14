@@ -72,26 +72,40 @@ const breadcrumbJson = {
 </div>
 
 <!-- タイトルバー用スロット -->
+<!-- タイトルバー用スロット -->
 <div slot="titleBlock">
-  <div class="w-full bg-[#f5f5f5] min-h-[281px] flex flex-col justify-center text-center px-4">
-    <div class="max-w-4xl mx-auto text-sm text-gray-500 mb-4">
-      <div class="flex justify-between items-center flex-wrap gap-2">
-        {categoryLabel && (
-          <span class="bg-[#8C82AA] text-white text-xs font-semibold px-2 py-1 rounded">
-            {categoryLabel}
-          </span>
-        )}
-        {pubDate && (
-          <span>{new Date(pubDate).toLocaleDateString("ja-JP")}</span>
-        )}
-        {authorLabel && (
-          <span class="text-xs">Written by {authorLabel}</span>
-        )}
+  <div class="w-full bg-[#f5f5f5] min-h-[281px]">
+    <div class="max-w-7xl mx-auto flex px-4 w-full h-full">
+      <aside class="hidden lg:block w-[7rem]"></aside>
+      
+      <div class="flex-1 flex items-center">
+        <div class="w-full max-w-[52rem]">
+          <!-- 日付・カテゴリ・著者 -->
+          <div class="flex justify-between items-start mb-4 text-sm text-gray-500">
+            <div class="flex items-center gap-4 flex-wrap">
+              {categoryLabel && (
+                <span class="bg-[#8C82AA] text-white text-xs font-semibold px-2 py-1 rounded">
+                  {categoryLabel}
+                </span>
+              )}
+              {pubDate && (
+                <span>{new Date(pubDate).toLocaleDateString("ja-JP")}</span>
+              )}
+            </div>
+            {authorLabel && (
+              <span class="text-xs mt-1">Written by {authorLabel}</span>
+            )}
+          </div>
+          
+          <!-- タイトル -->
+          <h1 class="text-[2.5rem] leading-[1.2] text-[#A1A1A1] mb-0 break-jp tracking-[0.05em] text-left">
+            {title}
+          </h1>
+        </div>
       </div>
+
+      <aside class="hidden lg:block w-[20rem]"></aside>
     </div>
-    <h1 class="text-[2.5rem] text-[#A1A1A1] leading-tight max-w-4xl mx-auto">
-      {title}
-    </h1>
   </div>
 </div>
 
