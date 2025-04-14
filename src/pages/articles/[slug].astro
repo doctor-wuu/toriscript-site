@@ -32,10 +32,9 @@ const prevPost = allPosts[currentIndex - 1];
 const nextPost = allPosts[currentIndex + 1];
 
 
-
-const categorySlug = categoryData?.slug;
 const categoryId = post?.data.category;
 const categoryData = categoryMap?.[categoryId] ?? null;
+const categorySlug = categoryData?.slug;
 const categoryLabel = categoryData?.label ?? categoryId ?? '未分類';
 
 
