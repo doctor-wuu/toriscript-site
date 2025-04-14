@@ -6,7 +6,7 @@ description: 時に大胆に、時に巧妙に擬態する駄菓子たち。名�
 pubDate: "2021-10-22"
 category: 3
 author: 1
-introImage: /images/intro/sakura-daikon.jpg
+introImage: images/intro/sakura-daikon.jpg
 intro: 時に大胆に、時に巧妙に擬態する駄菓子たち。名前も見た目も信用できない虚飾あふれる世界にあって、それはあまりに大根だった。セピアな記憶も真っ赤に染める『さくら大根』は駄菓子なのか、漬物なのか──。
 tags:
   - snack
