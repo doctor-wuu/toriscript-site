@@ -6,7 +6,9 @@ import externalLinks from "remark-external-links"; // ✅ 追加
 export default defineConfig({
   base: '/',
   site: 'https://toriscript.com',
-  integrations: [tailwind()],
+  integrations: [
+    tailwind(),
+    sitemap(),],
   markdown: {
     rehypePlugins: [rehypeSlug],
     remarkPlugins: [
