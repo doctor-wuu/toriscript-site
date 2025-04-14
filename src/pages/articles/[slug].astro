@@ -31,10 +31,15 @@ const currentIndex = allPosts.findIndex(p => p.slug === slug);
 const prevPost = allPosts[currentIndex - 1];
 const nextPost = allPosts[currentIndex + 1];
 
-const categoryId = post?.data.category;
-const categoryData = categoryMap[categoryId];
+
+
 const categorySlug = categoryData?.slug;
-const categoryLabel = categoryData?.label;
+const categoryId = post?.data.category;
+const categoryData = categoryMap?.[categoryId] ?? null;
+const categoryLabel = categoryData?.label ?? categoryId ?? '未分類';
+
+
+
 ---
 
 <ArticleLayout
