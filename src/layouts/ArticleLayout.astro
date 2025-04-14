@@ -43,10 +43,13 @@ const breadcrumbJson = {
 
 <BaseLayout title={title}>
   <head slot="head">
-    <script type="application/ld+json" is:inline>
-      {JSON.stringify(breadcrumbJson)}
+  {`
+    <script type="application/ld+json">
+      ${JSON.stringify(breadcrumbJson)}
     </script>
-  </head>
+  `}
+</head>
+
 
   <div slot="logo">
     <header class="py-4 flex flex-col items-center">
