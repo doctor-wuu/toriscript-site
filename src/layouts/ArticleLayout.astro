@@ -78,13 +78,13 @@ const breadcrumbJson = {
 </div>
 
 
-<!-- タイトルバー用スロット -->
+<!-- タイトルバー -->
 <div slot="titleBlock">
-  <div class="w-full bg-[#f5f5f5] min-h-[281px]">
-    <div class="max-w-7xl mx-auto flex px-4 w-full h-full">
+  <div class="w-full bg-[#f5f5f5] min-h-[281px] flex items-center"> <!-- ← これ重要 -->
+    <div class="max-w-7xl mx-auto flex px-4 w-full">
       <aside class="hidden lg:block w-[7rem]"></aside>
 
-      <div class="flex-1 flex items-center"> <!-- 中央に寄せる！ -->
+      <div class="flex-1 flex items-center"> <!-- ← これも中央寄せ -->
         <div class="w-full max-w-[52rem]">
           <!-- メタ情報 -->
           <div class="flex justify-between items-start mb-4 text-sm text-gray-500">
@@ -114,6 +114,7 @@ const breadcrumbJson = {
     </div>
   </div>
 </div>
+
 
 
 
