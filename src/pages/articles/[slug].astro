@@ -37,7 +37,12 @@ const categorySlug = categoryData?.slug;
 const categoryLabel = categoryData?.label;
 ---
 
-<ArticleLayout title={post?.data.title} headings={headings}>
+<ArticleLayout
+  title={post?.data.title}
+  slug={slug}
+  category={categoryId}
+  headings={headings}>
+
   <!-- ✅ パンくずスロット -->
   <div slot="breadcrumbs">
     <div class="flex items-center text-sm text-gray-500 ">
