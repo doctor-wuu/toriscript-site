@@ -6,7 +6,7 @@ description: 食べてみるまで何が入っているのか分からない、�
 pubDate: "2021-09-30"
 category: 3
 author: 1
-introImage: /images/intro/bin-ramune.jpg
+introImage: images/intro/bin-ramune.jpg
 intro: 食べてみるまで何が入っているのか分からない、モナカは宝箱のような食材だ。餡子にチョコにアイスはもちろん、おすいものの素やおかずまで、人々の好きが詰まっている──飲み物さえも例外なく。一度"飲んだら"忘れない『ビンラムネ』の全てを解き明かそう。
 tags:
   - snack
