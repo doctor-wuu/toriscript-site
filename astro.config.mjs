@@ -1,7 +1,9 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
+import sitemap from "@astrojs/sitemap";
 import rehypeSlug from "rehype-slug";
 import externalLinks from "remark-external-links"; // ✅ 追加
+
 
 export default defineConfig({
   base: '/',
