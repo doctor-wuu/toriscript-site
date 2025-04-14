@@ -34,8 +34,8 @@ const nextPost = allPosts[currentIndex + 1];
 
 const categoryId = post?.data.category ?? null;
 const categoryData = categoryId ? categoryMap?.[categoryId] : null;
-const categoryLabel = categoryData?.label ?? categoryId ?? null;
-const categorySlug = categoryData?.slug ?? categoryId ?? null;
+const categorySlug = categoryData?.slug ?? null;
+const categoryLabel = categoryData?.label ?? null;
 
 
 
