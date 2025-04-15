@@ -49,21 +49,6 @@ const authorMap = {
   pubDate={post.data.pubDate}
 >
   <!-- ✅ パンくず -->
-<div slot="breadcrumbs">
-  <div class="overflow-x-auto max-w-full px-4 py-2">
-    <nav class="inline-flex items-center text-sm text-gray-500 whitespace-nowrap gap-1" aria-label="breadcrumb">
-      <a href={import.meta.env.BASE_URL} class="hover:underline">ホーム</a>
-      <span class="mx-1">＞</span>
-      {categoryLabel && (
-        <>
-          <a href={`/category/${categorySlug}`} class="hover:underline">{categoryLabel}</a>
-          <span class="mx-1">＞</span>
-        </>
-      )}
-      <span class="truncate max-w-[15em]" title={post?.data.title}>{post?.data.title}</span>
-    </nav>
-  </div>
-</div>
 
   <!-- ✅ タイトルブロック（この中にpubDateとauthorLabelを入れる！） -->
   <div slot="titleBlock" class="max-w-7xl mx-auto flex px-4 w-full">
