@@ -8,9 +8,14 @@ import unescapeHTML from '../../utils/unescapeHTML';
 
 const { slug } = Astro.params;
 const post = await getEntryBySlug('articles', slug);
+if (!post) {
+  throw new Error(`Article not found: ${slug}`);
+}
 const content = post ? await post.render() : null;
 const html = content?.html ?? post?.rendered?.html ?? '';
 const { headings } = await getHeadingsFromHtml(html);
+
+
 
 export async function getStaticPaths() {
   const posts = await getCollection('articles');
