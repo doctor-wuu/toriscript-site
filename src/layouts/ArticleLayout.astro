@@ -59,44 +59,33 @@ const breadcrumbJson = {
 </div>
   <!-- パンくずスロット -->
 <!-- パンくずスロット -->
-<div slot="breadcrumbs">
-  <div class="overflow-x-auto max-w-full px-4">
-    <div class="inline-flex items-center text-sm text-gray-500 whitespace-nowrap gap-1">
-      <a href="/" class="hover:underline">ホーム</a>
-      <span>＞</span>
-      {categoryLabel && (
-        <>
-          <a href={`/category/${categorySlug}`} class="hover:underline">{categoryLabel}</a>
-          <span>＞</span>
-        </>
-      )}
-      <span>{title}</span>
-    </div>
-  </div>
-</div>
-
-
+<!-- ✅ パンくず：中央幅・左右余白つき -->
 <div slot="breadcrumbs">
   <div class="w-full py-1">
     <div class="max-w-7xl mx-auto flex px-4">
       <aside class="hidden lg:block w-[7rem]"></aside>
-      <div class="flex-1">
-        <div class="text-sm text-gray-500 flex items-center gap-1">
-          <a href={import.meta.env.BASE_URL} class="hover:underline">ホーム</a>
-          <span class="mx-1">＞</span>
-          {categoryLabel && (
-            <>
-              <a href={`/category/${categorySlug}`} class="hover:underline">{categoryLabel}</a>
+      <div class="flex-1 flex justify-start">
+        <div class="w-full max-w-[52rem]">
+          <div class="overflow-x-auto">
+            <div class="inline-flex items-center text-sm text-gray-500 whitespace-nowrap gap-1">
+              <a href={import.meta.env.BASE_URL} class="hover:underline">ホーム</a>
               <span class="mx-1">＞</span>
-            </>
-          )}
-          <span>{title}</span>
+              {categoryLabel && (
+                <>
+                  <a href={`/category/${categorySlug}`} class="hover:underline">{categoryLabel}</a>
+                  <span class="mx-1">＞</span>
+                </>
+              )}
+              <span>{post?.data.title}</span>
+            </div>
+          </div>
         </div>
       </div>
       <aside class="hidden lg:block w-[20rem]"></aside>
     </div>
   </div>
 </div>
+
 
 
 <!-- タイトルバー -->
