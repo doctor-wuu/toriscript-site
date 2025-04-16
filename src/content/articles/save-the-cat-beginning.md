@@ -244,6 +244,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 これらを後半ビートの流れに沿って解説しながら、読者の心をつかみ、最後まで魅了する脚本構成を作るヒントをお届けします。
 
+<Ads5 />
+
+
 <h5 class="note-box">サメ映画は「考えるな、感じろ」<br>
 " Don’t think. feel. "</h5>
 
@@ -251,4 +254,4 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-<Ads5 client:load />
+
