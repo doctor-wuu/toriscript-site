@@ -24,11 +24,11 @@ const articles = (await getCollection('articles')).sort((a, b) => {
                 class="flex flex-col sm:flex-row items-start gap-4 hover:opacity-80 transition"
               >
                 <!-- ✅ サムネイル -->
-                <div class="w-full sm:w-[220px] h-auto sm:h-[150px] overflow-hidden rounded-md flex-shrink-0 not-prose">
+                <div class="w-full sm:w-[220px] h-auto sm:h-[150px] overflow-hidden rounded-md flex-shrink-0">
                   <img
                     src={thumb}
                     alt={`${article.data.title} のサムネイル`}
-                    class="w-full h-auto sm:h-full object-cover"
+                    class="w-full h-auto sm:h-full object-cover not-prose"
                     loading="lazy"
                     decoding="async"
                   />
