@@ -23,8 +23,14 @@ tags:
 
 ---
 
-
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6057267145"
+     data-ad-format="autorelaxed"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
 ### 「Save the Cat!」の本当の意味とは？
@@ -51,6 +57,8 @@ tags:
 
 ### 三幕構成との関係性
 
+
+
 ![3匹の猫](/images/save-the-cat-beginning/1.jpg)
 
 『Save the Cat!』は独自のストーリービートを提唱していますが、その骨組みは「三幕構成」と強く結びついています。三幕構成とは、物語を「始まり（第一幕）」「中盤（第二幕）」「終わり（第三幕）」の3つに分けて構成する、古典的かつ普遍的なストーリーテリングの基本理論です。
@@ -65,9 +73,17 @@ tags:
 
 <h5 class="note-box">サメ映画のほとんどが無視しています</h5>
 
-
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="9782681740"
+     data-ad-format="autorelaxed"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ## 脚本構成のカギ！『Save the Cat!』前半7ビートとは
+
+
 
 ![ジョーズのサメ](/images/save-the-cat-beginning/2.jpg)
 
@@ -181,7 +197,14 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="7156518409"
+     data-ad-format="autorelaxed"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 初心者でも実践できる！　各ビートの使い方とポイント
 
@@ -209,9 +232,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 『ローマの休日』は、クラシカルなストーリーながら、『Save the Cat!』のビート構成に非常に忠実です。
 
-1. オープニング・イメージ：王女としての窮屈な日常が描かれ、彼女の「変わりたい」という欲求が示唆される。
-2. きっかけ：王宮を抜け出し、睡眠薬の影響で倒れてしまう。
-3. 第一ターニング・ポイント：新聞記者ジョーと出会い、身分を隠したまま「普通の女の子」としてローマの街を冒険する決意をする。
+1. オープニング・イメージ：王女としての窮屈な日常が描かれ、彼女の「変わりたい」という欲求が示唆される。2. きっかけ：王宮を抜け出し、睡眠薬の影響で倒れてしまう。3. 第一ターニング・ポイント：新聞記者ジョーと出会い、身分を隠したまま「普通の女の子」としてローマの街を冒険する決意をする。
 4. Bストーリー：ジョーとアンの関係が深まり、テーマである「自由と責任」「真実と愛」が浮かび上がってくる。
 
 このように名作といわれる映画を紐解いて観察すれば、ビートの実践的な使い方が自然に頭に入ることに。初心者にとっても「なんとなく面白い」ではなく「なぜ面白いのか」を言語化する第一歩へと繋がります。
@@ -244,10 +265,6 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 これらを後半ビートの流れに沿って解説しながら、読者の心をつかみ、最後まで魅了する脚本構成を作るヒントをお届けします。
 
-<Ads5 client:load />
-
-
-
 <h5 class="note-box">サメ映画は「考えるな、感じろ」<br>
 " Don’t think. feel. "</h5>
 
@@ -255,4 +272,11 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6992270400"
+     data-ad-format="autorelaxed"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
