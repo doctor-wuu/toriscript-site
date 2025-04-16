@@ -251,14 +251,4 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-<Ads5 />
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6992270400"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<Ads5 client:load />
