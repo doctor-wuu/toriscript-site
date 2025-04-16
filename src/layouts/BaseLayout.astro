@@ -1,7 +1,9 @@
 ---
 // src/layouts/BaseLayout.astro
-const { title } = Astro.props;
 import { SITE } from '@/config';
+
+const { title, pageType = "article" } = Astro.props;
+const bodyClass = pageType === "index" ? "index-page" : "article-page";
 ---
 
 <html lang="ja">
@@ -41,18 +43,11 @@ import { SITE } from '@/config';
 
   </head>
 
-  <body class="font-sans text-gray-800 bg-white article-page overflow-x-hidden">
-    <!-- ロゴや共通ヘッダー -->
+  <body class={`font-sans text-gray-800 bg-white ${bodyClass}`}>
     <slot name="logo" />
-
-    <!-- パンくずリストなど -->
     <slot name="breadcrumbBorder" />
     <slot name="breadcrumbs" />
-
-    <!-- タイトルバー -->
     <slot name="titleBlock" />
-
-    <!-- メイン本文 -->
     <slot />
   </body>
 </html>
