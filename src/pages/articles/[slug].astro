@@ -26,10 +26,14 @@ export async function getStaticPaths() {
   }));
 }
 
-const allPosts = await getCollection('articles');
+const allPosts = (await getCollection('articles'))
+  .filter(post => post.data.pubDate)
+  .sort((a, b) => new Date(a.data.pubDate) - new Date(b.data.pubDate));
+
 const currentIndex = allPosts.findIndex(p => p.slug === slug);
 const prevPost = allPosts[currentIndex - 1];
 const nextPost = allPosts[currentIndex + 1];
+
 
 const categoryId = post?.data.category ?? null;
 const categoryData = categoryId && categoryMap[categoryId] ? categoryMap[categoryId] : null;
@@ -111,14 +115,23 @@ const authorMap = {
   <div class="prose mx-auto article-page max-w-[48rem] mt-8" set:html={html}></div>
 
   <!-- ✅ 前後記事 -->
-  <div slot="pager" class="flex justify-between items-center gap-4 max-w-[48rem] mx-auto mt-12">
-    {prevPost && (
-      <a href={`/articles/${prevPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block w-full text-left">← {prevPost.data.title}</a>
-    )}
-    {nextPost && (
-      <a href={`/articles/${nextPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block w-full text-right">{nextPost.data.title} →</a>
+<div slot="pager" class="flex justify-between items-center gap-4 max-w-[48rem] mx-auto mt-12">
+  <div class="w-full">
+    {prevPost ? (
+      <a href={`/articles/${prevPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block text-left">← {prevPost.data.title}</a>
+    ) : (
+      <div class="h-12"></div>  <!-- 高さ合わせの空白 -->
     )}
   </div>
+  <div class="w-full text-right">
+    {nextPost ? (
+      <a href={`/articles/${nextPost.slug}`} class="border px-4 py-3 text-sm hover:bg-gray-50 block text-right">{nextPost.data.title} →</a>
+    ) : (
+      <div class="h-12"></div>  <!-- 高さ合わせの空白 -->
+    )}
+  </div>
+</div>
+
 
   <!-- ✅ サイドバー -->
   <div slot="sidebar">
