@@ -1,12 +1,11 @@
 ---
 // src/layouts/Layout.astro
-const { title, pageType = "article" } = Astro.props;
 import BaseLayout from './BaseLayout.astro';
+const { title } = Astro.props;
+
 ---
 
-
-
-<BaseLayout title={title} pageType={pageType}>
+<BaseLayout title={title}>
   <div slot="logo">
     <header class="py-8">
       <div class="text-center mt-6 mb-2">

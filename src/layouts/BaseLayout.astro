@@ -43,11 +43,18 @@ const bodyClass = pageType === "index" ? "index-page" : "article-page";
 
   </head>
 
-  <body class={`font-sans text-gray-800 bg-white ${bodyClass}`}>
+  <body class="font-sans text-gray-800 bg-white article-page overflow-x-hidden">
+    <!-- ロゴや共通ヘッダー -->
     <slot name="logo" />
+
+    <!-- パンくずリストなど -->
     <slot name="breadcrumbBorder" />
     <slot name="breadcrumbs" />
+
+    <!-- タイトルバー -->
     <slot name="titleBlock" />
+
+    <!-- メイン本文 -->
     <slot />
   </body>
 </html>
