@@ -11,7 +11,7 @@ const articles = (await getCollection('articles')).sort((a, b) => {
 
 <Layout title="記事一覧">
   <!-- 🟩 メインコンテンツ -->
-  <div slot="main" class="flex flex-col justify-start max-w-[950px] mx-auto pl-2 pr-8">
+  <div slot="main" class="flex flex-col justify-start max-w-full mx-auto pl-2 pr-8">
     <ul class="space-y-8">
       {articles.map((article) => {
         const thumb = `${import.meta.env.BASE_URL}${article.data.introImage || 'images/blank.jpg'}`;
