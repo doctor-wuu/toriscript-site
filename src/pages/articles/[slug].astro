@@ -63,12 +63,22 @@ const authorMap = {
 
 
   <!-- ✅ リード -->
-  <div slot="intro" class="prose mt-0 mx-auto article-page max-w-[48rem]">
-    {post?.data.introImage && (
-      <img src={`${import.meta.env.BASE_URL}${post.data.introImage}`} alt={`${post.data.title} のサムネイル`} width="1280" height="960" class="mx-auto mb-6 rounded shadow" loading="lazy" decoding="async" />
-    )}
-    {post?.data.intro && <p class="text-[#808080]">{post.data.intro}</p>}
-  </div>
+  <!-- intro スロット -->
+<div slot="intro" class="prose mx-auto article-page max-w-[48rem] mt-0 [&>*:first-child]:mt-0">
+  {post?.data.introImage && (
+    <img
+      src={`${import.meta.env.BASE_URL}${post.data.introImage}`}
+      alt={`${post.data.title} のサムネイル`}
+      width="1280"
+      height="960"
+      class="mx-auto mb-6 rounded shadow"
+      loading="lazy"
+      decoding="async"
+    />
+  )}
+  {post?.data.intro && <p class="text-[#808080]">{post.data.intro}</p>}
+</div>
+
 
   <!-- ✅ 目次 -->
   <div slot="toc">
