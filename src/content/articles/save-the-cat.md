@@ -87,27 +87,28 @@ tags:
 ### 三幕構成の基本
 
 <div class="overflow-x-auto">
-<table class="shop-info" style="width: 717px;">
-<tbody>
-<tr style="height: 36px;">
-<td style="width: 186px; height: 36px; background-color:#ffffff;">幕</td>
-<td style="width: 529px; height: 36px; background-color:#ffffff;">内容</td>
-</tr>
-<tr style="height: 37.5px;">
-<td style="width: 186px; height: 37.5px; background-color:#ffffff;">第1幕（セットアップ）</td>
-<td style="width: 529px; height: 37.5px; background-color:#ffffff;">主人公などの登場人物、世界観を紹介。物語の目的が決まる</td>
-</tr>
-<tr style="height: 36px;">
-<td style="width: 186px; height: 36px; background-color:#ffffff;">第2幕（対立・試練）</td>
-<td style="width: 529px; height: 36px; background-color:#ffffff;">主要人物たちが問題に直面し、成長しながら困難を乗り越えていく</td>
-</tr>
-<tr style="height: 36px;">
-<td style="width: 186px; height: 36px; background-color:#ffffff;">第3幕（クライマックス）</td>
-<td style="width: 529px; height: 36px; background-color:#ffffff;">物語の最大の盛り上がり。結末に向かって収束する</td>
-</tr>
-</tbody>
-</table>
+  <table class="shop-info w-full table-auto border-collapse text-sm">
+    <tbody>
+      <tr class="bg-white">
+        <td class="min-w-[186px] px-4 py-2 font-semibold text-left">幕</td>
+        <td class="min-w-[300px] px-4 py-2 font-semibold text-left">内容</td>
+      </tr>
+      <tr class="bg-white">
+        <td class="px-4 py-2">第1幕（セットアップ）</td>
+        <td class="px-4 py-2">主人公などの登場人物、世界観を紹介。物語の目的が決まる</td>
+      </tr>
+      <tr class="bg-white">
+        <td class="px-4 py-2">第2幕（対立・試練）</td>
+        <td class="px-4 py-2">主要人物たちが問題に直面し、成長しながら困難を乗り越えていく</td>
+      </tr>
+      <tr class="bg-white">
+        <td class="px-4 py-2">第3幕（クライマックス）</td>
+        <td class="px-4 py-2">物語の最大の盛り上がり。結末に向かって収束する</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 #### 例『スター・ウォーズ』
 
