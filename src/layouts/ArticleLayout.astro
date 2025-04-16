@@ -57,13 +57,13 @@ const breadcrumbJson = {
 <div slot="breadcrumbBorder">
   <div class="w-full border-t border-gray-200"></div>
 </div>
-  <!-- パンくずスロット -->
+ <!-- パンくずスロット -->
 <div slot="breadcrumbs">
   <div class="w-full py-1">
     <div class="max-w-7xl mx-auto flex px-4">
       <aside class="hidden lg:block w-[7rem]"></aside>
-      <div class="flex-1">
-        <div class="text-sm text-gray-500 flex items-center gap-1">
+      <div class="flex-1 overflow-x-auto">
+        <div class="text-sm text-gray-500 flex items-center gap-1 whitespace-nowrap min-w-fit">
           <a href={import.meta.env.BASE_URL} class="hover:underline">ホーム</a>
           <span class="mx-1">＞</span>
           {categoryLabel && (
@@ -79,6 +79,7 @@ const breadcrumbJson = {
     </div>
   </div>
 </div>
+
 
 
 <!-- タイトルバー -->
