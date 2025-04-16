@@ -21,20 +21,20 @@ const articles = (await getCollection('articles')).sort((a, b) => {
             <div class="border-b border-gray-200 pb-6 max-w-[700px]">
               <a
                 href={`${import.meta.env.BASE_URL}articles/${article.slug}`}
-                class="flex items-start gap-[20px] hover:opacity-80 transition"
+                class="flex flex-col sm:flex-row items-start gap-4 hover:opacity-80 transition"
               >
                 <!-- ✅ サムネイル -->
-                <div class="w-[220px] h-[150px] overflow-hidden rounded-md flex-shrink-0">
-  <img
-    src={thumb}
-    alt={`${article.data.title} のサムネイル`}
-    class="w-full h-full object-cover"
-    loading="lazy"
-    decoding="async"
-  />
-</div>
+                <div class="w-full sm:w-[220px] h-auto sm:h-[150px] overflow-hidden rounded-md">
+                  <img
+                    src={thumb}
+                    alt={`${article.data.title} のサムネイル`}
+                    class="w-full h-auto sm:h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
                 <!-- ✅ テキスト -->
-                <div class="flex flex-col justify-start w-full max-w-[460px]">
+                <div class="flex flex-col justify-start w-full">
                   <h2 class="text-xl font-bold text-[#6a6a6a] mb-4 break-jp break-words max-w-full overflow-hidden line-clamp-2 leading-snug">
                     {article.data.title}
                   </h2>
