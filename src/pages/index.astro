@@ -28,7 +28,7 @@ const articles = (await getCollection('articles')).sort((a, b) => {
                   <img
                     src={thumb}
                     alt={`${article.data.title} のサムネイル`}
-                    class="not-prose w-full h-auto sm:h-full object-cover"
+                    class="class="not-prose block w-full max-w-none h-auto sm:h-full object-cover"
                     loading="lazy"
                     decoding="async"
                   />
