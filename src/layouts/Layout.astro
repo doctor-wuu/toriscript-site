@@ -1,27 +1,30 @@
 ---
 // src/layouts/Layout.astro
 import BaseLayout from './BaseLayout.astro';
-const { title } = Astro.props;
 
+const { title, fullWidth = false } = Astro.props;
 ---
 
 <BaseLayout title={title}>
-  <div slot="logo">
-    <header class="py-8">
-      <div class="text-center mt-6 mb-2">
-        <img src={`${import.meta.env.BASE_URL}images/tori-logo2.png`} alt="Tori Script ロゴ" class="h-20 mx-auto" />
-      </div>
-    </header>
-  </div>
+  <slot name="head" slot="head" />
 
+  <slot name="logo" slot="logo" />
+  <slot name="breadcrumbBorder" slot="breadcrumbBorder" />
+  <slot name="breadcrumbs" slot="breadcrumbs" />
+  <slot name="titleBlock" slot="titleBlock" />
+
+  <!-- ✅ メイン + サイドバー -->
   <main class="max-w-7xl mx-auto px-4 py-8 flex gap-8">
-    <div class="flex-1 max-w-[48rem]">
+    <!-- ✅ 左メインカラム -->
+    <div class={`flex-1 ${fullWidth ? 'max-w-full' : 'max-w-[48rem]'}`}>
       <slot name="main" />
       <slot />
     </div>
 
+    <!-- ✅ 右サイドバー -->
     <aside class="hidden lg:block w-[20rem]">
       <slot name="sidebar" />
     </aside>
   </main>
 </BaseLayout>
+
