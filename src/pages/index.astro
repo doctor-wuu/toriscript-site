@@ -11,6 +11,14 @@ const articles = (await getCollection('articles')).sort((a, b) => {
 
 <Layout title="記事一覧" fullWidth={true}>
   <!-- 🟩 メインコンテンツ -->
+<Layout title="記事一覧" fullWidth={true}>
+  <div slot="logo">
+    <header class="py-4 flex flex-col items-center">
+      <a href={import.meta.env.BASE_URL} class="block">
+        <img src={`${import.meta.env.BASE_URL}images/tori-logo2.png`} alt="Tori Script ロゴ" class="h-[69px] mx-auto" />
+      </a>
+    </header>
+  </div>
 <div slot="main" class="flex flex-col justify-start w-full max-w-screen-md mx-auto px-4 sm:px-6">
   <ul class="space-y-8">
     {articles.map((article) => {
@@ -24,7 +32,7 @@ const articles = (await getCollection('articles')).sort((a, b) => {
               class="flex flex-col sm:flex-row items-start gap-4 hover:opacity-80 transition"
             >
               <!-- ✅ サムネイル -->
-              <!-- <div class="w-full sm:w-[220px] h-auto sm:h-[150px] overflow-hidden rounded-md flex-shrink-0">
+              <div class="w-full sm:w-[220px] h-auto sm:h-[150px] overflow-hidden rounded-md flex-shrink-0">
                 <img
                   src={thumb}
                   alt={`${article.data.title} のサムネイル`}
@@ -32,7 +40,7 @@ const articles = (await getCollection('articles')).sort((a, b) => {
                   loading="lazy"
                   decoding="async"
                 />
-              </div> -->
+              </div>
               <!-- ✅ テキスト -->
               <div class="flex flex-col justify-start w-full">
                 <h2 class="text-xl font-bold text-[#6a6a6a] mb-4 break-jp break-words max-w-full overflow-hidden line-clamp-2 leading-snug">
