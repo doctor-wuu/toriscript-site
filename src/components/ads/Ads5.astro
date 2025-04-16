@@ -1,16 +1,23 @@
 ---
 // Ads5.astro
+import { onMount } from 'astro/jsx-runtime';
 const { slotId } = Astro.props;
 ---
 
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-XXXX"
-     data-ad-slot={slotId}
+     data-ad-client="ca-pub-2685020883138124"  <!-- ここは実際の値に -->
+     data-ad-slot={adSlots.ads5}
      data-ad-format="auto"
      data-full-width-responsive="true">
 </ins>
 
 <script is:inline>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+  onMount(() => {
+    try {
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error('Ad push failed:', e);
+    }
+  });
 </script>

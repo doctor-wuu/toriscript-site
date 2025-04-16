@@ -5,6 +5,8 @@ import ArticleLayout from '@/layouts/ArticleLayout.astro';
 import { categoryMap } from '@/data/categoryMap.ts';
 import { tagMap } from '@/data/tagMap.ts';
 import unescapeHTML from '../../utils/unescapeHTML';
+import { adSlots } from '@/data/adSlots';
+
 
 const { slug } = Astro.params;
 const post = await getEntryBySlug('articles', slug);
