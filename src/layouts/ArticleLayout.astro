@@ -123,28 +123,26 @@ const breadcrumbJson = {
 </div>
 
 
-  <main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
-    <aside class="hidden lg:block w-[6rem]"></aside>
+ <!-- タイトルバーの下 -->
+<main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
+  <aside class="hidden lg:block w-[6rem]"></aside>
 
-    <div class="flex-1 max-w-[48rem]">
-      <slot name="intro" />
-      <slot name="toc" />
-      <slot />
+  <div class="flex-1 max-w-[48rem]">
+    <slot name="intro" />
+    <slot name="toc" />
+    <slot />
 
-    <!-- ✅ 中央カラムに配置 -->
     <div class="mt-12">
       <slot name="pager" />
     </div>
   </div>
 
+  <aside class="hidden lg:block w-[20rem]">
+    <slot name="sidebar" />
+  </aside>
+</main>
 
 
-    <aside class="hidden lg:block w-[20rem]">
-      <slot name="sidebar" />
-    </aside>
-    
-
-  </main>
   <script is:inline>
   document.addEventListener("DOMContentLoaded", () => {
     const observer = new IntersectionObserver(
