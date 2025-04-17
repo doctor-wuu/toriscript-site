@@ -41,7 +41,7 @@ const breadcrumbJson = {
 ---
 
 
-<BaseLayout title={title}>
+<BaseLayout title={title} pageType={Astro.props.pageType}>
   <head slot="head">
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJson)} />
 </head>
