@@ -40,11 +40,10 @@ const breadcrumbJson = {
 };
 ---
 
-
 <BaseLayout title={title} pageType={pageType}>
   <head slot="head">
-  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJson)} />
-</head>
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJson)} />
+  </head>
 
   <div slot="logo">
     <header class="py-4 flex flex-col items-center">
@@ -53,118 +52,99 @@ const breadcrumbJson = {
       </a>
     </header>
   </div>
-<!-- パンくずの上に細いボーダー -->
-<div slot="breadcrumbBorder">
-  <div class="w-full border-t border-gray-200"></div>
-</div>
- <!-- パンくずスロット -->
-<div slot="breadcrumbs">
-  <div class="w-full py-1">
-    <div class="max-w-7xl mx-auto flex px-4">
-      <aside class="hidden lg:block w-[7rem]"></aside>
-      <div class="flex-1 overflow-x-auto">
-        <div class="text-sm text-gray-500 flex items-center gap-1 whitespace-nowrap min-w-fit">
-          <a href={import.meta.env.BASE_URL} class="hover:underline">ホーム</a>
-          <span class="mx-1">＞</span>
-          {categoryLabel && (
-            <>
-              <a href={`/category/${categorySlug}`} class="hover:underline">{categoryLabel}</a>
-              <span class="mx-1">＞</span>
-            </>
-          )}
-          <span>{heading}</span>
+
+  <div slot="breadcrumbBorder">
+    <div class="w-full border-t border-gray-200"></div>
+  </div>
+
+  <div slot="breadcrumbs">
+    <div class="w-full py-1">
+      <div class="max-w-7xl mx-auto flex px-4">
+        <aside class="hidden lg:block w-[7rem]"></aside>
+        <div class="flex-1 overflow-x-auto">
+          <div class="text-sm text-gray-500 flex items-center gap-1 whitespace-nowrap min-w-fit">
+            <a href={import.meta.env.BASE_URL} class="hover:underline">ホーム</a>
+            <span class="mx-1">＞</span>
+            {categoryLabel && (
+              <>
+                <a href={`/category/${categorySlug}`} class="hover:underline">{categoryLabel}</a>
+                <span class="mx-1">＞</span>
+              </>
+            )}
+            <span>{heading}</span>
+          </div>
         </div>
+        <aside class="hidden lg:block w-[20rem]"></aside>
       </div>
-      <aside class="hidden lg:block w-[20rem]"></aside>
     </div>
   </div>
-</div>
 
-
-
-<!-- タイトルバー -->
-<div slot="titleBlock">
-  <!-- グレー背景全体 -->
-  <div class="w-full bg-[#f5f5f5] min-h-[281px] flex items-center">
-    <div class="max-w-7xl mx-auto flex w-full">
-      <aside class="hidden lg:block w-[7rem]"></aside>
-
-      <div class="flex-1 flex items-center">
-        <!-- ✅ ここにだけ px-4 を移動 -->
-        <div class="w-full max-w-[52rem] px-4">
-          <!-- メタ情報 -->
-          <div class="flex justify-between items-start mb-4 text-sm text-gray-500 flex-wrap">
-            <div class="flex items-center gap-4">
-              {categoryLabel && (
-                <span class="bg-[#8C82AA] text-white text-xs font-semibold px-2 py-1 rounded">
-                  {categoryLabel}
-                </span>
-              )}
-              {pubDate && (
-                <span>{new Date(pubDate).toLocaleDateString("ja-JP")}</span>
+  <div slot="titleBlock">
+    <div class="w-full bg-[#f5f5f5] min-h-[281px] flex items-center">
+      <div class="max-w-7xl mx-auto flex w-full">
+        <aside class="hidden lg:block w-[7rem]"></aside>
+        <div class="flex-1 flex items-center">
+          <div class="w-full max-w-[52rem] px-4">
+            <div class="flex justify-between items-start mb-4 text-sm text-gray-500 flex-wrap">
+              <div class="flex items-center gap-4">
+                {categoryLabel && (
+                  <span class="bg-[#8C82AA] text-white text-xs font-semibold px-2 py-1 rounded">
+                    {categoryLabel}
+                  </span>
+                )}
+                {pubDate && (
+                  <span>{new Date(pubDate).toLocaleDateString("ja-JP")}</span>
+                )}
+              </div>
+              {authorLabel && (
+                <span class="text-xs mt-1">Written by {authorLabel}</span>
               )}
             </div>
-            {authorLabel && (
-              <span class="text-xs mt-1">Written by {authorLabel}</span>
-            )}
+            <h1 class="text-[2rem] sm:text-[2.2rem] md:text-[2.5rem] leading-tight text-[#A1A1A1] mb-0 break-words tracking-[0.05em] text-left w-full">
+              {heading}
+            </h1>
           </div>
-
-          <!-- タイトル -->
-          <h1 class="text-[2rem] sm:text-[2.2rem] md:text-[2.5rem] leading-tight text-[#A1A1A1] mb-0 break-words tracking-[0.05em] text-left w-full">
-  {heading}
-</h1>
         </div>
+        <aside class="hidden lg:block w-[20rem]"></aside>
       </div>
-
-      <aside class="hidden lg:block w-[20rem]"></aside>
-    </div>
-  </div>
-</div>
-
-
-  <main class="w-full flex justify-center px-4 py-8 gap-8">
-  <!-- 左マージン -->
-  <aside class="hidden lg:block w-[7rem]"></aside>
-
-  <!-- 中央カラム（本文） -->
-  <div class="flex-1 max-w-[52rem]">
-    <slot name="intro" />
-    <slot name="toc" />
-    <slot />
-    <div class="mt-12">
-      <slot name="pager" />
     </div>
   </div>
 
-  <!-- 右サイドバー -->
-<aside class="hidden lg:block w-[20rem]">
-  <div class="w-full">
+  <div slot="main">
+    <div class="prose mx-auto article-page max-w-[48rem] mt-0 [&>*:first-child]:mt-0">
+      <slot name="intro" />
+      <slot name="toc" />
+      <slot />
+      <div class="mt-12">
+        <slot name="pager" />
+      </div>
+    </div>
+  </div>
+
+  <div slot="sidebar">
     <slot name="sidebar" />
   </div>
-</aside>
-</main>
-
 
   <script is:inline>
-  document.addEventListener("DOMContentLoaded", () => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
+    document.addEventListener("DOMContentLoaded", () => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
 
-    const targets = document.querySelectorAll(".article-page ol li");
-    targets.forEach((el, i) => {
-      el.classList.add("fade-in-on-scroll");
-      el.style.transitionDelay = `${i * 0.2}s`;
-      observer.observe(el);
+      const targets = document.querySelectorAll(".article-page ol li");
+      targets.forEach((el, i) => {
+        el.classList.add("fade-in-on-scroll");
+        el.style.transitionDelay = `${i * 0.2}s`;
+        observer.observe(el);
+      });
     });
-  });
-</script>
+  </script>
 </BaseLayout>
