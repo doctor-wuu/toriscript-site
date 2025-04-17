@@ -1,171 +1,90 @@
 ---
-// src/layouts/ArticleLayout.astro
-import BaseLayout from "@/layouts/BaseLayout.astro";
-const { title, heading = "", category, tag, slug, categoryLabel, categorySlug, authorLabel, pubDate, pageType = "article" } = Astro.props;
+// src/pages/index.astro
+import { getCollection } from 'astro:content';
+import Layout from '@/layouts/Layout.astro';
 
-const middleCrumb = category
-  ? {
-      "@type": "ListItem",
-      "position": 2,
-      "name": categoryLabel ?? category,
-      "item": `https://toriscript.com/articles/category/${category}/`
-    }
-  : tag
-  ? {
-      "@type": "ListItem",
-      "position": 2,
-      "name": tag,
-      "item": `https://toriscript.com/articles/tag/${tag}/`
-    }
-  : null;
-
-const breadcrumbJson = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "ホーム",
-      "item": "https://toriscript.com/"
-    },
-    ...(middleCrumb ? [middleCrumb] : []),
-    {
-      "@type": "ListItem",
-      "position": middleCrumb ? 3 : 2,
-      "name": heading,
-      "item": `https://toriscript.com/articles/${slug}/`
-    }
-  ]
-};
+// 🔽 pubDate の降順に並べ替え（新しい記事が先頭に来る）
+const articles = (await getCollection('articles')).sort((a, b) => {
+  return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
+});
 ---
 
-
-<BaseLayout title={title} pageType={pageType}>
-  <head slot="head">
-  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJson)} />
-</head>
-
-  <div slot="logo">
-    <header class="py-4 flex flex-col items-center">
-      <a href={import.meta.env.BASE_URL} class="block">
-        <img src={`${import.meta.env.BASE_URL}images/tori-logo2.png`} alt="Tori Script ロゴ" class="h-[69px] mx-auto" />
-      </a>
-    </header>
-  </div>
-<!-- パンくずの上に細いボーダー -->
-<div slot="breadcrumbBorder">
-  <div class="w-full border-t border-gray-200"></div>
-</div>
- <!-- パンくずスロット -->
-<div slot="breadcrumbs">
-  <div class="w-full py-1">
-    <div class="max-w-7xl mx-auto flex px-4">
-      <aside class="hidden lg:block w-[7rem]"></aside>
-      <div class="flex-1 overflow-x-auto">
-        <div class="text-sm text-gray-500 flex items-center gap-1 whitespace-nowrap min-w-fit">
-          <a href={import.meta.env.BASE_URL} class="hover:underline">ホーム</a>
-          <span class="mx-1">＞</span>
-          {categoryLabel && (
-            <>
-              <a href={`/category/${categorySlug}`} class="hover:underline">{categoryLabel}</a>
-              <span class="mx-1">＞</span>
-            </>
-          )}
-          <span>{heading}</span>
-        </div>
-      </div>
-      <aside class="hidden lg:block w-[20rem]"></aside>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- タイトルバー -->
-<!-- タイトルバー -->
-<div slot="titleBlock">
-  <!-- グレー背景全体 -->
-  <div class="w-full bg-[#f5f5f5] min-h-[281px] flex items-center">
-    <div class="max-w-7xl mx-auto flex w-full">
-      <aside class="hidden lg:block w-[7rem]"></aside>
-
-      <div class="flex-1 flex items-center">
-        <!-- ✅ ここにだけ px-4 を移動 -->
-        <div class="w-full max-w-[52rem] px-4">
-          <!-- メタ情報 -->
-          <div class="flex justify-between items-start mb-4 text-sm text-gray-500 flex-wrap">
-            <div class="flex items-center gap-4">
-              {categoryLabel && (
-                <span class="bg-[#8C82AA] text-white text-xs font-semibold px-2 py-1 rounded">
-                  {categoryLabel}
-                </span>
-              )}
-              {pubDate && (
-                <span>{new Date(pubDate).toLocaleDateString("ja-JP")}</span>
-              )}
+<Layout title="記事一覧">
+  <!-- 🟩 メインコンテンツ -->
+  <div slot="main" class="flex flex-col justify-start max-w-[950px] mx-auto pl-2 pr-8">
+    <ul class="space-y-8">
+      {articles.map((article) => {
+        const thumb = `${import.meta.env.BASE_URL}${article.data.introImage || 'images/blank.jpg'}`;
+        return (
+          <li>
+            <!-- ✅ 記事ボーダー枠 -->
+            <div class="border-b border-gray-200 pb-6 max-w-[700px]">
+              <a
+                href={`${import.meta.env.BASE_URL}articles/${article.slug}`}
+                class="flex flex-col sm:flex-row items-start gap-4 hover:opacity-80 transition"
+              >
+                <!-- ✅ サムネイル -->
+                <div class="w-full sm:w-[220px] h-auto sm:h-[150px] overflow-hidden rounded-md">
+                  <img
+                    src={thumb}
+                    alt={`${article.data.title} のサムネイル`}
+                    class="w-full h-auto sm:h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <!-- ✅ テキスト -->
+                <div class="flex flex-col justify-start w-full">
+                  <h2 class="text-xl font-bold text-[#6a6a6a] mb-4 break-jp break-words max-w-full overflow-hidden line-clamp-2 leading-snug">
+                    {article.data.title}
+                  </h2>
+                  {article.data.intro && (
+                    <p class="text-sm text-[#888888] leading-snug line-clamp-3">
+                      {article.data.intro}
+                    </p>
+                  )}
+                </div>
+              </a>
             </div>
-            {authorLabel && (
-              <span class="text-xs mt-1">Written by {authorLabel}</span>
-            )}
-          </div>
+          </li>
+        );
+      })}
+    </ul>
+  </div>
 
-          <!-- タイトル -->
-          <h1 class="text-[2rem] sm:text-[2.2rem] md:text-[2.5rem] leading-tight text-[#A1A1A1] mb-0 break-words tracking-[0.05em] text-left w-full">
-  {heading}
-</h1>
-        </div>
+  <!-- 🟦 サイドバー -->
+  <div slot="sidebar">
+    <aside class="text-sm text-[#66544E] leading-relaxed space-y-4">
+      <div>
+        <h2 class="text-base font-bold">カテゴリー</h2>
+        <p class="text-xs text-gray-400">カテゴリ一覧から記事を探す</p>
       </div>
-
-      <aside class="hidden lg:block w-[20rem]"></aside>
-    </div>
-  </div>
-</div>
-
-
-  <main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
-    <aside class="hidden lg:block w-[6rem]"></aside>
-
-    <div class="flex-1 max-w-[48rem]">
-      <slot name="intro" />
-      <slot name="toc" />
-      <slot />
-
-    <!-- ✅ 中央カラムに配置 -->
-    <div class="mt-12">
-      <slot name="pager" />
-    </div>
-  </div>
-
-      
-    </div>
-
-    <aside class="hidden lg:block w-[20rem]">
-      <slot name="sidebar" />
+      <ul class="divide-y divide-gray-200 border-t border-b">
+        <li>
+          <a href={`${import.meta.env.BASE_URL}category/screenwriting`} class="flex items-center justify-between py-2 hover:underline">
+            <span>脚本術・理論</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href={`${import.meta.env.BASE_URL}category/genre-guide`} class="flex items-center justify-between py-2 hover:underline">
+            <span>映画ジャンル別ガイド</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href={`${import.meta.env.BASE_URL}category/column`} class="flex items-center justify-between py-2 hover:underline">
+            <span>コラム</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-[#82A0AA]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </li>
+      </ul>
     </aside>
-    
-
-  </main>
-  <script is:inline>
-  document.addEventListener("DOMContentLoaded", () => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    const targets = document.querySelectorAll(".article-page ol li");
-    targets.forEach((el, i) => {
-      el.classList.add("fade-in-on-scroll");
-      el.style.transitionDelay = `${i * 0.2}s`;
-      observer.observe(el);
-    });
-  });
-</script>
-</BaseLayout>
+  </div>
+</Layout>
