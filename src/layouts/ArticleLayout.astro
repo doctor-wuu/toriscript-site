@@ -1,6 +1,6 @@
 ---
 // src/layouts/ArticleLayout.astro
-import BaseLayout from './BaseLayout.astro';
+import BaseLayout from "@/layouts/BaseLayout.astro";
 const { title, heading = "", category, tag, slug, categoryLabel, categorySlug, authorLabel, pubDate, pageType = "article" } = Astro.props;
 
 const middleCrumb = category
@@ -33,7 +33,7 @@ const breadcrumbJson = {
     {
       "@type": "ListItem",
       "position": middleCrumb ? 3 : 2,
-      "name": title,
+      "name": heading,
       "item": `https://toriscript.com/articles/${slug}/`
     }
   ]
@@ -72,7 +72,7 @@ const breadcrumbJson = {
               <span class="mx-1">＞</span>
             </>
           )}
-          <span>{title}</span>
+          <span>{heading}</span>
         </div>
       </div>
       <aside class="hidden lg:block w-[20rem]"></aside>
@@ -112,7 +112,7 @@ const breadcrumbJson = {
 
           <!-- タイトル -->
           <h1 class="text-[2rem] sm:text-[2.2rem] md:text-[2.5rem] leading-tight text-[#A1A1A1] mb-0 break-words tracking-[0.05em] text-left w-full">
-  {title}
+  {heading}
 </h1>
         </div>
       </div>
@@ -123,29 +123,29 @@ const breadcrumbJson = {
 </div>
 
 
-  <main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
-    <aside class="hidden lg:block w-[6rem]"></aside>
+<main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
+  <!-- ✅ 左カラム：高さを明示 -->
+  <aside class="hidden lg:block w-[6rem] min-h-full">
+  <div class="h-full"></div>
+  </aside>
 
-    <div class="flex-1 max-w-[48rem]">
-      <slot name="intro" />
-      <slot name="toc" />
-      <slot />
+  <!-- <div class="flex-1 max-w-[48rem]">
+    <slot name="intro" />
+    <slot name="toc" />
+    <slot />
 
-    <!-- ✅ 中央カラムに配置 -->
     <div class="mt-12">
       <slot name="pager" />
     </div>
-  </div>
+  </div> -->
 
-      
-    </div>
+  <aside class="hidden lg:block w-[20rem]">
+    <slot name="sidebar" />
+  </aside>
+</main>
 
-    <aside class="hidden lg:block w-[20rem]">
-      <slot name="sidebar" />
-    </aside>
-    
 
-  </main>
+
   <script is:inline>
   document.addEventListener("DOMContentLoaded", () => {
     const observer = new IntersectionObserver(
