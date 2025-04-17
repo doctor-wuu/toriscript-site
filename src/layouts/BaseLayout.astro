@@ -2,7 +2,7 @@
 // src/layouts/BaseLayout.astro
 import { SITE } from '@/config';
 
-const { title = "脚本・シナリオ解析｜Tori Script（トリスクリプト）" } = Astro.props;
+const { title, pageType = "article" } = Astro.props;
 const bodyClass = pageType === "index" ? "index-page" : "article-page";
 
 ---
