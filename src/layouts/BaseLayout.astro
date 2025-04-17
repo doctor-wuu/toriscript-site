@@ -2,15 +2,16 @@
 // src/layouts/BaseLayout.astro
 import { SITE } from '@/config';
 
-const { title, pageType = "article" } = Astro.props;
+const { title = "脚本・シナリオ解析｜Tori Script（トリスクリプト）" } = Astro.props;
 const bodyClass = pageType === "index" ? "index-page" : "article-page";
+
 ---
 
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title || "脚本・シナリオ解析｜Tori Script（トリスクリプト）"}</title>
+    <title>{title}</title>
 
     <!-- グローバルCSS -->
     <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles/global.css`} />

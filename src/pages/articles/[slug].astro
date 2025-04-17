@@ -49,7 +49,8 @@ const authorMap = {
 ---
 
 <ArticleLayout
-  title={`${post.data.title} | 構成シナリオ解析｜Tori Script（トリスクリプト）`}
+  title={`${post?.data.title}｜構成シナリオ解析｜Tori Script（トリスクリプト）`}  // SEO用
+  heading={post?.data.title}  // 見出し用
   headings={headings}
   slug={slug}
   category={categoryId}
@@ -58,7 +59,7 @@ const authorMap = {
   tag={post?.data.tags?.[0] ?? null}
   authorLabel={authorMap[post?.data.author] ?? 'Unknown'}
   pubDate={post.data.pubDate}
->
+/>
   <!-- ✅ パンくず -->
 
 

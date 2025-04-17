@@ -10,7 +10,10 @@ const articles = (await getCollection('articles')).sort((a, b) => {
 ---
 
   <!-- 🟩 メインコンテンツ -->
-<Layout title="脚本・シナリオ解析｜Tori Script（トリスクリプト） 記事一覧" fullWidth={true}>
+<Layout title="脚本・シナリオ解析｜Tori Script（トリスクリプト） 記事一覧"
+heading="記事一覧"
+fullWidth={true}
+>
   <div slot="logo">
     <header class="py-4 flex flex-col items-center">
       <a href={import.meta.env.BASE_URL} class="block">

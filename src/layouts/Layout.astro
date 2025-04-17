@@ -2,7 +2,7 @@
 // src/layouts/Layout.astro
 import BaseLayout from './BaseLayout.astro';
 
-const { title, fullWidth = false } = Astro.props;
+const { title, heading = "", fullWidth = false } = Astro.props;
 ---
 
 <BaseLayout title={title}>
