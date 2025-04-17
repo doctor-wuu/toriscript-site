@@ -123,14 +123,15 @@ const breadcrumbJson = {
 </div>
 
 
- <!-- タイトルバーの下 -->
-<main class="max-w-[1440px] mx-auto flex flex-wrap px-4 py-8 gap-6">
-  <aside class="hidden lg:block w-[6rem]"></aside>
+<main class="max-w-7xl mx-auto flex px-4 py-8 gap-8">
+  <!-- ✅ 左カラム：高さを明示 -->
+  <aside class="hidden lg:block w-[6rem] min-h-full"></aside>
 
-  <div class="flex-1 min-w-0">
+  <div class="flex-1 max-w-[48rem]">
     <slot name="intro" />
     <slot name="toc" />
     <slot />
+
     <div class="mt-12">
       <slot name="pager" />
     </div>
