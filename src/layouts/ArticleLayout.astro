@@ -81,10 +81,10 @@ const breadcrumbJson = {
 
   <div slot="titleBlock">
     <div class="w-full bg-[#f5f5f5] min-h-[281px] flex items-center">
-      <div class="max-w-7xl mx-auto flex w-full">
+      <div class="max-w-7xl mx-auto flex w-full px-4">
         <aside class="hidden lg:block w-[7rem]"></aside>
         <div class="flex-1 flex items-center">
-          <div class="w-full max-w-[52rem] px-4">
+          <div class="w-full max-w-[52rem]">
             <div class="flex justify-between items-start mb-4 text-sm text-gray-500 flex-wrap">
               <div class="flex items-center gap-4">
                 {categoryLabel && (
@@ -110,20 +110,24 @@ const breadcrumbJson = {
     </div>
   </div>
 
-  <div slot="main">
-    <div class="prose mx-auto article-page max-w-[48rem] mt-0 [&>*:first-child]:mt-0">
-      <slot name="intro" />
-      <slot name="toc" />
-      <slot />
-      <div class="mt-12">
-        <slot name="pager" />
-      </div>
-    </div>
-  </div>
+  <main class="max-w-7xl mx-auto px-4 py-8">
+    <div class="flex flex-col lg:flex-row gap-8">
+      <aside class="hidden lg:block w-[6rem]"></aside>
 
-  <div slot="sidebar">
-    <slot name="sidebar" />
-  </div>
+      <div class="flex-1 max-w-[48rem]">
+        <slot name="intro" />
+        <slot name="toc" />
+        <slot />
+        <div class="mt-12">
+          <slot name="pager" />
+        </div>
+      </div>
+
+      <aside class="hidden lg:block w-[20rem]">
+        <slot name="sidebar" />
+      </aside>
+    </div>
+  </main>
 
   <script is:inline>
     document.addEventListener("DOMContentLoaded", () => {
