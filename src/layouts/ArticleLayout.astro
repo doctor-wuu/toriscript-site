@@ -129,19 +129,15 @@ const breadcrumbJson = {
   <div class="h-full"></div>
   </aside>
 
-<div class="flex-1 max-w-[48rem]">
-  <slot name="intro" />
-  <slot name="toc" />
-
-  <!-- ✅ slot() をラップして強制的に幅を制御 -->
-  <div class="prose article-page w-full max-w-full">
+  <div class="flex-1 max-w-[48rem]">
+    <slot name="intro" />
+    <slot name="toc" />
     <slot />
-  </div>
 
-  <div class="mt-12">
-    <slot name="pager" />
+    <div class="mt-12">
+      <slot name="pager" />
+    </div>
   </div>
-</div>
 
   <aside class="hidden lg:block w-[20rem]">
     <slot name="sidebar" />
