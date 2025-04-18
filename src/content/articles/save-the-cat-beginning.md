@@ -34,6 +34,7 @@ tags:
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
 ### 「Save the Cat!」の本当の意味とは？
@@ -280,8 +281,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 " Don’t think. feel. "</h5>
 
 
-
-
+<a href="https://amzn.to/4jaf8XW" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <!-- 関連コンテンツ風（記事末） -->
