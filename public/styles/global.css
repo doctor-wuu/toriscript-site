@@ -293,3 +293,9 @@ img.responsive-img {
   border-radius: 0.5rem;
 }
 
+h5.note-box {
+  display: block;
+  width: 95%;
+  max-width: 48rem;
+  margin: 2rem auto;
+}
