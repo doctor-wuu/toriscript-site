@@ -1,6 +1,6 @@
 ---
 
-slug:  save-the-cat-beginning
+slug: save-the-cat-beginning
 title: シナリオ初心者必見！　脚本の救世主「Save the Cat!」前半パートの使い方と事例（サメもいるよ）
 description: なぜ"猫を助ける"必要が？　シナリオ初心者が学ぶべきバイブル『Save the Cat!』の前半をわかりやすく解説！　プロット作成や登場人物の作例のヒントを交え、脚本や構成の基本を紹介します。
 pubDate: "2025-04-15"
