@@ -255,7 +255,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 <div class="note-box">サメ映画は「考えるな、感じろ」<br>
 " Don’t think. feel. "</div>
 
- -->
+--> 
 
 <!-- 
 <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
