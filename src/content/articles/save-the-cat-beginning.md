@@ -29,6 +29,7 @@ tags:
      data-ad-client="ca-pub-2685020883138124"
      data-ad-slot="6057267145"
      data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -82,8 +83,9 @@ tags:
      data-ad-client="ca-pub-2685020883138124"
      data-ad-slot="9782681740"
      data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 
@@ -209,8 +211,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
      data-ad-client="ca-pub-2685020883138124"
      data-ad-slot="7156518409"
      data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 
@@ -285,11 +288,11 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6992270400"
      data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6992270400"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 
