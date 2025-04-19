@@ -23,18 +23,17 @@ tags:
 
 ---
 
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6057267145"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="overflow-x-hidden w-full max-w-full my-8">
+  <div class="w-full max-w-full overflow-x-auto">
+    <ins class="adsbygoogle"
+         style="display:block; width:100%;"
+         data-ad-client="ca-pub-2685020883138124"
+         data-ad-slot="6057267145"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+  </div>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
@@ -78,17 +77,17 @@ tags:
 
 <h5 class="note-box">サメ映画のほとんどが無視しています</h5>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="9782681740"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="overflow-x-hidden w-full max-w-full my-8">
+  <div class="w-full max-w-full overflow-x-auto">
+    <ins class="adsbygoogle"
+         style="display:block; width:100%;"
+         data-ad-client="ca-pub-2685020883138124"
+         data-ad-slot="9782681740"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+  </div>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 ## 脚本構成のカギ！『Save the Cat!』前半7ビートとは
 
 
@@ -109,9 +108,7 @@ tags:
 
 あまり人気のない作品で「なんとなくノれないな……」みたいな時は大体このセクションがうまく作れていません。
 
-
 <h5 class="note-box">サメ映画はココが分かりやすい</h5>
-
 
 #### オープニング・イメージが秀逸な映画
 
@@ -127,9 +124,7 @@ tags:
 
 とはいえ、あまりに露骨だと説教臭い作品だとレッテルが貼られてしまうことも。あくまでさりげなく、他のシーンと馴染むように推敲を重ねましょう。
 
-
 <h5 class="note-box">サメ映画の場合はテーマが"サメ"になりがち</h5>
-
 
 #### テーマの提示が馴染んでいる映画
 
@@ -143,9 +138,7 @@ tags:
 
 このパートでしっかりと土台を築けば後の展開がスムーズになり、感情的なつながりも深まります。また、後半で登場する~~みんな大好き~~「伏線」も、ここで配置されることが多いです。
 
-
 <h5 class="note-box">サメ映画はココが曖昧</h5>
-
 
 #### セットアップが秀逸な映画
 
@@ -159,9 +152,7 @@ tags:
 
 観客にとっては「この話はこう動くのか！」という方向性が明確になる重要な場面である、いわゆる「総スカン」が発生しやすいポイント。ここが曖昧だと印象が薄い作品になってしまうので注意。
 
-
 <h5 class="note-box">サメ映画はサメが出たり出なかったり。出ないことのほうが多い</h5>
-
 
 #### きっかけが分かりやすい映画
 
@@ -175,9 +166,7 @@ tags:
 
 このビートがしっかりしていると、次の大きな一歩（第一ターニング・ポイント）がより力強く感じられます。逆にそれまでのセクションが上手く働いていないと共感が得られないことも。
 
-
 <h5 class="note-box">サメ映画はノリで押し切りがち</h5>
-
 
 #### 悩みのときが分かりやすい映画
 
@@ -191,9 +180,7 @@ tags:
 
 このパートで重要なのは、「主人公が自らの意思で一歩を踏み出す」こと。受け身ではなく、決断したうえで物語に突入することで、観客も感情的に引き込まれていきます。
 
-
 <h5 class="note-box">サメ映画だとモジモジしている間にモブが食われる</h5>
-
 
 #### 第一ターニング・ポイントが秀逸な映画
 
@@ -209,9 +196,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 反面「痛快娯楽！」メインな90分映画だと端折られることも。無理に入れると「またこれか～」みたいな反応になるので、なければないで困らないかも。
 
-
 <h5 class="note-box">サメ映画には絶対無駄なセクシーシーンがある。だいたいココ</h5>
-
 
 #### サブプロットが美しい映画
 
@@ -219,19 +204,17 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="7156518409"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+<div class="overflow-x-hidden w-full max-w-full my-8">
+  <div class="w-full max-w-full overflow-x-auto">
+    <ins class="adsbygoogle"
+         style="display:block; width:100%;"
+         data-ad-client="ca-pub-2685020883138124"
+         data-ad-slot="7156518409"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+  </div>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
 ## 初心者でも実践できる！　各ビートの使い方とポイント
 
@@ -259,9 +242,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 『ローマの休日』は、クラシカルなストーリーながら、『Save the Cat!』のビート構成に非常に忠実です。
 
-1. オープニング・イメージ：王女としての窮屈な日常が描かれ、彼女の「変わりたい」という欲求が示唆される。
-2. きっかけ：王宮を抜け出し、睡眠薬の影響で倒れてしまう。
-3. 第一ターニング・ポイント：新聞記者ジョーと出会い、身分を隠したまま「普通の女の子」としてローマの街を冒険する決意をする。
+1. オープニング・イメージ：王女としての窮屈な日常が描かれ、彼女の「変わりたい」という欲求が示唆される。2. きっかけ：王宮を抜け出し、睡眠薬の影響で倒れてしまう。3. 第一ターニング・ポイント：新聞記者ジョーと出会い、身分を隠したまま「普通の女の子」としてローマの街を冒険する決意をする。
 4. Bストーリー：ジョーとアンの関係が深まり、テーマである「自由と責任」「真実と愛」が浮かび上がってくる。
 
 このように名作といわれる映画を紐解いて観察すれば、ビートの実践的な使い方が自然に頭に入ることに。初心者にとっても「なんとなく面白い」ではなく「なぜ面白いのか」を言語化する第一歩へと繋がります。
@@ -278,7 +259,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 ### 「対立の深まり」への布石とは？
 
-後半ビートでは、物語はよりシリアスに、より感情的に深まっていきます。そのため、前半のビートの中で **「対立」「ジレンマ」「選択の伏線」**をしっかりと仕込んでおくことが重要です。
+後半ビートでは、物語はよりシリアスに、より感情的に深まっていきます。そのため、前半のビートの中で **「対立」「ジレンマ」「選択の伏線」** をしっかりと仕込んでおくことが重要です。
 
 具体的には、セットアップで提示された“欠けているもの”が、後半でどうぶつかり、どう克服されるかを意識して配置します。主人公と周囲の人間関係、あるいは「理想と現実」の対立が、後半のクライマックスを支える柱になるのです。
 
@@ -294,21 +275,21 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 これらを後半ビートの流れに沿って解説しながら、読者の心をつかみ、最後まで魅了する脚本構成を作るヒントをお届けします。
 
-
 <h5 class="note-box">サメ映画は「考えるな、感じろ」<br>
 " Don’t think. feel. "</h5>
 
 
-<a href="https://amzn.to/4jaf8XW" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6992270400"
-     data-ad-format="autorelaxed"
-     data-full-width-responsive="true"></ins>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
+<div class="overflow-x-hidden w-full max-w-full my-8">
+  <div class="w-full max-w-full overflow-x-auto">
+    <ins class="adsbygoogle"
+         style="display:block; width:100%;"
+         data-ad-client="ca-pub-2685020883138124"
+         data-ad-slot="6992270400"
+         data-ad-format="autorelaxed"
+         data-full-width-responsive="true"></ins>
+  </div>
+</div>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
