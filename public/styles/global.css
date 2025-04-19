@@ -300,8 +300,14 @@ h5.note-box {
   margin: 2rem auto;
 }
 
-.article-page .ad-wrapper,
-.article-page .ad-wrapper * {
-  max-width: 100vw !important;
-  box-sizing: border-box;
+.ad-wrapper {
+  width: 98%;
+  max-width: 48rem;
+  margin: 2rem auto;
+  overflow-x: auto; /* ← ここを hidden から auto にして確認もOK */
+}
+.ad-wrapper > ins.adsbygoogle {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
 }
