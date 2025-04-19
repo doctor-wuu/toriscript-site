@@ -61,7 +61,7 @@ tags:
 
 
 
-![3匹の猫](/images/save-the-cat-beginning2/1.jpg)
+![3匹の猫](/images/save-the-cat-beginning/1.jpg)
 
 『Save the Cat!』は独自のストーリービートを提唱していますが、その骨組みは「三幕構成」と強く結びついています。三幕構成とは、物語を「始まり（第一幕）」「中盤（第二幕）」「終わり（第三幕）」の3つに分けて構成する、古典的かつ普遍的なストーリーテリングの基本理論です。
 
@@ -88,7 +88,7 @@ tags:
 
 
 
-![ジョーズのサメ](/images/save-the-cat-beginning2/2.jpg)
+![ジョーズのサメ](/images/save-the-cat-beginning/2.jpg)
 
 脚本執筆において最も難しいのが「どこで何を描けばいいのか」という構成の問題です。物語を15のビートに分けることで、『Save the Cat!』はそれぞれの場面で何を描くべきかを明示しています。
 
@@ -276,14 +276,13 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 
 
-<a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning2/3.jpg)</a>
+<a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6992270400"
      data-ad-format="autorelaxed"
-     data-full-width-responsive="true"></ins>
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6992270400"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
