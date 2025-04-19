@@ -301,14 +301,4 @@ h5.note-box {
   margin: 2rem auto;
 }
 
-/* ad */
-.article-page .adsbygoogle,
-.prose .adsbygoogle {
-  display: block;
-  width: 100%;
-  max-width: 100% !important;
-  margin: 2rem auto;
-  overflow: hidden;
-  box-sizing: border-box;
-}
 
