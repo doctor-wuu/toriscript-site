@@ -203,6 +203,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
+     crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -281,6 +284,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
+     crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
