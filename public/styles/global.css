@@ -306,7 +306,10 @@ h5.note-box {
   margin: 2rem auto;
   overflow-x: hidden;
   contain: layout;
-
 }
 
-
+.article-page .ad-wrapper > ins {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+}
