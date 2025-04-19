@@ -268,9 +268,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 " Don’t think. feel. "</div> -->
 
 
-
-<a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
- -->
+<!-- <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a> -->
 
 
 <ins class="adsbygoogle"
