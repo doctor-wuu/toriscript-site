@@ -2,7 +2,7 @@
 
 slug: test
 title: tettest
-pubDate: "2025-04-08"
+pubDate: "2025-01-08"
 category: 1
 author: 1
 introImage: images/intro/test.jpg
@@ -185,11 +185,9 @@ tags:
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6992270400"
-     data-ad-format="autorelaxed"
+     data-ad-slot="6057267145"
+     data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-![画像1](/images/test/1.jpg)
