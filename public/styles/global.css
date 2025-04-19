@@ -301,19 +301,14 @@ h5.note-box {
 }
 
 .article-page .ad-wrapper {
-  width: 98%;
+  width: 100%;
   max-width: 48rem;
   margin: 2rem auto;
   overflow-x: hidden;
-  contain: layout;
 }
 
-.article-page .ad-wrapper > ins {
-  display: inline-block;
-  width: 100%;
-  max-width: 100%;
-}
 
+/* 💡 横スクロール抑制（広告や画像のはみ出し対策） 何かあった時は疑え*/
 html, body {
   overflow-x: hidden;
 }
