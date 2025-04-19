@@ -291,6 +291,7 @@ img.responsive-img {
   height: auto;
   margin: 2rem auto;
   border-radius: 0.5rem;
+  display: block; /* ←インラインで余白出るの防ぐ */
 }
 
 h5.note-box {
@@ -299,3 +300,4 @@ h5.note-box {
   max-width: 48rem;
   margin: 2rem auto;
 }
+
