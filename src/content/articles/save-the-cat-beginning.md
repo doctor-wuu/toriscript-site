@@ -23,7 +23,8 @@ tags:
 
 ---
 
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <!-- 目次下くん -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -33,7 +34,8 @@ tags:
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+</script>
+ -->
 
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
@@ -75,10 +77,9 @@ tags:
 
 シンプルな三幕構成に「実践的な詳細設計」が加わったことで、初心者にも扱いやすく、プロにとっても再現性のある構成法──つまり基礎にして真理となっているのです。
 
-<!-- <h5 class="note-box">サメ映画のほとんどが無視しています</h5> -->
+<!-- <h5 class="note-box">サメ映画のほとんどが無視しています</h5>
 
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
-<!-- 記事中2号 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -87,7 +88,8 @@ tags:
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+</script>
+ -->
 ## 脚本構成のカギ！『Save the Cat!』前半7ビートとは
 
 
@@ -108,7 +110,9 @@ tags:
 
 あまり人気のない作品で「なんとなくノれないな……」みたいな時は大体このセクションがうまく作れていません。
 
-<!-- <h5 class="note-box">サメ映画はココが分かりやすい</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画はココが分かりやすい</h5>
+ -->
 
 #### オープニング・イメージが秀逸な映画
 
@@ -124,7 +128,9 @@ tags:
 
 とはいえ、あまりに露骨だと説教臭い作品だとレッテルが貼られてしまうことも。あくまでさりげなく、他のシーンと馴染むように推敲を重ねましょう。
 
-<!-- <h5 class="note-box">サメ映画の場合はテーマが"サメ"になりがち</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画の場合はテーマが"サメ"になりがち</h5>
+ -->
 
 #### テーマの提示が馴染んでいる映画
 
@@ -138,7 +144,9 @@ tags:
 
 このパートでしっかりと土台を築けば後の展開がスムーズになり、感情的なつながりも深まります。また、後半で登場する~~みんな大好き~~「伏線」も、ここで配置されることが多いです。
 
-<!-- <h5 class="note-box">サメ映画はココが曖昧</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画はココが曖昧</h5>
+ -->
 
 #### セットアップが秀逸な映画
 
@@ -152,7 +160,9 @@ tags:
 
 観客にとっては「この話はこう動くのか！」という方向性が明確になる重要な場面である、いわゆる「総スカン」が発生しやすいポイント。ここが曖昧だと印象が薄い作品になってしまうので注意。
 
-<!-- <h5 class="note-box">サメ映画はサメが出たり出なかったり。出ないことのほうが多い</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画はサメが出たり出なかったり。出ないことのほうが多い</h5>
+ -->
 
 #### きっかけが分かりやすい映画
 
@@ -166,7 +176,9 @@ tags:
 
 このビートがしっかりしていると、次の大きな一歩（第一ターニング・ポイント）がより力強く感じられます。逆にそれまでのセクションが上手く働いていないと共感が得られないことも。
 
-<!-- <h5 class="note-box">サメ映画はノリで押し切りがち</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画はノリで押し切りがち</h5>
+ -->
 
 #### 悩みのときが分かりやすい映画
 
@@ -180,7 +192,9 @@ tags:
 
 このパートで重要なのは、「主人公が自らの意思で一歩を踏み出す」こと。受け身ではなく、決断したうえで物語に突入することで、観客も感情的に引き込まれていきます。
 
-<!-- <h5 class="note-box">サメ映画だとモジモジしている間にモブが食われる</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画だとモジモジしている間にモブが食われる</h5>
+ -->
 
 #### 第一ターニング・ポイントが秀逸な映画
 
@@ -196,7 +210,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 反面「痛快娯楽！」メインな90分映画だと端折られることも。無理に入れると「またこれか～」みたいな反応になるので、なければないで困らないかも。
 
-<!-- <h5 class="note-box">サメ映画には絶対無駄なセクシーシーンがある。だいたいココ</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画には絶対無駄なセクシーシーンがある。だいたいココ</h5>
+ -->
 
 #### サブプロットが美しい映画
 
@@ -204,8 +220,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
-<!-- 記事中4号 -->
+<!-- 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -214,7 +231,8 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+</script>
+ -->
 
 ## 初心者でも実践できる！　各ビートの使い方とポイント
 
@@ -277,14 +295,14 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 これらを後半ビートの流れに沿って解説しながら、読者の心をつかみ、最後まで魅了する脚本構成を作るヒントをお届けします。
 
-<!-- <h5 class="note-box">サメ映画は「考えるな、感じろ」<br>
-" Don’t think. feel. "</h5> -->
+<!-- 
+<h5 class="note-box">サメ映画は「考えるな、感じろ」<br>
+" Don’t think. feel. "</h5>
 
 
 <a href="https://amzn.to/4jaf8XW" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
-<!-- 関連コンテンツ風（記事末） -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -293,4 +311,5 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script> -->
+</script>
+ -->
