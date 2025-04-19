@@ -22,7 +22,7 @@ tags:
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
      data-ad-slot="6057267145"
-     data-ad-format="auto"
+     data-ad-format="autorelaxed"
      data-full-width-responsive="true">
      </ins>
 <script>
