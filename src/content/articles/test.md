@@ -18,15 +18,17 @@ tags:
 
 ---
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6057267145"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<div class="ad-wrapper">
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2685020883138124"
+       data-ad-slot="6057267145"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 
 
 ## 1. 脚本とは？　映画・漫画・ライトノベルの違い
