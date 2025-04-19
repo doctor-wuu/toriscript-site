@@ -18,14 +18,7 @@ tags:
 
 ---
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="6992270400"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 
 ## 1. 脚本とは？　映画・漫画・ライトノベルの違い
@@ -191,3 +184,12 @@ tags:
 ### 犬派の意見はどうなる？
 
 というような唐突さこそ引きの極意──この手法は冲方丁さんの本で解説されています。こんな感じで読み手を翻弄してやりましょう！
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6992270400"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
