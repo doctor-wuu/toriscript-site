@@ -18,6 +18,16 @@ tags:
 
 ---
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="9782681740"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 1. 脚本とは？　映画・漫画・ライトノベルの違い
 
 脚本とは、映像作品や漫画、小説などのストーリーを構成するための設計図のようなものです。しかし、媒体によってその形式や書き方には違いがあります。ここでは、それぞれの特徴を詳しく掘り下げて解説します。
