@@ -313,3 +313,7 @@ h5.note-box {
   width: 100%;
   max-width: 100%;
 }
+
+html, body {
+  overflow-x: hidden;
+}
