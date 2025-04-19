@@ -300,4 +300,12 @@ h5.note-box {
   margin: 2rem auto;
 }
 
+.article-page .adsbygoogle {
+  display: block !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 2rem auto !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
 
