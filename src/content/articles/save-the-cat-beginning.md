@@ -23,7 +23,6 @@ tags:
 
 ---
 
- <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
       crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
