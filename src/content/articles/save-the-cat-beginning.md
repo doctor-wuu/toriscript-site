@@ -23,7 +23,7 @@ tags:
 
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <!-- 目次下くん -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -33,7 +33,7 @@ tags:
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
@@ -77,7 +77,7 @@ tags:
 
 <!-- <h5 class="note-box">サメ映画のほとんどが無視しています</h5> -->
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <!-- 記事中2号 -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -87,7 +87,7 @@ tags:
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 ## 脚本構成のカギ！『Save the Cat!』前半7ビートとは
 
 
@@ -204,7 +204,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <!-- 記事中4号 -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -214,7 +214,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 
 ## 初心者でも実践できる！　各ビートの使い方とポイント
 
@@ -283,7 +283,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://amzn.to/4jaf8XW" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
 <!-- 関連コンテンツ風（記事末） -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -293,4 +293,4 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
      data-full-width-responsive="true"></ins>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
