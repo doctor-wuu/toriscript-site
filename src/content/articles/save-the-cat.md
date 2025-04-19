@@ -184,8 +184,6 @@ tags:
 
 というような唐突さこそ引きの極意──この手法は冲方丁さんの本で解説されています。こんな感じで読み手を翻弄してやりましょう！
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
-     crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="autorelaxed"
