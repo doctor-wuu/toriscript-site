@@ -18,6 +18,15 @@ tags:
 
 ---
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6057267145"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 脚本とは？　映画・漫画・ライトノベルの違い
 
@@ -69,16 +78,6 @@ tags:
 シナリオを作る際、どんなジャンルであっても基本となるのが『三幕構成』です。この構成は、物語を3つの大きな部分（幕）に分けることで、読者や観客を自然に引き込み、感情を高めながらクライマックスへと導く手法です。
 
 映画だけでなく漫画やライトノベルのシナリオにも応用でき、無意識・意識的を問わず、多くのヒット作がこの構成に当てはまります。ベテランだけでなく初心者にとってもシナリオの流れを整理しやすくなるので、まずは一度、基本の構成を学んでみましょう。
-
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="5531218183"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ### 三幕構成のメリット
 
