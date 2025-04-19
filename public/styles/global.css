@@ -300,4 +300,11 @@ h5.note-box {
   margin: 2rem auto;
 }
 
+.article-page .ad-wrapper {
+  width: 98%;
+  max-width: 48rem;
+  margin: 2rem auto;
+  overflow-x: hidden;
+}
+
 
