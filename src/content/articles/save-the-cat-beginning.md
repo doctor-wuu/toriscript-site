@@ -23,18 +23,17 @@ tags:
 
 ---
 
-<div class="w-full overflow-x-hidden my-8">
-  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
-    <!-- 目次下くん -->
-    <ins class="adsbygoogle"
-         style="display:block; width:100%;"
-         data-ad-client="ca-pub-2685020883138124"
-         data-ad-slot="6057267145"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-  </div>
-</div>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- 目次下くん -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6057267145"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
@@ -78,18 +77,17 @@ tags:
 
 <h5 class="note-box">サメ映画のほとんどが無視しています</h5>
 
-<div class="w-full overflow-x-hidden my-8">
-  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
-    <!-- 記事中2号 -->
-    <ins class="adsbygoogle"
-         style="display:block; width:100%;"
-         data-ad-client="ca-pub-2685020883138124"
-         data-ad-slot="9782681740"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-  </div>
-</div>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- 記事中2号 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="9782681740"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## 脚本構成のカギ！『Save the Cat!』前半7ビートとは
 
 
@@ -206,18 +204,17 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
-<div class="w-full overflow-x-hidden my-8">
-  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
-    <!-- 記事中4号 -->
-    <ins class="adsbygoogle"
-         style="display:block; width:100%;"
-         data-ad-client="ca-pub-2685020883138124"
-         data-ad-slot="7156518409"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-  </div>
-</div>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- 記事中4号 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="7156518409"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 初心者でも実践できる！　各ビートの使い方とポイント
 
@@ -285,15 +282,14 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-<div class="w-full overflow-x-hidden my-8">
-  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
-    <!-- 関連コンテンツ風（記事末） -->
-    <ins class="adsbygoogle"
-         style="display:block; width:100%;"
-         data-ad-client="ca-pub-2685020883138124"
-         data-ad-slot="6992270400"
-         data-ad-format="autorelaxed"
-         data-full-width-responsive="true"></ins>
-  </div>
-</div>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124" crossorigin="anonymous"></script>
+<!-- 関連コンテンツ風（記事末） -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6992270400"
+     data-ad-format="autorelaxed"
+     data-full-width-responsive="true"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
