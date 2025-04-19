@@ -23,8 +23,9 @@ tags:
 
 ---
 
-<div class="overflow-x-hidden w-full max-w-full my-8">
-  <div class="w-full max-w-full overflow-x-auto">
+<div class="w-full overflow-x-hidden my-8">
+  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
+    <!-- 目次下くん -->
     <ins class="adsbygoogle"
          style="display:block; width:100%;"
          data-ad-client="ca-pub-2685020883138124"
@@ -77,8 +78,9 @@ tags:
 
 <h5 class="note-box">サメ映画のほとんどが無視しています</h5>
 
-<div class="overflow-x-hidden w-full max-w-full my-8">
-  <div class="w-full max-w-full overflow-x-auto">
+<div class="w-full overflow-x-hidden my-8">
+  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
+    <!-- 記事中2号 -->
     <ins class="adsbygoogle"
          style="display:block; width:100%;"
          data-ad-client="ca-pub-2685020883138124"
@@ -204,8 +206,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
-<div class="overflow-x-hidden w-full max-w-full my-8">
-  <div class="w-full max-w-full overflow-x-auto">
+<div class="w-full overflow-x-hidden my-8">
+  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
+    <!-- 記事中4号 -->
     <ins class="adsbygoogle"
          style="display:block; width:100%;"
          data-ad-client="ca-pub-2685020883138124"
@@ -282,8 +285,9 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://example.com" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
-<div class="overflow-x-hidden w-full max-w-full my-8">
-  <div class="w-full max-w-full overflow-x-auto">
+<div class="w-full overflow-x-hidden my-8">
+  <div class="max-w-full overflow-x-auto sm:overflow-visible sm:max-w-none">
+    <!-- 関連コンテンツ風（記事末） -->
     <ins class="adsbygoogle"
          style="display:block; width:100%;"
          data-ad-client="ca-pub-2685020883138124"
