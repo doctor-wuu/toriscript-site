@@ -181,13 +181,3 @@ tags:
 ### 犬派の意見はどうなる？
 
 というような唐突さこそ引きの極意──この手法は冲方丁さんの本で解説されています。こんな感じで読み手を翻弄してやりましょう！
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="7156518409"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
