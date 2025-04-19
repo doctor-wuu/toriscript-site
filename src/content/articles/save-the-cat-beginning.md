@@ -6,7 +6,7 @@ description: なぜ"猫を助ける"必要が？　シナリオ初心者が学�
 pubDate: "2025-04-15"
 category: 1
 author: 1
-introImage: images/intro/save-the-cat-beginning2.jpg
+introImage: images/intro/save-the-cat-beginning.jpg
 intro: なぜ"猫を助ける"必要が？　シナリオ初心者が学ぶべき『Save the Cat!』の前半7ビートをわかりやすく解説！　プロット作成や登場人物の作例のヒントを交え、脚本や構成の基本を紹介します。
 tags:
   - save-the-cat
@@ -30,7 +30,7 @@ tags:
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
@@ -82,8 +82,9 @@ tags:
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
 ## 脚本構成のカギ！『Save the Cat!』前半7ビートとは
 
 
@@ -207,7 +208,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 ## 初心者でも実践できる！　各ビートの使い方とポイント
