@@ -75,7 +75,7 @@ tags:
      data-ad-layout="in-article"
      data-ad-format="fluid"
      data-ad-client="ca-pub-2685020883138124"
-     data-ad-slot="1647286835"></ins>
+     data-ad-slot="5531218183"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
