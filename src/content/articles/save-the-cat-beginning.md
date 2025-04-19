@@ -78,6 +78,9 @@ tags:
 
 <h5 class="note-box">サメ映画のほとんどが無視しています</h5>
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
+     crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
