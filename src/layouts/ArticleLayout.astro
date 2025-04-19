@@ -168,4 +168,17 @@ const breadcrumbJson = {
     });
   });
 </script>
+
+<script is:inline>
+  window.addEventListener('load', () => {
+    setTimeout(() => {
+      document.querySelectorAll('.article-page .adsbygoogle iframe').forEach((iframe) => {
+        iframe.style.maxWidth = '100%';
+        iframe.style.width = '100%';
+        iframe.style.boxSizing = 'border-box';
+      });
+    }, 1000); // AdSenseのiframeが出るまで少し待つのがコツ
+  });
+</script>
+
 </BaseLayout>
