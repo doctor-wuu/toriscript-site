@@ -23,8 +23,9 @@ tags:
 
 ---
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
-      crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2685020883138124"
+     crossorigin="anonymous"></script>
+<!-- 目次下くん -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -32,7 +33,7 @@ tags:
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
+     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
