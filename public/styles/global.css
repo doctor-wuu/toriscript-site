@@ -45,9 +45,6 @@
       left: 0 !important;
       width: 100% !important;
     }
-    .toc {
-      margin-left: 1rem;
-      margin-right: 1rem;
   }
 }
 
@@ -235,6 +232,17 @@
 .toc li::marker {
   content: none !important;
 }
+
+.article-page .toc {
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .intro {
   font-size: 1rem;
