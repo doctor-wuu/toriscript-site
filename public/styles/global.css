@@ -335,8 +335,3 @@ body {
   transform-origin: center;
 }
 
-.article-page {
-  padding-inline: 1rem;
-  max-width: 100vw;
-  box-sizing: border-box;
-}
