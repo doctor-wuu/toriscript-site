@@ -43,7 +43,7 @@
     .article-page .prose h2::before,
     .article-page .prose h2::after {
       left: 0 !important;
-      width: 100% !important;
+      width: 10% !important;
     }
   }
 }
