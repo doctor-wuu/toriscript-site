@@ -349,10 +349,6 @@ body {
   }
 }
 
-/* 本文をちょい左寄せ */
-.article-page .prose {
-  padding-left: 1rem;
-}
 
 @layer components {
   @media (max-width: 768px) {
