@@ -325,14 +325,13 @@ body {
   margin: 2rem auto;
   overflow-x: hidden;
   box-sizing: border-box;
-  padding: 0 1rem;
 }
 
 .ad-wrapper > .adsbygoogle {
   display: block !important;
   width: 100% !important;
   max-width: 100% !important;
-  transform: scale(0.98); /* ← ここがカギ！ */
+  transform: scale(0.97); /* ← ここがカギ！ */
   transform-origin: center;
 }
 
