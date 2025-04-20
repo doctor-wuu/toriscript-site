@@ -21,8 +21,8 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: -1em;
+  width: calc(100% + 1.5em);
   height: 2px;
   background-color: #707070;
   border-radius: 1px;
@@ -32,18 +32,14 @@
   content: "";
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: -1em;
+  width: calc(100% + 1.5em);
   height: 2px;
   background-color: #707070;
   border-radius: 1px;
 }
 
-.prose {
-  max-width: 48rem;
-  margin: 0 auto;
-  padding-inline: 1rem;
-}
+
 
 .prose :where(p + h3),
 .prose :where(p + h4) {
