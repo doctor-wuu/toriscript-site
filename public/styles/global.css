@@ -342,9 +342,11 @@ body {
       left: 0 !important;
       width: 100% !important;
     }
-    .article-page {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
+  }
+}
+
+@media (max-width: 768px) {
+  .article-page {
+    padding-inline: 1rem;
   }
 }
