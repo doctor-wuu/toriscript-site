@@ -53,32 +53,52 @@ tags:
  食感（2/5）
  満足感（3.5/5）
 コスパ（4/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">inバー プロテイン ベイクドチョコ</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分（1本標準43g当り）</td>
-<td bgcolor="#ffffff">エネルギー199kcal、たんぱく質16.2g、脂質10.7g、炭水化物12.8g、糖質6.0g、食物繊維6.8g、食塩相当量0.10～0.51g、ナイアシン2.9～18.7mg、パントテン酸1.3～6.5mg、ビタミンB1 0.22～1.32mg、ビタミンB20.31～1.54mg、ビタミンB6&nbsp; 0.19～1.32mg、ビタミンB12 0.3～2.6&mu;g、葉酸 15～252&mu;g、酵素処理ルチン42mg、（参考値）リン136mg、カリウム164mg</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">大豆たんぱく、ホエイたんぱく（乳成分を含む）、食物繊維（イヌリン、ポリデキストロース）、植物油脂、ショートニング、ココアパウダー、大豆パフ、マーガリン、アーモンド、カゼインカルシウム、カカオマス、ヘーゼルナッツペースト、麦芽糖、キャラメルパウダー、果糖／乳化剤、ソルビトール、グリセリン、トレハロース、香料、酵素処理ルチン、膨脹剤、ナイアシン、パントテン酸Ca、甘味料（スクラロース）、V.B6、V.B2、V.B1、葉酸、V.B12</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">150円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.morinaga.co.jp/in/bar/baked_bitter.html" target="_blank" rel="noopener">https://www.morinaga.co.jp/in/bar/baked_bitter.html</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">inバー プロテイン ベイクドチョコ</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分（1本標準43g当り）</td>
+        <td class="px-4 py-2">
+          エネルギー199kcal、たんぱく質16.2g、脂質10.7g、炭水化物12.8g、糖質6.0g、食物繊維6.8g、食塩相当量0.10～0.51g、<br>
+          ナイアシン2.9～18.7mg、パントテン酸1.3～6.5mg、ビタミンB1 0.22～1.32mg、ビタミンB2 0.31～1.54mg、ビタミンB6 0.19～1.32mg、<br>
+          ビタミンB12 0.3～2.6μg、葉酸 15～252μg、酵素処理ルチン42mg、（参考値）リン136mg、カリウム164mg
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          大豆たんぱく、ホエイたんぱく（乳成分を含む）、食物繊維（イヌリン、ポリデキストロース）、植物油脂、ショートニング、<br>
+          ココアパウダー、大豆パフ、マーガリン、アーモンド、カゼインカルシウム、カカオマス、ヘーゼルナッツペースト、麦芽糖、キャラメルパウダー、<br>
+          果糖／乳化剤、ソルビトール、グリセリン、トレハロース、香料、酵素処理ルチン、膨脹剤、ナイアシン、パントテン酸Ca、<br>
+          甘味料（スクラロース）、V.B6、V.B2、V.B1、葉酸、V.B12
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">150円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.morinaga.co.jp/in/bar/baked_bitter.html" target="_blank" rel="noopener">
+            https://www.morinaga.co.jp/in/bar/baked_bitter.html
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## 1本満足バー プロテインチョコ
@@ -105,36 +125,63 @@ tags:
 食感（4.5/5）
 満足感（4/5）
 コスパ（4/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">１本満足バー　プロテインチョコ</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示</td>
-<td bgcolor="#ffffff">エネルギー183kcal、たんぱく質15g、脂質8.5g、炭水化物12.1g（糖質11g、食物繊維0.4～1.8g）、食塩相当量0.3～0.6g、ビタミンB₁0.50mg、ビタミンB₂0.67mg、ビタミンB₆0.58mg、ビタミンB₁₂1.5&mu;g、ビタミンE3.2mg、リジン10mg、ヒスチジン1.0mg、フェニルアラニン5.4mg、ロイシン32mg、イソロイシン8.5mg、メチオニン2.4mg、バリン8.8mg、スレオニン7.3mg、トリプトファン0.53mg</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">アミノ酸組成</td>
-<td bgcolor="#ffffff">アルギニン971mg、リジン1147mg、ヒスチジン410mg、フェニルアラニン772mg、チロシン534mg、ロイシン1431mg、イソロイシン815mg、メチオニン234mg、バリン835mg、アラニン710mg、グリシン566mg、プロリン940mg、グルタミン酸3058mg、セリン850mg、スレオニン757mg、アスパラギン酸1771mg、トリプトファン238mg、シスチン246mg</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名（1本39g当たり）</td>
-<td bgcolor="#ffffff">チョコレート（砂糖、カカオマス、全粉乳、植物油脂、ココアバター、その他）（国内製造）、大豆パフ（大豆たん白、でん粉、植物油脂）（小麦を含む）、ホエイたん白、植物油脂、大豆加工品、レーズン、グルコマンナン／炭酸Ca、乳化剤、トレハロース、ロイシン、香料、リジン、バリン、イソロイシン、スレオニン、V.E、フェニルアラニン、メチオニン、ヒスチジン、V.B₆、V.B₂、トリプトファン、V.B₁、V.B₁₂</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">138円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/protein/4946842526345.html" target="_blank" rel="noopener">https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">１本満足バー　プロテインチョコ</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示</td>
+        <td class="px-4 py-2">
+          エネルギー183kcal、たんぱく質15g、脂質8.5g、炭水化物12.1g（糖質11g、食物繊維0.4～1.8g）、<br>
+          食塩相当量0.3～0.6g、ビタミンB₁ 0.50mg、ビタミンB₂ 0.67mg、ビタミンB₆ 0.58mg、ビタミンB₁₂ 1.5μg、<br>
+          ビタミンE 3.2mg、リジン10mg、ヒスチジン1.0mg、フェニルアラニン5.4mg、ロイシン32mg、<br>
+          イソロイシン8.5mg、メチオニン2.4mg、バリン8.8mg、スレオニン7.3mg、トリプトファン0.53mg
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">アミノ酸組成</td>
+        <td class="px-4 py-2">
+          アルギニン971mg、リジン1147mg、ヒスチジン410mg、フェニルアラニン772mg、チロシン534mg、<br>
+          ロイシン1431mg、イソロイシン815mg、メチオニン234mg、バリン835mg、アラニン710mg、<br>
+          グリシン566mg、プロリン940mg、グルタミン酸3058mg、セリン850mg、スレオニン757mg、<br>
+          アスパラギン酸1771mg、トリプトファン238mg、シスチン246mg
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名（1本39g当たり）</td>
+        <td class="px-4 py-2">
+          チョコレート（砂糖、カカオマス、全粉乳、植物油脂、ココアバター、その他）（国内製造）、<br>
+          大豆パフ（大豆たん白、でん粉、植物油脂）（小麦を含む）、ホエイたん白、植物油脂、大豆加工品、<br>
+          レーズン、グルコマンナン／炭酸Ca、乳化剤、トレハロース、ロイシン、香料、リジン、バリン、<br>
+          イソロイシン、スレオニン、V.E、フェニルアラニン、メチオニン、ヒスチジン、V.B₆、V.B₂、<br>
+          トリプトファン、V.B₁、V.B₁₂
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">138円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/protein/4946842526345.html" target="_blank" rel="noopener">
+            https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## matsukiyoLAB プロテインバーチョコレート
@@ -165,36 +212,54 @@ BIG＝8.43円
 食感（3.5/5）
 満足感（4/5）
 コスパ（5/5）👑
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">matsukiyoLAB プロテインバーチョコレート BIG</td>
-</tr>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">平塚製菓株式会社 草加工場</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示（標準50g）当たり</td>
-<td bgcolor="#ffffff">エネルギー244.6kcal、たんぱく質21.9g、脂質12.3g、炭水化物12.3g（糖質10.7g、食物繊維1.6g）、食塩相当量0.8g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">チョコレート（砂糖、カカオマス、ココアバター、全粉乳、乳糖、植物油脂、ココアパウダー）（国内製造）、大豆パフ（大豆たんぱく、でん粉、植物油脂）、大豆たんぱく、ココアバター／トレハロース、炭酸カルシウム、乳化剤、香料、（一部に小麦・大豆・乳成分を含む）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">168円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.matsukiyo.co.jp/store/online/p/4580101204539" target="_blank" rel="noopener">https://www.matsukiyo.co.jp/store/online/p/4580101204539</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">matsukiyoLAB プロテインバーチョコレート BIG</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">平塚製菓株式会社 草加工場</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示（標準50g）当たり</td>
+        <td class="px-4 py-2">
+          エネルギー244.6kcal、たんぱく質21.9g、脂質12.3g、炭水化物12.3g（糖質10.7g、食物繊維1.6g）、<br>
+          食塩相当量0.8g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          チョコレート（砂糖、カカオマス、ココアバター、全粉乳、乳糖、植物油脂、ココアパウダー）（国内製造）、<br>
+          大豆パフ（大豆たんぱく、でん粉、植物油脂）、大豆たんぱく、ココアバター／トレハロース、<br>
+          炭酸カルシウム、乳化剤、香料、（一部に小麦・大豆・乳成分を含む）
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">168円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.matsukiyo.co.jp/store/online/p/4580101204539" target="_blank" rel="noopener">
+            https://www.matsukiyo.co.jp/store/online/p/4580101204539
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## ウィングラム プロテインバー
@@ -225,32 +290,55 @@ BIG＝8.43円
 食感（2/5）
 満足感（3.5/5）
 コスパ（1/5）💀
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">プロテインバーチョコレートクッキー</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示（40g）当たり</td>
-<td bgcolor="#ffffff">エネルギー186kcal、たんぱく質10.7g、脂質8.7g、飽和脂肪酸4.6g、炭水化物16.9g（糖質15.3g、食物繊維1.6g）、食塩相当量0.3g、カルシウム227mg、鉄2.3mg、ビタミンA70～440&mu;g、ビタミンB₁0.40mg、ビタミンB₂0.47mg、ビタミンB₆0.43mg、ビタミンB₁₂0.9&mu;g、ナイアシン4.3mg、葉酸35～180&mu;g、、パントテン酸2.8mg、ビタミンD2.6&mu;g、、ビタミンＥ4.1mg、パラチノース2.5g、MCT(中鎖脂肪酸油)1.2g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">大豆たんぱく（国内製造）、ショートニング、小麦粉、砂糖、パラチノース、小麦たんぱく、大豆加工食品（大豆パフ）、ココアパウダー、MCT（中鎖脂肪酸油）、液卵黄（卵を含む）、カカオマス、植物油脂、水飴、食物繊維（イヌリン）、全粉乳、乳糖、食塩 / ソルビトール、グリセリン、卵殻未焼成Ｃａ(卵由来)、乳化剤（大豆由来）、トレハロース、炭酸Ｃａ、香料（乳由来）、Ｖ.Ｅ、ナイアシン、パントテン酸Ｃａ、ピロリン酸第二鉄、Ｖ.Ｂ₁、Ｖ.Ｂ₂、Ｖ.Ｂ₆、Ｖ.Ａ、葉酸、Ｖ.Ｄ、Ｖ.Ｂ₁₂</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">130円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.bourbon.co.jp/wingram/lineup_pc.html" target="_blank" rel="noopener">https://www.bourbon.co.jp/wingram/lineup_pc.html</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">プロテインバーチョコレートクッキー</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示（40g）当たり</td>
+        <td class="px-4 py-2">
+          エネルギー186kcal、たんぱく質10.7g、脂質8.7g、飽和脂肪酸4.6g、<br>
+          炭水化物16.9g（糖質15.3g、食物繊維1.6g）、食塩相当量0.3g、カルシウム227mg、鉄2.3mg、<br>
+          ビタミンA70～440μg、ビタミンB₁ 0.40mg、ビタミンB₂ 0.47mg、ビタミンB₆ 0.43mg、<br>
+          ビタミンB₁₂ 0.9μg、ナイアシン4.3mg、葉酸35～180μg、パントテン酸2.8mg、<br>
+          ビタミンD 2.6μg、ビタミンE 4.1mg、パラチノース2.5g、MCT(中鎖脂肪酸油)1.2g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          大豆たんぱく（国内製造）、ショートニング、小麦粉、砂糖、パラチノース、小麦たんぱく、<br>
+          大豆加工食品（大豆パフ）、ココアパウダー、MCT（中鎖脂肪酸油）、液卵黄（卵を含む）、カカオマス、<br>
+          植物油脂、水飴、食物繊維（イヌリン）、全粉乳、乳糖、食塩 / ソルビトール、グリセリン、<br>
+          卵殻未焼成Ca(卵由来)、乳化剤（大豆由来）、トレハロース、炭酸Ca、香料（乳由来）、<br>
+          V.E、ナイアシン、パントテン酸Ca、ピロリン酸第二鉄、V.B₁、V.B₂、V.B₆、V.A、葉酸、V.D、V.B₁₂
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">130円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.bourbon.co.jp/wingram/lineup_pc.html" target="_blank" rel="noopener">
+            https://www.bourbon.co.jp/wingram/lineup_pc.html
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## トップバリュ プロテインバー シリアルチョコ
@@ -276,36 +364,54 @@ BIG＝8.43円
 食感（4.5/5）
 満足感（3.5/5）
 コスパ（5/5）👑
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">プロテイン15gバーチョコ</td>
-</tr>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">株式会社スイーツ・スイーツ</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示（標準36g当たり）</td>
-<td bgcolor="#ffffff">エネルギー172kcal、たんぱく質15g、脂質9.0g、炭水化物8.8g（糖質6.7g、食物繊維2.1g）、食塩相当量0.4g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">チョコレート(乳成分を含む)、大豆パフ、カカオマス、乳たん白、ショートニング/乳化剤(大豆由来)、V.C、香料、V.E、ナイアシン、パントテン酸Ca、V.B1、V.A、V.B6、V.B2、葉酸、レシチン(大豆由来)、酸化防止剤(V.E)、V.D、V.B12</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">98円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.topvalu.net/items/detail/4549414003253/" target="_blank" rel="noopener">https://www.topvalu.net/items/detail/4549414003253/</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">プロテイン15gバーチョコ</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">株式会社スイーツ・スイーツ</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示（標準36g当たり）</td>
+        <td class="px-4 py-2">
+          エネルギー172kcal、たんぱく質15g、脂質9.0g、炭水化物8.8g（糖質6.7g、食物繊維2.1g）、<br>
+          食塩相当量0.4g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          チョコレート(乳成分を含む)、大豆パフ、カカオマス、乳たん白、ショートニング／乳化剤(大豆由来)、<br>
+          V.C、香料、V.E、ナイアシン、パントテン酸Ca、V.B1、V.A、V.B6、V.B2、葉酸、<br>
+          レシチン(大豆由来)、酸化防止剤(V.E)、V.D、V.B12
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">98円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.topvalu.net/items/detail/4549414003253/" target="_blank" rel="noopener">
+            https://www.topvalu.net/items/detail/4549414003253/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## 無印良品 たんぱく質のお菓子 ミルクチョコレートバー
@@ -333,36 +439,54 @@ BIG＝8.43円
 食感（4/5）
 満足感（4/5）
 コスパ（4/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">高たんぱくのお菓子 ミルクチョコバー</td>
-</tr>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">株式会社とかち製菓</td>
-</tr>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">栄養成分表示</td>
-<td bgcolor="#ffffff">エネルギー207kcal、たんぱく質16.1g、脂質10.8g、炭水化物12.1g（糖質10.63g、食物繊維1.43g）、食塩相当量0.5g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">準チョコレート（国内製造）、大豆パフ（粉末状大豆たん白、でん粉、植物油脂）、調整豆乳粉末、植物油脂、オレンジピール加工品／トレハロース、炭酸カルシウム、乳化剤、塩化マグネシウム含有物、校了、酸味料、（一部に乳成分・オレンジ・大豆を含む）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">約139円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.muji.com/jp/ja/store/cmdty/detail/4550344839621" target="_blank" rel="noopener">https://www.muji.com/jp/ja/store/cmdty/detail/4550344839621</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">高たんぱくのお菓子 ミルクチョコバー</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">株式会社とかち製菓</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示</td>
+        <td class="px-4 py-2">
+          エネルギー207kcal、たんぱく質16.1g、脂質10.8g、炭水化物12.1g（糖質10.63g、食物繊維1.43g）、<br>
+          食塩相当量0.5g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          準チョコレート（国内製造）、大豆パフ（粉末状大豆たん白、でん粉、植物油脂）、調整豆乳粉末、<br>
+          植物油脂、オレンジピール加工品／トレハロース、炭酸カルシウム、乳化剤、塩化マグネシウム含有物、<br>
+          校了、酸味料、（一部に乳成分・オレンジ・大豆を含む）
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">約139円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.muji.com/jp/ja/store/cmdty/detail/4550344839621" target="_blank" rel="noopener">
+            https://www.muji.com/jp/ja/store/cmdty/detail/4550344839621
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## プロフィット ささみプロテインバー レモン味
@@ -389,32 +513,51 @@ BIG＝8.43円
 食感（3/5）
 満足感（2/5）
 コスパ（1/5）💀
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">プロフィットささみプロテインバー レモン味</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示1本 (65g)&nbsp;</td>
-<td bgcolor="#ffffff">エネルギー70kcal、たんぱく質11.0g、脂質0.5g、炭水化物4.6g、食塩相当量1.2g、イミダゾールジペプチド200mg&nbsp;</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">鶏ささみ（国産）、豚コラーゲンペプチド、チキンエキス、食塩、発酵調味料、野菜ミックスソテーピューレー、香辛料、ゆず皮ペースト、たまねぎエキス、レモン果汁、酵母パウダー、チキンエキスパウダー／加工デンプン、調味料(アミノ酸等)、トレハロース、リン酸塩(Na)、レシチン、香料、甘味料(ネオテーム)、香辛料抽出物、(一部に小麦・大豆・鶏肉・豚肉・ゼラチンを含む)</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">200円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="http://www.mrz.co.jp/products/sausage/profit/profit_lemon_2019.php" target="_blank" rel="noopener">http://www.mrz.co.jp/products/sausage/profit/profit_lemon_2019.php</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">プロフィットささみプロテインバー レモン味</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示1本 (65g)</td>
+        <td class="px-4 py-2">
+          エネルギー70kcal、たんぱく質11.0g、脂質0.5g、炭水化物4.6g、<br>
+          食塩相当量1.2g、イミダゾールジペプチド200mg
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          鶏ささみ（国産）、豚コラーゲンペプチド、チキンエキス、食塩、発酵調味料、野菜ミックスソテーピューレー、<br>
+          香辛料、ゆず皮ペースト、たまねぎエキス、レモン果汁、酵母パウダー、チキンエキスパウダー／<br>
+          加工デンプン、調味料(アミノ酸等)、トレハロース、リン酸塩(Na)、レシチン、香料、甘味料(ネオテーム)、<br>
+          香辛料抽出物、（一部に小麦・大豆・鶏肉・豚肉・ゼラチンを含む）
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">200円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="http://www.mrz.co.jp/products/sausage/profit/profit_lemon_2019.php" target="_blank" rel="noopener">
+            http://www.mrz.co.jp/products/sausage/profit/profit_lemon_2019.php
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## 1本満足バー プロテインブラック
@@ -443,36 +586,58 @@ BIG＝8.43円
 食感（4/5）
 満足感（4.5/5）
 コスパ（5/5）👑
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">１本満足バー プロテインブラック</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">若尾製菓株式会社</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示</td>
-<td bgcolor="#ffffff">エネルギー185kcal、たんぱく質15～22g、脂質9.3g、炭水化物10g（糖質2～5g、食物繊維4～9g）、食塩相当量0.3～0.6g、ビタミンB₁0.49mg、ビタミンB₂0.59mg、ビタミンB₆0.57mg、ビタミンB₁₂1.6&mu;g、ビタミンE3.3mg</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">チョコレート（カカオマス、イヌリン、植物油脂、ココアパウダー）（国内製造）、大豆パフ（大豆たん白、でん粉、植物油脂）（小麦を含む）、ホエイたん白、乳等を主要原料とする食品、植物油脂、食物繊維、グルコマンナン／炭酸Ca、乳化剤、トレハロース、甘味料（アセスルファムK、アスパルテーム・L-フェニルアラニン化合物、スクラロース、ラカンカ抽出物）、ロイシン、リジン、バリン、イソロイシン、V.E、スレオニン、フェニルアラニン、メチオニン、ヒスチジン、香料、V.B₆、V.B₂、トリプトファン、V.B₁、V.B₁₂</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">150円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/protein/4946842528424.html" target="_blank" rel="noopener">https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">１本満足バー プロテインブラック</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">若尾製菓株式会社</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示</td>
+        <td class="px-4 py-2">
+          エネルギー185kcal、たんぱく質15～22g、脂質9.3g、炭水化物10g（糖質2～5g、食物繊維4～9g）、<br>
+          食塩相当量0.3～0.6g、ビタミンB₁ 0.49mg、ビタミンB₂ 0.59mg、ビタミンB₆ 0.57mg、<br>
+          ビタミンB₁₂ 1.6μg、ビタミンE 3.3mg
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          チョコレート（カカオマス、イヌリン、植物油脂、ココアパウダー）（国内製造）、<br>
+          大豆パフ（大豆たん白、でん粉、植物油脂）（小麦を含む）、ホエイたん白、乳等を主要原料とする食品、<br>
+          植物油脂、食物繊維、グルコマンナン／炭酸Ca、乳化剤、トレハロース、<br>
+          甘味料（アセスルファムK、アスパルテーム・L-フェニルアラニン化合物、スクラロース、ラカンカ抽出物）、<br>
+          ロイシン、リジン、バリン、イソロイシン、V.E、スレオニン、フェニルアラニン、メチオニン、<br>
+          ヒスチジン、香料、V.B₆、V.B₂、トリプトファン、V.B₁、V.B₁₂
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">150円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/protein/4946842528424.html" target="_blank" rel="noopener">
+            https://www.asahi-gf.co.jp/products/health/support-food/1pon-manzoku/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## in BAR PROTEIN ウェファーバニラ
@@ -496,40 +661,58 @@ BIG＝8.43円
 食感（5/5）👑
 満足感（2.5/5）
 コスパ（1/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">in BAR PROTEIN ウェファーバニラ</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">オガワ食品協業組合</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">ショートニング（国内製造）、小麦粉、大豆たんぱく、ホエイたんぱく（乳成分を含む）、イヌリン、植物油脂、果糖、砂糖、ココアパウダー、難消化性デキストリン、とうもろこしでん粉、食塩／乳化剤、香料、酵素処理ルチン、膨脹剤、甘味料（スクラロース）、ナイアシン、パントテン酸Ca、V.B6、V.B2、V.B1、葉酸、V.B12</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示
-1本（標準37g）当たり</td>
-<td bgcolor="#ffffff">
-熱量195kcal、たんぱく質10.3g、脂質12.1g、炭水化物13.1g（糖質9.1g、食物繊維4g）、食塩相当量0.2～0.45g、ナイアシン5.4～15.2mg、パントテン酸2.3～5.7mg、ビタミンB10.4～1.14mg、ビタミンB20.52～1.3mg、ビタミンB60.46～1.14mg、ビタミンB120.7～2.3&mu;g、葉酸42～195&mu;g
-酵素処理ルチン42mg配合、（参考値）リン78mg、カリウム81mg
-</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">150円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.morinaga.co.jp/in/bar/vanilla.html" target="_blank" rel="noopener">https://www.morinaga.co.jp/in/bar/vanilla.html</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">in BAR PROTEIN ウェファーバニラ</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">オガワ食品協業組合</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          ショートニング（国内製造）、小麦粉、大豆たんぱく、ホエイたんぱく（乳成分を含む）、<br>
+          イヌリン、植物油脂、果糖、砂糖、ココアパウダー、難消化性デキストリン、とうもろこしでん粉、<br>
+          食塩／乳化剤、香料、酵素処理ルチン、膨脹剤、甘味料（スクラロース）、ナイアシン、<br>
+          パントテン酸Ca、V.B6、V.B2、V.B1、葉酸、V.B12
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示（1本37g当たり）</td>
+        <td class="px-4 py-2">
+          熱量195kcal、たんぱく質10.3g、脂質12.1g、炭水化物13.1g（糖質9.1g、食物繊維4g）、<br>
+          食塩相当量0.2～0.45g、ナイアシン5.4～15.2mg、パントテン酸2.3～5.7mg、<br>
+          ビタミンB1 0.4～1.14mg、ビタミンB2 0.52～1.3mg、ビタミンB6 0.46～1.14mg、<br>
+          ビタミンB12 0.7～2.3μg、葉酸42～195μg、酵素処理ルチン42mg配合、<br>
+          （参考値）リン78mg、カリウム81mg
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">150円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.morinaga.co.jp/in/bar/vanilla.html" target="_blank" rel="noopener">
+            https://www.morinaga.co.jp/in/bar/vanilla.html
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## ライザップ 5Diet ダイエットサポートバー チョコレート
@@ -561,38 +744,54 @@ BIG＝8.43円
 食感（4/5）
 満足感（2/5）
 コスパ（-5/5）💀
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">5Diet ダイエットサポートバー&nbsp;チョコレート</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">日本食材株式会社</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">大豆パフ（大豆たん白、タピオカ澱粉、食塩）（イギリス製造）、砂糖、カカオマス、植物油脂、全粉乳、エリスリトール、ココアバター、ドロマイト/乳化剤、V.C炭酸Ca、V.E.、ナイアシン、パントテン酸Ca、V.B₁、V.B₆、V.B₂、V.A、葉酸、V.D.、V.B₁₂、（一部に小麦・乳成分・大豆・アーモンドを含む）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示</td>
-<td bgcolor="#ffffff">
-エネルギー144kcal、たんぱく質10.1g、脂質8.0g、炭水化物9.1g、糖質8.3g、食物繊維0.8g、食塩相当量0.5g
-</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">180円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://rizapwellness.jp/5diet/" target="_blank" rel="noopener">https://rizapwellness.jp/5diet/</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">5Diet ダイエットサポートバー チョコレート</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">日本食材株式会社</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          大豆パフ（大豆たん白、タピオカ澱粉、食塩）（イギリス製造）、砂糖、カカオマス、植物油脂、全粉乳、<br>
+          エリスリトール、ココアバター、ドロマイト／乳化剤、V.C、炭酸Ca、V.E、ナイアシン、パントテン酸Ca、<br>
+          V.B₁、V.B₆、V.B₂、V.A、葉酸、V.D、V.B₁₂、（一部に小麦・乳成分・大豆・アーモンドを含む）
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示</td>
+        <td class="px-4 py-2">
+          エネルギー144kcal、たんぱく質10.1g、脂質8.0g、炭水化物9.1g、<br>
+          糖質8.3g、食物繊維0.8g、食塩相当量0.5g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">180円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://rizapwellness.jp/5diet/" target="_blank" rel="noopener">
+            https://rizapwellness.jp/5diet/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## BODYON プロテインバー チョコレート味
@@ -618,37 +817,54 @@ BIG＝8.43円
 食感（1/5）💀
 満足感（3/5）
 コスパ（3/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">BODYON プロテインバー チョコレート味</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">平塚製菓株式会社</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">&nbsp;チョコレート（砂糖、カカオマス、ココアバター、全粉乳、乳糖、植物油脂、ココアパウダー）（国内製造）、大豆パフ（大豆たんぱく、でん粉、植物油脂）、大豆たんぱく、ココアバター／トレハロース、炭酸カルシウム、乳化剤、香料、（一部に小麦・大豆・乳成分を含む）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分
-(1本36ｇあたり)</td>
-<td bgcolor="#ffffff">エネルギー172kcal、たんぱく質13.4g、脂質9.1g、炭水化物9.4g(糖質8.7g、食物繊維0.7g)、食塩相当量0.5g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">128円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="http://www.liv-net.co.jp/products/detail/healthcare/sports/bodyon_proteinbar_chocolate.html" target="_blank" rel="noopener">http://www.liv-net.co.jp/products/detail/healthcare/sports/bodyon_proteinbar_chocolate.html</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">BODYON プロテインバー チョコレート味</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">平塚製菓株式会社</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          チョコレート（砂糖、カカオマス、ココアバター、全粉乳、乳糖、植物油脂、ココアパウダー）（国内製造）、<br>
+          大豆パフ（大豆たんぱく、でん粉、植物油脂）、大豆たんぱく、ココアバター／トレハロース、<br>
+          炭酸カルシウム、乳化剤、香料、（一部に小麦・大豆・乳成分を含む）
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分（1本36gあたり）</td>
+        <td class="px-4 py-2">
+          エネルギー172kcal、たんぱく質13.4g、脂質9.1g、炭水化物9.4g（糖質8.7g、食物繊維0.7g）、<br>
+          食塩相当量0.5g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">128円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="http://www.liv-net.co.jp/products/detail/healthcare/sports/bodyon_proteinbar_chocolate.html" target="_blank" rel="noopener">
+            http://www.liv-net.co.jp/products/detail/healthcare/sports/bodyon_proteinbar_chocolate.html
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## HEALTY SOY CHOCO プロテインプラス＆ローカーボ
@@ -673,37 +889,54 @@ BIG＝8.43円
 食感（4/5）
 満足感（3/5）
 コスパ（3/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">PROTEIN+＆LOW CARB SOY CHOCO チョコレート味</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">株式会社スイーツ・スイーツ</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">チョコレート（全粉乳、カカオマス、植物油脂、砂糖、乳たんぱく、ココアバター、エリスリトール）（国内製造）、大豆パフ、ショートニング/香料、乳化剤、甘味料（ラカンカ抽出物）、炭酸カルシウム</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示</td>
-<td bgcolor="#ffffff">エネルギー150kcal、たんぱく質12.0g、脂質8.6g、炭水化物7.5g（糖質&hellip;6.7g、食物繊維&hellip;0.8g）、食塩相当量&hellip;0.4g
- ※エリスリトール1.3g除く糖質量5.4g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">158円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://item.rakuten.co.jp/kashizairyo/pl-soychoco-cho-12/" target="_blank" rel="noopener">https://item.rakuten.co.jp/kashizairyo/</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">PROTEIN+＆LOW CARB SOY CHOCO チョコレート味</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">株式会社スイーツ・スイーツ</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          チョコレート（全粉乳、カカオマス、植物油脂、砂糖、乳たんぱく、ココアバター、エリスリトール）（国内製造）、<br>
+          大豆パフ、ショートニング／香料、乳化剤、甘味料（ラカンカ抽出物）、炭酸カルシウム
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示</td>
+        <td class="px-4 py-2">
+          エネルギー150kcal、たんぱく質12.0g、脂質8.6g、炭水化物7.5g（糖質6.7g、食物繊維0.8g）、<br>
+          食塩相当量0.4g<br>
+          ※エリスリトール1.3g除く糖質量：5.4g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">158円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://item.rakuten.co.jp/kashizairyo/pl-soychoco-cho-12/" target="_blank" rel="noopener">
+            https://item.rakuten.co.jp/kashizairyo/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## in PROTEIN Super バニラホワイト
@@ -728,42 +961,56 @@ BIG＝8.43円
 食感（5/5）
 満足感（5/5）👑
 コスパ（3.5/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">inバープロテイン&nbsp;Super バニラホワイト</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">日本食品株式会社</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">大豆パフ（国内製造）、大豆たんぱく、植物油脂、砂糖、ココアバター、全粉乳、カゼインカルシウム／グリシン、乳化剤、香料、炭酸Ca、カラメル色素、酵素処理ルチン、ナイアシン、甘味料（スクラロース）、パントテン酸Ca、V.B6、V.B2、V.B1、葉酸、V.B12</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">
-栄養成分表示
-（1本標準52g当り）
-</td>
-<td bgcolor="#ffffff">
-エネルギー259kcal、たんぱく質20.9g、脂質14.5g、炭水化物11.6g（糖質10.9g、食物繊維0.3～1.1g）、食塩相当量0.6g、ナイアシン19.2mg、パントテン酸6.2mg、ビタミンB10.52～2.81mg、ビタミンB20.62～3.23mg、ビタミンB60.52～2.81mg、ビタミンB122&mu;g、葉酸52～434&mu;g
-酵素処理ルチン42mg配合、（参考値）リン232mg、カリウム175mg
-</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">198円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.morinaga.co.jp/in/bar/super_vanilla.html" target="_blank" rel="noopener">https://www.morinaga.co.jp/in/bar/super_vanilla.html</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">inバープロテイン Super バニラホワイト</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">日本食品株式会社</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          大豆パフ（国内製造）、大豆たんぱく、植物油脂、砂糖、ココアバター、全粉乳、カゼインカルシウム／<br>
+          グリシン、乳化剤、香料、炭酸Ca、カラメル色素、酵素処理ルチン、ナイアシン、甘味料（スクラロース）、<br>
+          パントテン酸Ca、V.B6、V.B2、V.B1、葉酸、V.B12
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示（1本標準52g当り）</td>
+        <td class="px-4 py-2">
+          エネルギー259kcal、たんぱく質20.9g、脂質14.5g、炭水化物11.6g（糖質10.9g、食物繊維0.3～1.1g）、<br>
+          食塩相当量0.6g、ナイアシン19.2mg、パントテン酸6.2mg、ビタミンB1 0.52～2.81mg、<br>
+          ビタミンB2 0.62～3.23mg、ビタミンB6 0.52～2.81mg、ビタミンB12 2μg、葉酸52～434μg、<br>
+          酵素処理ルチン42mg配合、（参考値）リン232mg、カリウム175mg
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">198円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.morinaga.co.jp/in/bar/super_vanilla.html" target="_blank" rel="noopener">
+            https://www.morinaga.co.jp/in/bar/super_vanilla.html
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## ロッテ Sweets Protein
@@ -794,39 +1041,53 @@ BIG＝8.43円
 食感（1/5）💀
 満足感（2/5）
 コスパ（1/5）💀
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">スイーツプロテイン カカオ</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">ノザキ製菓株式会社</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">乳たんぱく(ドイツ製造）、水あめ、大豆たんぱく、ココアパウダー、カカオソース、ゼラチン、加糖れん乳、ココアクッキークランチ／グリセリン、ソルビトール、増粘多糖類、甘味料（スクラロース）、香料、（一部に卵・乳成分・小麦・大豆・ゼラチンを含む）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">
-栄養成分表示
-1本（標準34ｇ）当り
-</td>
-<td bgcolor="#ffffff">エネルギー118kcal、たんぱく質10.7g、脂質1.3g、炭水化物16.4g、食塩相当量0.18g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">150円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://lotte-shop.jp/shop/g/g105504/" target="_blank" rel="noopener">https://lotte-shop.jp/shop/g/g105504/</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">スイーツプロテイン カカオ</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">ノザキ製菓株式会社</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          乳たんぱく（ドイツ製造）、水あめ、大豆たんぱく、ココアパウダー、カカオソース、ゼラチン、<br>
+          加糖れん乳、ココアクッキークランチ／グリセリン、ソルビトール、増粘多糖類、<br>
+          甘味料（スクラロース）、香料、（一部に卵・乳成分・小麦・大豆・ゼラチンを含む）
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示（1本34g当り）</td>
+        <td class="px-4 py-2">
+          エネルギー118kcal、たんぱく質10.7g、脂質1.3g、炭水化物16.4g、食塩相当量0.18g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">150円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://lotte-shop.jp/shop/g/g105504/" target="_blank" rel="noopener">
+            https://lotte-shop.jp/shop/g/g105504/
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## BE-KIND プロテイン ダークチョコレート＆アーモンド
@@ -853,33 +1114,49 @@ BIG＝8.43円
 食感（5/5）👑
 満足感（5/5）👑
 コスパ（2.5/5）
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">ビーカインド プロテイン ダークチョコレート＆アーモンド</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">ピーナッツ、アーモンド、チョコレートコーチング（乳成分を含む）、分離大豆たんぱく、フラクトオリゴ糖、はちみつ、水あめ、ピーナッツバター、海塩／香料、乳化剤（大豆由来）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示
-1本40g（標準）あたり</td>
-<td bgcolor="#ffffff">エネルギー203kcal、たんぱく質9.2ｇ、脂質12.9g、炭水化物14.2g（糖質5.1～11.8g、食物繊維2.4～9.1g）、食塩相当量0.1～0.5g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">価格</td>
-<td bgcolor="#ffffff">248円</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://jp.bekindsnacks.com/ja/homepage" target="_blank" rel="noopener">https://jp.bekindsnacks.com/ja/homepage</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">ビーカインド プロテイン ダークチョコレート＆アーモンド</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          ピーナッツ、アーモンド、チョコレートコーチング（乳成分を含む）、分離大豆たんぱく、<br>
+          フラクトオリゴ糖、はちみつ、水あめ、ピーナッツバター、海塩／香料、乳化剤（大豆由来）
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示（1本40gあたり）</td>
+        <td class="px-4 py-2">
+          エネルギー203kcal、たんぱく質9.2g、脂質12.9g、炭水化物14.2g（糖質5.1～11.8g、食物繊維2.4～9.1g）、<br>
+          食塩相当量0.1～0.5g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">価格</td>
+        <td class="px-4 py-2">248円</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://jp.bekindsnacks.com/ja/homepage" target="_blank" rel="noopener">
+            https://jp.bekindsnacks.com/ja/homepage
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 
 ## プロテインバーは運動直後に食べない
