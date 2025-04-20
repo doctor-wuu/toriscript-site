@@ -16,11 +16,12 @@
   border: none !important; /* ← これ追加！ */
 }
 
+
 .prose h2::before {
   content: "";
   position: absolute;
   top: 0;
-  left: -1em;
+  left: -0.7em;
   width: calc(100% + 1.5em);
   height: 2px;
   background-color: #707070;
@@ -31,7 +32,7 @@
   content: "";
   position: absolute;
   bottom: 0;
-  left: -1em;
+  left: -0.7em;
   width: calc(100% + 1.5em);
   height: 2px;
   background-color: #707070;
@@ -312,28 +313,36 @@ h5.note-box {
   margin: 2rem auto;
 }
 
-body {
-  border: 1px solid red;
-}
-.article-page {
-  border: 1px solid blue;
-}
 
 .ad-wrapper {
   width: 100%;
   max-width: 48rem;
   margin: 2rem auto;
-  overflow-x: hidden;
   box-sizing: border-box;
+  text-align: center; /* 中央寄せ */
 }
 
 .ad-wrapper > .adsbygoogle {
-  display: block !important;
+  display: inline-block !important; /* ← blockだと中央に寄らないことがある */
   width: 100% !important;
   max-width: 100% !important;
-  transform: scale(0.98); /* ← ここがカギ！ */
+  transform: scale(0.97);
   transform-origin: center;
 }
+
+/* モバイルだけ縮小 */
+@media (max-width: 768px) {
+  .ad-wrapper > .adsbygoogle {
+    transform: scale(0.97) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ad-wrapper {
+    padding-left: 8px; /* ← 調整してね */
+  }
+}
+
 
 @layer components {
   @media (max-width: 768px) {
@@ -345,8 +354,3 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .ad-wrapper > .adsbygoogle {
-    transform: scale(0.97); /* ← モバイルではちょっと小さめに */
-  }
-}
