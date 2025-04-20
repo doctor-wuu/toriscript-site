@@ -320,26 +320,17 @@ body {
 }
 
 .ad-wrapper {
-  width: 98%;
+  width: 100%;
   max-width: 48rem;
   margin: 2rem auto;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .ad-wrapper > .adsbygoogle {
   display: block !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 auto !important;
-}
-
-body {
-  position: relative;
-}
-
-@media (max-width: 768px) {
-  .ad-wrapper {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+  transform: scale(0.98); /* ← ここがカギ！ */
+  transform-origin: center;
 }
