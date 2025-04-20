@@ -324,7 +324,6 @@ body {
   width: 100%;
   max-width: 48rem;
   margin: 2rem auto;
-  overflow-x: hidden;
   box-sizing: border-box;
 }
 
@@ -332,23 +331,25 @@ body {
   display: block !important;
   width: 100% !important;
   max-width: 100% !important;
-  transform: scale(0.97); /* ← ここがカギ！ */
+  transform: scale(0.98);
   transform-origin: center;
 }
 
-@layer components {
-  @media (max-width: 768px) {
-    .article-page .prose h2::before,
-    .article-page .prose h2::after {
-      left: 0 !important;
-      width: 100% !important;
-    }
+/* モバイルだけ縮小 */
+@media (max-width: 768px) {
+  .ad-wrapper > .adsbygoogle {
+    transform: scale(0.97) !important;
   }
 }
 
-@media (max-width: 768px) {
-  .article-page .prose {
-    padding-left: 1rem;
-    padding-right: 0.5rem;
+/* PCではtransform解除で縦スク回避 */
+@media (min-width: 769px) {
+  .ad-wrapper > .adsbygoogle {
+    transform: none !important;
   }
+}
+
+/* 本文をちょい左寄せ */
+.article-page .prose {
+  padding-left: 1rem;
 }
