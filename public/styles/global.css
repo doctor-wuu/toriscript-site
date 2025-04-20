@@ -38,13 +38,16 @@
   border-radius: 1px;
 }
 
-@media (max-width: 768px) {
-  .prose h2::before,
-  .prose h2::after {
-    left: 0 !important;
-    width: 100% !important;
+@layer components {
+  @media (max-width: 768px) {
+    .article-page .prose h2::before,
+    .article-page .prose h2::after {
+      left: 0 !important;
+      width: 100% !important;
+    }
   }
 }
+
 
 
 
