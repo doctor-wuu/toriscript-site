@@ -99,8 +99,6 @@
   font-weight: 700;
   transition: color 0.3s ease;
   display: inline; /* ← テキスト幅に合わせる！ */
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .article-page .prose a:not(.image-link)::before {
@@ -314,3 +312,9 @@ h5.note-box {
   margin: 2rem auto;
 }
 
+body {
+  border: 1px solid red;
+}
+.article-page {
+  border: 1px solid blue;
+}
