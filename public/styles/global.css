@@ -338,7 +338,7 @@ body {
 /* モバイルだけ縮小 */
 @media (max-width: 768px) {
   .ad-wrapper > .adsbygoogle {
-    transform: scale(0.97) translateX(6px) !important;
+    transform: scale(0.97) translateX(50px) !important;
   }
 }
 
