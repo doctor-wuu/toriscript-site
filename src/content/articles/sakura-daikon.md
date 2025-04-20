@@ -144,43 +144,58 @@ twitterでは2018年の購入ツイートがあるため、まだ売っている
 
 たしかに漬物か駄菓子かなど、物のあふれる現代だからこその疑問なのかもしれない。良い意味でチープな駄菓子、その懐の広さと、豊かな生活に感謝をしながらいただこうではないか。
 
- <div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">商品名</td>
-<td bgcolor="#ffffff">さくら大根</td>
-</tr>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">品名</td>
-<td bgcolor="#ffffff">酢漬(薄切り)</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">製造</td>
-<td bgcolor="#ffffff">株式会社 みやま食品工業&rarr;遠藤食品株式会社</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">原材料名</td>
-<td bgcolor="#ffffff">だいこん、漬け原材料[醸造酢、食塩]、酸味料、調味料(アミノ酸等)  
-メタリン酸Na、甘味料(アセスルファムK、アスパルテーム・L・フェニルアラニン化合物)、保存料(ソルビン酸K)  
-ビタミンB₁、赤色102号</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">栄養成分表示(100gあたり)</td>
-<td bgcolor="#ffffff">エネルギー14kcal、たんぱく質0.6g、脂質0.4g  
-炭水化物1.9g、食塩相当量1.4g</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">内容量</td>
-<td bgcolor="#ffffff">2枚（45g）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.endo-foods.co.jp/mamechisiki/sakura_daikon_hiwa.htm" target="_blank" rel="nofollow noopener">https://www.endo-foods.co.jp/mamechisiki/sakura_daikon_hiwa.htm</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full my-6">
+  <table class="w-full table-auto border-collapse text-sm">
+    <thead>
+      <tr class="bg-gray-100">
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">項目</th>
+        <th class="px-4 py-2 text-left font-semibold whitespace-nowrap">内容</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">商品名</td>
+        <td class="px-4 py-2">さくら大根</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">品名</td>
+        <td class="px-4 py-2">酢漬(薄切り)</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">製造</td>
+        <td class="px-4 py-2">株式会社 みやま食品工業→遠藤食品株式会社</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">原材料名</td>
+        <td class="px-4 py-2">
+          だいこん、漬け原材料[醸造酢、食塩]、酸味料、調味料(アミノ酸等)<br>
+          メタリン酸Na、甘味料(アセスルファムK、アスパルテーム・L・フェニルアラニン化合物)、保存料(ソルビン酸K)<br>
+          ビタミンB₁、赤色102号
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">栄養成分表示(100gあたり)</td>
+        <td class="px-4 py-2">
+          エネルギー14kcal、たんぱく質0.6g、脂質0.4g<br>
+          炭水化物1.9g、食塩相当量1.4g
+        </td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">内容量</td>
+        <td class="px-4 py-2">2枚（45g）</td>
+      </tr>
+      <tr class="bg-white border-t">
+        <td class="px-4 py-2 whitespace-nowrap">公式サイト</td>
+        <td class="px-4 py-2">
+          <a href="https://www.endo-foods.co.jp/mamechisiki/sakura_daikon_hiwa.htm" target="_blank" rel="nofollow noopener">
+            https://www.endo-foods.co.jp/mamechisiki/sakura_daikon_hiwa.htm
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 
 情報提供：<a href="http://www.miyamafoods.co.jp/" target="_blank" rel="noopener">みやま食品工業</a>、<a href="http://www.calbee.co.jp/" target="_blank" rel="noopener">カルビー</a>
 
