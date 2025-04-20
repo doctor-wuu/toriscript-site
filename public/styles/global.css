@@ -346,3 +346,9 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .article-page .prose {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+}
