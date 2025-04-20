@@ -89,21 +89,21 @@ tags:
 <div class="not-prose overflow-x-auto w-full">
   <table class="w-full table-auto text-sm">
     <tbody>
-      <tr class="bg-white">
-        <td class="min-w-[140px] px-4 py-2 font-semibold text-left">幕</td>
-        <td class="min-w-[200px] px-4 py-2 font-semibold text-left break-words">内容</td>
+      <tr>
+        <td class="bg-[#cecece] min-w-[140px] px-4 py-2 font-semibold text-left ">幕</td>
+        <td class="bg-white min-w-[200px] px-4 py-2 font-semibold text-left break-words">内容</td>
       </tr>
-      <tr class="bg-white">
-        <td class="px-4 py-2">第1幕（セットアップ）</td>
-        <td class="px-4 py-2 break-words">主人公などの登場人物、世界観を紹介。物語の目的が決まる</td>
+      <tr>
+        <td class="bg-[#cecece] px-4 py-2">第1幕（セットアップ）</td>
+        <td class="bg-white px-4 py-2 break-words">主人公などの登場人物、世界観を紹介。物語の目的が決まる</td>
       </tr>
-      <tr class="bg-white">
-        <td class="px-4 py-2">第2幕（対立・試練）</td>
-        <td class="px-4 py-2 break-words">主要人物たちが問題に直面し、成長しながら困難を乗り越えていく</td>
+      <tr>
+        <td class="bg-[#cecece] px-4 py-2">第2幕（対立・試練）</td>
+        <td class="bg-white px-4 py-2 break-words">主要人物たちが問題に直面し、成長しながら困難を乗り越えていく</td>
       </tr>
-      <tr class="bg-white">
-        <td class="px-4 py-2">第3幕（クライマックス）</td>
-        <td class="px-4 py-2 break-words">物語の最大の盛り上がり。結末に向かって収束する</td>
+      <tr>
+        <td class="bg-[#cecece] px-4 py-2">第3幕（クライマックス）</td>
+        <td class="bg-white px-4 py-2 break-words">物語の最大の盛り上がり。結末に向かって収束する</td>
       </tr>
     </tbody>
   </table>
