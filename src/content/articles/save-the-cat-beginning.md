@@ -23,6 +23,7 @@ tags:
 
 ---
 
+<div class="ad-wrapper">
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -32,6 +33,7 @@ tags:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
 
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
@@ -75,6 +77,7 @@ tags:
 
 <div class="note-box">サメ映画のほとんどが無視しています</div>
 
+<div class="ad-wrapper">
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -84,6 +87,8 @@ tags:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 ## 脚本構成のカギ！『Save the Cat!』前半7ビートとは
 
@@ -201,6 +206,8 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 - 『ズートピア』：ジュディとニックの関係が、信頼と偏見を乗り越える物語の中核に。
 - 『グッド・ウィル・ハンティング』：主人公と心理学者ショーンの絆が、心の成長と癒しを描く。
 
+
+<div class="ad-wrapper">
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-2685020883138124"
@@ -210,6 +217,8 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
+
 
 ## 初心者でも実践できる！　各ビートの使い方とポイント
 
@@ -277,6 +286,8 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 
 <a href="https://amzn.to/4jaf8XW" target="_blank" rel="noopener">![save the cat](/images/save-the-cat-beginning/3.jpg)</a>
 
+
+<div class="ad-wrapper">
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="autorelaxed"
@@ -285,3 +296,4 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+</div>
