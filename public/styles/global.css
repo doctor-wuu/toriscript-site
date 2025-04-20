@@ -43,7 +43,7 @@
     .article-page .prose h2::before,
     .article-page .prose h2::after {
       left: 0 !important;
-      width: 10% !important;
+      width: 100% !important;
     }
   }
 }
@@ -99,6 +99,8 @@
   font-weight: 700;
   transition: color 0.3s ease;
   display: inline; /* ← テキスト幅に合わせる！ */
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .article-page .prose a:not(.image-link)::before {
