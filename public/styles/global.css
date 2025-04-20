@@ -334,3 +334,13 @@ body {
   transform: scale(0.98); /* ← ここがカギ！ */
   transform-origin: center;
 }
+
+@layer components {
+  @media (max-width: 768px) {
+    .article-page .prose h2::before,
+    .article-page .prose h2::after {
+      left: 0 !important;
+      width: 100% !important;
+    }
+  }
+}
