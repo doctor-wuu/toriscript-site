@@ -38,17 +38,6 @@
   border-radius: 1px;
 }
 
-@layer components {
-  @media (max-width: 768px) {
-    .article-page .prose h2::before,
-    .article-page .prose h2::after {
-      left: 0 !important;
-      width: 100% !important;
-    }
-  }
-}
-
-
 
 
 .prose :where(p + h3),
@@ -328,4 +317,29 @@ body {
 }
 .article-page {
   border: 1px solid blue;
+}
+
+.ad-wrapper {
+  width: 98%;
+  max-width: 48rem;
+  margin: 2rem auto;
+  overflow-x: hidden;
+}
+
+.ad-wrapper > .adsbygoogle {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
+
+body {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .ad-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
