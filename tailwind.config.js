@@ -119,13 +119,14 @@ export default {
   marginLeft: 'auto',
   marginRight: 'auto',
   textAlign: 'left',
+  paddingLeft: '0.5rem', // ← ← 半角スペース分だけ左寄せ
 },
 
 'ol li': {
   position: 'relative',
   backgroundColor: '#EEE8E6',
   color: '#808080',
-  padding: '0.5em 0.5em 0.5em 1.75em', // ← 少しだけ左に寄せる（2.25em → 1.75em）
+  padding: '0.5em 0.5em 0.5em 2em', // ← ← ちょっと左に寄せた値（元は2.25em）
   marginBottom: '0.3rem',
   fontWeight: '600',
   borderRadius: '0.25rem',
@@ -135,7 +136,22 @@ export default {
 },
 
 'ol li::before': {
-  left: '0.3em', // ← 少しだけ内側に
+  content: 'counter(item)',
+  position: 'absolute',
+  left: '0.4em', // ← ← 数字バッジを少し内側に調整（元は0.5em）
+  top: '50%',
+  transform: 'translateY(-50%)',
+  display: 'inline-block',
+  backgroundColor: '#66544E',
+  color: '#ffffff',
+  fontFamily: '"Noto Sans JP", sans-serif',
+  fontWeight: '400',
+  fontSize: '0.8rem',
+  borderRadius: '50%',
+  width: '1.5em',
+  height: '1.5em',
+  lineHeight: '1.7em',
+  textAlign: 'center',
 },
             'ul li, ol li': {
               fontSize: '1em',
