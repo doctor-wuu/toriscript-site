@@ -16,12 +16,11 @@
   border: none !important; /* ← これ追加！ */
 }
 
-
 .prose h2::before {
   content: "";
   position: absolute;
   top: 0;
-  left: -0.5em;
+  left: -1em;
   width: calc(100% + 1.5em);
   height: 2px;
   background-color: #707070;
@@ -32,7 +31,7 @@
   content: "";
   position: absolute;
   bottom: 0;
-  left: -0.5em;
+  left: -1em;
   width: calc(100% + 1.5em);
   height: 2px;
   background-color: #707070;
@@ -324,35 +323,17 @@ body {
   width: 100%;
   max-width: 48rem;
   margin: 2rem auto;
+  overflow-x: hidden;
   box-sizing: border-box;
-  text-align: center; /* 中央寄せ */
-  padding-left: 6px;  /* ← モバイル時だけ追加で */
 }
 
 .ad-wrapper > .adsbygoogle {
-  display: inline-block !important; /* ← blockだと中央に寄らないことがある */
+  display: block !important;
   width: 100% !important;
   max-width: 100% !important;
-  transform: scale(0.97);
+  transform: scale(0.98); /* ← ここがカギ！ */
   transform-origin: center;
 }
-
-/* モバイルだけ縮小 */
-@media (max-width: 768px) {
-  .ad-wrapper > .adsbygoogle {
-    transform: scale(0.97) translateX(50px) !important;
-  }
-}
-
-
-
-/* PCではtransform解除で縦スク回避 */
-@media (min-width: 769px) {
-  .ad-wrapper > .adsbygoogle {
-    transform: none !important;
-  }
-}
-
 
 @layer components {
   @media (max-width: 768px) {
@@ -364,3 +345,8 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .ad-wrapper > .adsbygoogle {
+    transform: scale(0.97); /* ← モバイルではちょっと小さめに */
+  }
+}
