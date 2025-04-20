@@ -325,7 +325,6 @@ body {
   max-width: 48rem;
   margin: 2rem auto;
   box-sizing: border-box;
-  transform: translateX(4px);
 }
 
 .ad-wrapper > .adsbygoogle {
@@ -339,7 +338,7 @@ body {
 /* モバイルだけ縮小 */
 @media (max-width: 768px) {
   .ad-wrapper > .adsbygoogle {
-    transform: scale(0.97) !important;
+    transform: scale(0.97) translateX(6px) !important;
   }
 }
 
