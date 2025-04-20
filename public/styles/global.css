@@ -353,3 +353,14 @@ body {
 .article-page .prose {
   padding-left: 1rem;
 }
+
+@layer components {
+  @media (max-width: 768px) {
+    .article-page .prose h2::before,
+    .article-page .prose h2::after {
+      left: 0 !important;
+      width: 100% !important;
+    }
+  }
+}
+
