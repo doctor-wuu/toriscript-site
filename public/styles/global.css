@@ -41,8 +41,8 @@
 @media (max-width: 768px) {
   .prose h2::before,
   .prose h2::after {
-    left: 0;
-    width: 100%;
+    display: none !important;
+    content: none !important; /* 念のため */
   }
 }
 
