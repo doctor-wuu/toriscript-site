@@ -44,7 +44,7 @@ tags:
 
 ![ポテトフライ](/images/bin-ramune/2.jpg)
 
-<div class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ</a>（[参考記事](/articles/potato-fry)）</div>
+<div class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ</a><br> （ [参考記事](/articles/potato-fry) ）</div>
 
 別ベクトルではないものの、低価格帯で勝負しなければいけない以上、両者はほとんどトレードオフの関係といってもいい。
 
