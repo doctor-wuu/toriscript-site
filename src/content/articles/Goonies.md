@@ -588,30 +588,33 @@ tags:
 ![ブルーレイ](/images/Goonies/19.jpg)
 
 </a>
-<div class="overflow-x-auto">
-<table class="skeletonTable" border="0" width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-<td style="width: 140px;" bgcolor="#cecece">タイトル</td>
-<td bgcolor="#ffffff">グーニーズ（Goonies）</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">脚本</td>
-<td bgcolor="#ffffff">クリス・コロンバス</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">監督</td>
-<td bgcolor="#ffffff">リチャード・ドナー</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">総指揮</td>
-<td bgcolor="#ffffff">スティーヴン・スピルバーグ</td>
-</tr>
-<tr>
-<td bgcolor="#cecece">公式サイト</td>
-<td bgcolor="#ffffff"><a href="https://www.thegoonies.com/default.aspx" target="_blank" rel="noopener">https://www.thegoonies.com/default.aspx</a></td>
-</tr>
-</tbody>
-</table>
+<div class="not-prose overflow-x-auto w-full">
+  <table class="w-full table-auto text-sm border-collapse border">
+    <tbody>
+      <tr>
+        <td class="bg-[#EEE8E6] min-w-[140px] px-4 py-2 font-semibold text-left">タイトル</td>
+        <td class="bg-white min-w-[200px] px-4 py-2 font-semibold text-left break-words">グーニーズ（Goonies）</td>
+      </tr>
+      <tr>
+        <td class="bg-[#EEE8E6] px-4 py-2 border">脚本</td>
+        <td class="bg-white px-4 py-2 break-words border">クリス・コロンバス</td>
+      </tr>
+      <tr>
+        <td class="bg-[#EEE8E6] px-4 py-2 border">監督</td>
+        <td class="bg-white px-4 py-2 break-words border">リチャード・ドナー</td>
+      </tr>
+      <tr>
+        <td class="bg-[#EEE8E6] px-4 py-2 border">総指揮</td>
+        <td class="bg-white px-4 py-2 break-words border">スティーヴン・スピルバーグ</td>
+      </tr>
+      <tr>
+        <td class="bg-[#EEE8E6] px-4 py-2 border">公式サイト</td>
+        <td class="bg-white px-4 py-2 break-words border">
+          <a href="https://www.thegoonies.com/default.aspx" target="_blank" rel="noopener">https://www.thegoonies.com/default.aspx</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+
 Photo by：IMDb
