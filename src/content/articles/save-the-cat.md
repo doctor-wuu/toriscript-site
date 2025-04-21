@@ -87,27 +87,28 @@ tags:
 ### 三幕構成の基本
 
 <div class="not-prose overflow-x-auto w-full">
-  <table class="w-full table-auto text-sm">
+  <table class="w-full table-auto text-sm border-collapse border border-[#66544E]">
     <tbody>
       <tr>
-        <td class="bg-[#cecece] min-w-[140px] px-4 py-2 font-semibold text-left ">幕</td>
-        <td class="bg-white min-w-[200px] px-4 py-2 font-semibold text-left break-words">内容</td>
+        <td class="bg-[#cecece] min-w-[140px] px-4 py-2 font-semibold text-left border border-[#66544E]">幕</td>
+        <td class="bg-white min-w-[200px] px-4 py-2 font-semibold text-left break-words border border-[#66544E]">内容</td>
       </tr>
       <tr>
-        <td class="bg-[#cecece] px-4 py-2">第1幕（セットアップ）</td>
-        <td class="bg-white px-4 py-2 break-words">主人公などの登場人物、世界観を紹介。物語の目的が決まる</td>
+        <td class="bg-[#cecece] px-4 py-2 border border-[#66544E]">第1幕（セットアップ）</td>
+        <td class="bg-white px-4 py-2 break-words border border-[#66544E]">主人公などの登場人物、世界観を紹介。物語の目的が決まる</td>
       </tr>
       <tr>
-        <td class="bg-[#cecece] px-4 py-2">第2幕（対立・試練）</td>
-        <td class="bg-white px-4 py-2 break-words">主要人物たちが問題に直面し、成長しながら困難を乗り越えていく</td>
+        <td class="bg-[#cecece] px-4 py-2 border border-[#66544E]">第2幕（対立・試練）</td>
+        <td class="bg-white px-4 py-2 break-words border border-[#66544E]">主要人物たちが問題に直面し、成長しながら困難を乗り越えていく</td>
       </tr>
       <tr>
-        <td class="bg-[#cecece] px-4 py-2">第3幕（クライマックス）</td>
-        <td class="bg-white px-4 py-2 break-words">物語の最大の盛り上がり。結末に向かって収束する</td>
+        <td class="bg-[#cecece] px-4 py-2 border border-[#66544E]">第3幕（クライマックス）</td>
+        <td class="bg-white px-4 py-2 break-words border border-[#66544E]">物語の最大の盛り上がり。結末に向かって収束する</td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 
 
