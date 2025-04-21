@@ -18,22 +18,33 @@ tags:
 
 ---
 
-食べてみるまで何が入っているのか分からない、モナカは宝箱のような食材だ。餡子にチョコにアイスはもちろん、おすいものの素やおかずまで、人々の好きが詰まっている──飲み物さえも例外なく。一度"飲んだら"忘れない『ビンラムネ』の全てを解き明かそう。
+<div class="ad-wrapper">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6057267145"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
   
 ## 駄菓子の『だ』
 
 
 
-![駄菓子](/toriscript-site/images/bin-ramune/1.jpg)
-<h5 class="note-box">少ないお小遣いで妥協は許されない]</h5>
+![駄菓子](/images/bin-ramune/1.jpg)
 
+<div class="note-box">少ないお小遣いで妥協は許されない]</div>
 
 駄菓子が目指す方向性には、大きく分けて2つある。1つはコストを抑えつつ、お菓子そのものの美味しさを求める【味覚タイプ】。もう1つが形をユニークにしたり、ギミックをつけたりと楽しさを求める【娯楽タイプ】だ。
 
 
 
-![ポテトフライ](/toriscript-site/images/bin-ramune/2.jpg)
-<h5 class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ（[参考記事](/articles/potato-fry)）</a></h5>
+![ポテトフライ](/images/bin-ramune/2.jpg)
+
+<div class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ（[参考記事](/articles/potato-fry)）</a></div>
 
 別ベクトルではないものの、低価格帯で勝負しなければいけない以上、両者はほとんどトレードオフの関係といってもいい。
 
@@ -41,22 +52,23 @@ tags:
 
 
 
-![カタヌキ](/toriscript-site/images/bin-ramune/3.jpg)
-<h5 class="note-box">カタヌキは娯楽にほぼ全振り。味は甘みを付けた小麦粉程度</h5>
+![カタヌキ](/images/bin-ramune/3.jpg)
+
+<div class="note-box">カタヌキは娯楽にほぼ全振り。味は甘みを付けた小麦粉程度</div>
 
 だからといって『だ』がなんなのかと訊かれても困ってしまうが、個人的には諸説の一つ・駄賃(労力への対価)の『だ』、転じて企業努力への対価(金銭だけでなく子供たちの笑顔)ということにしておきたい。なんとも利益の少ない駄菓子らしくて、おさまりがいいとは思わないだろうか。
-  
+
 ## 今回の研究対象≪ビンラムネ≫
 
 
-  
-![ビンラムネ](/toriscript-site/images/bin-ramune/4.jpg)
+
+![ビンラムネ](/images/bin-ramune/4.jpg)
 
 模造は駄菓子の華ともいうように、ビンラムネも名前そのまま、瓶入りのラムネ飲料を模した駄菓子。数少ないストロー付きの駄菓子だ。これだけ聞くと普通の駄菓子のようだが、ビンラムネは一味違う。なんと『瓶』『ラムネ』共に、その機能までを完全に再現している、駄菓子界きっての正直者なのだ。
 
 
 
-![にんじん。にんじん……？](/toriscript-site/images/bin-ramune/5.jpg)
+![にんじん。にんじん……？](/images/bin-ramune/5.jpg)
 
 『にんじん』もそうだが駄菓子界での欺瞞は、厳しい大人社会と違って、そのほとんどが許容される(たまに怒られるが)。鍵は使えなくていいし、パイプだって火はつかない。ただの『まねっこ』で十分なのである。
 
@@ -90,8 +102,9 @@ tags:
 
 
 
-![バヤリース](/toriscript-site/images/bin-ramune/6.jpg)
-<h5 class="note-box">たしかに少しだけ形状が似ている</h5>
+![バヤリース](/images/bin-ramune/6.jpg)
+
+<div class="note-box">たしかに少しだけ形状が似ている</div>
 
 紙・インターネット問わず、ビンラムネはバヤリースの瓶を参考にしたという表記が見られる。見比べてみると、なるほど凹凸の配置が似てはいる。
 
@@ -116,8 +129,9 @@ tags:
 
  
 
-![ラムちゃん](/toriscript-site/images/bin-ramune/7.jpg)
-<h5 class="note-box">小さなビンラムネを両手で抱え持つサイズ感がいい</h5>
+![ラムちゃん](/images/bin-ramune/7.jpg)
+
+<div class="note-box">小さなビンラムネを両手で抱え持つサイズ感がいい</div>
 
 パッケージを先に載せているのだから気付くも何もないが、ビンラムネのキャラクター『ラムちゃん』だ。古くは『ピーターラビット』に代表されるように、『ミッフィー(うさこちゃん)』や『マイメロディ』など、ウサギのキャラクターは9割かわいい。そしてご多分に漏れずラムちゃんもえらくかわいい。
 
@@ -137,8 +151,9 @@ tags:
 
 
   
-![妖精](/toriscript-site/images/bin-ramune/8.jpg)
-<h5 class="note-box">どこかで会った気がする</h5>
+![妖精](/images/bin-ramune/8.jpg)
+
+<div class="note-box">どこかで会った気がする</div>
 
 もう一人、ビンラムネを語る上で忘れてはいけないのがロゴに寄り添う妖精さんだ。彼女についても岡田さんに尋ねてみたが、一切素性は分からなかった。
 
@@ -149,7 +164,7 @@ tags:
 
 
 
-![説明文](/toriscript-site/images/bin-ramune/9.jpg)
+![説明文](/images/bin-ramune/9.jpg)
 
 ビンラムネを飲用するにあたって必ず論争が起こるのが、そのスタイルだ。はたしてストローは上から刺すのか、底に刺すのか──。そう、にんじんに続いてまたである。
 
@@ -163,13 +178,13 @@ tags:
 
 
 
-![謀反style](/toriscript-site/images/bin-ramune/10.jpg)
+![謀反style](/images/bin-ramune/10.jpg)
 
 ラムちゃんもこの飲み方だが、かわいいから許す。
 
 
 
-![これぞ正統派！](/toriscript-site/images/bin-ramune/11.jpg)
+![ビンラムネ](/images/bin-ramune/11.jpg)
 
 やはり初めて飲用する際は、このようにビンの上部にストローを刺してほしい。謀反スタイルよりも飲んでいる感が強いのでオススメだ。
 
@@ -184,7 +199,7 @@ tags:
 
 
 
-![皿に出すのは間違いだ](/toriscript-site/images/bin-ramune/12.jpg)
+![ビンラムネ](/images/bin-ramune/12.jpg)
 
 にんじんでの経験から、粉を皿に出すことはしなかった──というのは建前で、実際に皿に出した粉をストローで吸っている様を想像すれば分かるように、なんだか危ない感じがする。前にやったことはあるが、吸いにくいし散らかるので自重した。
 
@@ -208,11 +223,10 @@ tags:
 
 
 
-![成分表示](/toriscript-site/images/bin-ramune/13.jpg)
-<h5 class="note-box">100gとはモカナとラムネ半々の値だろうか。最後までミステリアス</h5>
+![成分表示](/images/bin-ramune/13.jpg)
+
+<div class="note-box">100gとはモカナとラムネ半々の値だろうか。最後までミステリアス</div>
   
-
-
 <div class="not-prose overflow-x-auto w-full">
   <table class="w-full table-auto text-sm border-collapse border">
     <tbody>
@@ -247,4 +261,16 @@ tags:
 </div>
 
 
+
 ※情報提供・一部画像提供：株式会社 岡田商店
+
+<div class="ad-wrapper">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-2685020883138124"
+     data-ad-slot="6992270400"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
