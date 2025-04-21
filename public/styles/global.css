@@ -354,3 +354,12 @@ h5.note-box {
   }
 }
 
+.prose table {
+  border-collapse: collapse;
+  border: 2px solid #66544E !important;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid #66544E !important;
+}
