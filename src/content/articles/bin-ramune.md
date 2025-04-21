@@ -44,8 +44,8 @@ tags:
 
 ![ポテトフライ](/images/bin-ramune/2.jpg)
 
-<div class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ</a><br> （ [参考記事](/articles/potato-fry) ）<a href="https://toriscript.com/articles/potato-fry/">参考記事</a> [aaa](https://toriscript.com/articles/potato-fry/) </div>
-[aaa](https://toriscript.com/articles/potato-fry/)
+<div class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ</a>（<a href="https://toriscript.com/articles/potato-fry/">参考記事</a>） </div>
+
 
 別ベクトルではないものの、低価格帯で勝負しなければいけない以上、両者はほとんどトレードオフの関係といってもいい。
 
