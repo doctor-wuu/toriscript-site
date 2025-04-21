@@ -250,7 +250,7 @@ tags:
       <tr>
         <td class="bg-[#EEE8E6] px-4 py-2 border">公式サイト</td>
         <td class="bg-white px-4 py-2 break-words border">
-          <a href="http://www.dagashiyasan.co.jp/" target="_blank" rel="noopener">http://www.dagashiyasan.co.jp/</a>
+          <a href="http://www.dagashiyasan.co.jp/" target="_blank" rel="noopener">岡田商店</a>
         </td>
       </tr>
     </tbody>
