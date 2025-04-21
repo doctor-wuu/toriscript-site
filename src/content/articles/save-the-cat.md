@@ -87,7 +87,7 @@ tags:
 ### 三幕構成の基本
 
 <div class="not-prose overflow-x-auto w-full">
-  <table class="w-full table-auto text-sm border border-[#66544E] border-collapse">
+  <table class="w-full table-auto text-sm border-collapse border border-[#66544E]">
     <tbody>
       <tr>
         <td class="bg-[#cecece] min-w-[140px] px-4 py-2 font-semibold text-left border border-[#66544E]">幕</td>
@@ -108,6 +108,7 @@ tags:
     </tbody>
   </table>
 </div>
+
 
 
 
