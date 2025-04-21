@@ -44,7 +44,7 @@ tags:
 
 ![ポテトフライ](/images/bin-ramune/2.jpg)
 
-<div class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ（[参考記事](/articles/potato-fry)）</a></div>
+<div class="note-box">味覚タイプの<a href="https://amzn.to/3CSFmbU" target="_blank" rel="noopener">ポテトフライ</a>（[参考記事](/articles/potato-fry)）</div>
 
 別ベクトルではないものの、低価格帯で勝負しなければいけない以上、両者はほとんどトレードオフの関係といってもいい。
 
@@ -100,8 +100,6 @@ tags:
   
 ### ビンの形状
 
-
-
 ![バヤリース](/images/bin-ramune/6.jpg)
 
 <div class="note-box">たしかに少しだけ形状が似ている</div>
@@ -126,8 +124,6 @@ tags:
 駄菓子界のかわいいは、せいぜい(失礼)が『<a href="https://amzn.to/3umWiEq" target="_blank" rel="noopener">キョロちゃん</a>』や、もうお菓子のなくなってしまった『<a href="https://www.morinaga.co.jp/noobow/" target="_blank" rel="noopener">ぬ～ぼ～</a>』ぐらいなもの。かわいいと思っても版権キャラだったりする。駄菓子界には『シナモロール』も『ポムポムプリン』もいないのか──いや、いる。
 
 ## 彼女の名前はウサギの『ラムちゃん』
-
- 
 
 ![ラムちゃん](/images/bin-ramune/7.jpg)
 
@@ -264,7 +260,7 @@ tags:
 
 ※情報提供・一部画像提供：株式会社 岡田商店
 
-<div class="ad-wrapper">
+
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-format="autorelaxed"
@@ -273,4 +269,3 @@ tags:
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</div>
