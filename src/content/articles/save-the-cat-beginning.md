@@ -327,16 +327,16 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
       </tr>
       <tr>
         <td class="bg-[#EEE8E6] px-4 py-2 border">価格</td>
-        <td class="bg-white px-4 py-2 break-words border">ぶどう糖、コーン(小麦粉、澱粉、その他)、加工澱粉、酸味料、膨張剤、香料、<br>水酸化Ca、甘味料(ステビア)、着色料(食用黄色5号)</td>
+        <td class="bg-white px-4 py-2 break-words border">aaa</td>
       </tr>
       <tr>
         <td class="bg-[#EEE8E6] px-4 py-2 border">栄養成分表示(100g当り)</td>
-        <td class="bg-white px-4 py-2 break-words border">エネルギー370kcal、たんぱく質1.5g、脂質0.6g、<br>炭水化物89.6g、ナトリウム15mg</td>
+        <td class="bg-white px-4 py-2 break-words border">aa</td>
       </tr>
       <tr>
         <td class="bg-[#EEE8E6] px-4 py-2 border">公式サイト</td>
         <td class="bg-white px-4 py-2 break-words border">
-          <a href="http://www.dagashiyasan.co.jp/" target="_blank" rel="noopener">http://www.dagashiyasan.co.jp/</a>
+          <a href="http://www.dagashiyasan.co.jp/" target="_blank" rel="noopener">aa</a>
         </td>
       </tr>
     </tbody>
