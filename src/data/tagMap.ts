@@ -9,6 +9,12 @@ export const tagMap = {
   "kisyou-ten-ketsu": "起承転結",
   "sannmaku-kousei": "三幕構成",
   "jo-ha-kyuu": "序破急",
+  "horor": "ホラー",
+  "cosmic-horror": "宇宙的恐怖",
+  "lovecraftian-literature": "ラヴクラフト文学",
+  "cthulhu-mythos": "クトゥルフ神話",
+  "modern-interpretation": "現代解釈",
+  "exception": "例外",
   "victor-hugo": "ヴィクトル・ユーゴー",
   "musical": "ミュージカル",
   "over-2h": "2時間以上",
@@ -63,5 +69,11 @@ export const tagMap = {
   "Goonies": "グーニーズ",
   "glico": "江崎グリコ",
   "root": "大根",
-  "pickles": "漬物"
+  "pickles": "漬物",
+  "horor": "ホラー",
+  "cosmic-horror": "宇宙的恐怖",
+  "lovecraftian-literature": "ラヴクラフト文学",
+  "cthulhu-mythos": "クトゥルフ神話",
+  "modern-interpretation": "現代解釈",
+  "exception": "例外"
 };
