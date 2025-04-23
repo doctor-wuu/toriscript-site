@@ -376,20 +376,51 @@ td {
 /* ブログカード */
 .related-card {
   display: flex;
-  flex-direction: column;
   border: 1px solid #EEE8E6;
   border-radius: 0.5rem;
-  overflow: hidden;
+  padding: 1rem;
   margin: 2rem 0;
-  background: #fff;
+  background-color: #fff;
+  gap: 1rem;
+  align-items: flex-start;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
 }
 
-.related-label {
-  background: #82A0AA;
-  color: #fff;
-  font-weight: bold;
-  padding: 0.25rem 0.75rem;
-  font-size: 0.85rem;
-  display: inline-block;
-  margin-bottom: 0.75rem;
+.related-card-thumb {
+  width: 120px;
+  height: 90px;
+  flex-shrink: 0;
+  border-radius: 0.4rem;
+  object-fit: cover;
 }
+
+.related-card-body {
+  flex: 1;
+}
+
+.related-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4b4b4b;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.related-card-intro {
+  font-size: 0.85rem;
+  color: #888888;
+  line-height: 1.5;
+}
+
+.related-card-label {
+  background-color: #82A0AA;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  display: inline-block;
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-bottom: -0.5rem;
+  transform: translateY(50%);
+}
+
