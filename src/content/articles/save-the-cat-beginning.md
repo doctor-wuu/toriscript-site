@@ -7,7 +7,7 @@ pubDate: "2025-04-15"
 category: 1
 author: 1
 introImage: images/intro/save-the-cat-beginning.jpg
-intro: なぜ"猫を助ける"必要が？　シナリオ初心者が学ぶべき『Save the Cat!』の前半7ビートをわかりやすく解説！　プロット作成や登場人物の作例のヒントを交え、脚本や構成の基本を紹介します。
+intro: なぜ"猫を助ける"必要が？　シナリオ初心者が学ぶべき『Save the Cat!』の前半8ビートをわかりやすく解説！　プロット作成や登場人物の作例のヒントを交え、脚本や構成の基本を紹介します。
 tags:
   - save-the-cat
   - script
