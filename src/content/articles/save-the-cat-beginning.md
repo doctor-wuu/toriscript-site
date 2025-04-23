@@ -63,11 +63,6 @@ tags:
 
 ### 三幕構成との関係性
 
-[3匹の猫](articles/lovecraftian-literature/)
-
-[誰もが](/articles/potato-fry)
-
-
 ![3匹の猫](/images/save-the-cat-beginning/1.jpg)
 
 『Save the Cat!』は独自のストーリービートを提唱していますが、その骨組みは「三幕構成」と強く結びついています。三幕構成とは、物語を「始まり（第一幕）」「中盤（第二幕）」「終わり（第三幕）」の3つに分けて構成する、古典的かつ普遍的なストーリーテリングの基本理論です。
