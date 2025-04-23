@@ -35,6 +35,8 @@ tags:
 </script>
 </div>
 
+
+
 ## 『Save the Cat!』とは？　脚本術としての魅力と特徴
 
 ### 「Save the Cat!」の本当の意味とは？
@@ -61,6 +63,9 @@ tags:
 
 ### 三幕構成との関係性
 
+[3匹の猫](articles/lovecraftian-literature/)
+
+[誰もが](/articles/potato-fry)
 
 
 ![3匹の猫](/images/save-the-cat-beginning/1.jpg)
