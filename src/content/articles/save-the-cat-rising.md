@@ -22,16 +22,6 @@ tags:
 
 ---
 
-<div class="related-card-container">
-  <div class="related-card-label">あわせて読みたい</div>
-  <a href="/articles/{slug}/" class="related-card">
-    <img src="/images/intro/{slug}.jpg" alt="{title} のサムネイル" class="related-card-thumb" />
-    <div class="related-card-body">
-      <div class="related-card-title">{title}</div>
-      <div class="related-card-intro">{intro}</div>
-    </div>
-  </a>
-</div>
 
 
 <div class="ad-wrapper">
