@@ -23,7 +23,7 @@ tags:
 ---
 
 <div class="related-card-container">
-  <div class="related-card-label">前編はこちら</div>
+  <div class="related-card-label">あわせて読みたい</div>
   <a href="/articles/{slug}/" class="related-card">
     <img src="/images/intro/{slug}.jpg" alt="{title} のサムネイル" class="related-card-thumb" />
     <div class="related-card-body">
