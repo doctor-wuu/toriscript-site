@@ -23,16 +23,12 @@ tags:
 ---
 
 <div class="related-card-container">
-  <div class="related-card-label">前回記事</div>
-  <a href="/articles/save-the-cat-beginning/" class="related-card">
-    <img src="/images/intro/save-the-cat-beginning.jpg" alt="サムネイル" class="related-card-thumb" />
+  <div class="related-card-label">前編はこちら</div>
+  <a href="/articles/{slug}/" class="related-card">
+    <img src="/images/intro/{slug}.jpg" alt="{title} のサムネイル" class="related-card-thumb" />
     <div class="related-card-body">
-      <div class="related-card-title">
-        シナリオ初心者必見！脚本の救世主「Save the Cat!」前半パートの使い方と事例（サメもいるよ）
-      </div>
-      <div class="related-card-intro">
-        なぜ"猫を助ける"必要が？脚本初心者が学ぶべき『Save the Cat!』の前半をわかりやすく解説！...
-      </div>
+      <div class="related-card-title">{title}</div>
+      <div class="related-card-intro">{intro}</div>
     </div>
   </a>
 </div>
