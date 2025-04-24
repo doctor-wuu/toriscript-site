@@ -22,6 +22,7 @@ tags:
 
 ---
 
+<RelatedCard heading="前編はこちら" slug="save-the-cat-beginning" />
 
 
 <div class="ad-wrapper">
