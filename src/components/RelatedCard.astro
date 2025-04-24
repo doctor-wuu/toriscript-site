@@ -1,12 +1,11 @@
 ---
-// props
 const { slug, heading } = Astro.props;
-import articles from "@/data/articles"; // slug → title, intro に対応したリスト
+import articles from '@/data/articles';
 
-const data = articles.find(a => a.slug === slug);
-const title = data?.title || heading;
-const intro = data?.intro || "";
-const thumbPath = `/images/intro/${slug}.jpg`;
+const article = articles.find(a => a.slug === slug);
+const title = article?.title ?? slug;
+const intro = article?.intro ?? '';
+const thumb = `/images/intro/${slug}.jpg`;
 ---
 
 <div class="related-card mb-6 border border-[#EEE8E6] rounded-md">
@@ -16,7 +15,7 @@ const thumbPath = `/images/intro/${slug}.jpg`;
   <a href={`/articles/${slug}/`} class="card-link flex gap-4 items-start no-underline p-4">
     <div class="w-full sm:w-[220px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0">
       <img
-        src={thumbPath}
+        src={thumb}
         alt={`${title} のサムネイル`}
         class="w-full h-full object-cover block"
         loading="lazy"
