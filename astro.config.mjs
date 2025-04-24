@@ -3,8 +3,6 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import rehypeSlug from "rehype-slug";
 import externalLinks from "remark-external-links"; // ✅ 追加
-import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
 
 
 export default defineConfig({
@@ -12,8 +10,7 @@ export default defineConfig({
   site: 'https://toriscript.com',
   integrations: [
     tailwind(),
-    sitemap(),
-    mdx(),],
+    sitemap(),],
   markdown: {
     rehypePlugins: [rehypeSlug],
     remarkPlugins: [
