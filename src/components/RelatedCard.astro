@@ -1,11 +1,17 @@
 ---
+// RelatedCard.astro
+import { getCollection } from 'astro:content';
 const { slug, heading } = Astro.props;
-import articles from '@/data/articles';
 
-const article = articles.find(a => a.slug === slug);
-const title = article?.title ?? slug;
-const intro = article?.intro ?? '';
-const thumb = `/images/intro/${slug}.jpg`;
+const articles = await getCollection('articles');
+const article = articles.find((a) => a.slug === slug);
+if (!article) {
+  throw new Error(`記事 "${slug}" が見つかりません`);
+}
+
+const title = article.data.title;
+const intro = article.data.intro || '';
+const thumb = `/` + (article.data.introImage ?? 'images/blank.jpg');
 ---
 
 <div class="related-card mb-6 border border-[#EEE8E6] rounded-md">
@@ -13,6 +19,7 @@ const thumb = `/images/intro/${slug}.jpg`;
     {heading}
   </div>
   <a href={`/articles/${slug}/`} class="card-link flex gap-4 items-start no-underline p-4">
+    <!-- サムネイル -->
     <div class="w-full sm:w-[220px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0">
       <img
         src={thumb}
@@ -22,8 +29,10 @@ const thumb = `/images/intro/${slug}.jpg`;
         decoding="async"
       />
     </div>
+
+    <!-- テキスト -->
     <div class="flex flex-col justify-start w-full">
-      <h2 class="text-xl font-bold text-[#6a6a6a] mb-2 break-jp break-words max-w-full overflow-hidden line-clamp-2 leading-snug">
+      <h2 class="text-xl font-bold text-[#6a6a6a] mb-4 break-jp break-words max-w-full overflow-hidden line-clamp-2 leading-snug">
         {title}
       </h2>
       <p class="text-sm text-[#888888] leading-snug line-clamp-3">
