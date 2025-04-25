@@ -413,6 +413,7 @@ td {
   object-fit: cover;
   border-radius: 0.5rem;
   flex-shrink: 0;
+  align-self: center;
 }
 
 .related-card-title {
