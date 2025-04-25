@@ -414,14 +414,14 @@ td {
   flex-shrink: 0;
 }
 
-.related-card h2 {
+.related-card-title {
   font-size: 1rem;
   font-weight: bold;
   color: #6a6a6a;
   line-height: 1.5;
   margin: 0;
-  border: none;         /* ✅ 上下の線を消す */
-  padding: 0;           /* ✅ 不要な余白もなくす */
+  padding: 0;
 }
+
 
 
