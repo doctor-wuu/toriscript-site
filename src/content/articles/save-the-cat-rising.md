@@ -37,8 +37,8 @@ tags:
           decoding="async"
         />
       </div>
-      <div class="flex flex-col justify-start w-full">
-        <p class="text-base font-bold text-[#6a6a6a] break-words leading-snug line-clamp-3 m-0 p-0">
+      <div class="text-block flex flex-col justify-start w-full">
+  <p class="related-card-title line-clamp-3">
           シナリオ初心者必見！　脚本の救世主「Save the Cat!」前半パートの使い方と事例（サメもいるよ）
         </p>
       </div>
