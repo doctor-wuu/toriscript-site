@@ -22,6 +22,7 @@ tags:
 
 ---
 
+<div class="not-prose">
 <div class="related-card-container not-prose mx-auto my-6 px-4">
   <div class="related-card border border-[#EEE8E6] rounded-md overflow-hidden relative flex gap-4 p-4 max-w-[95%] not-prose">
     <div class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded">
@@ -44,6 +45,7 @@ tags:
       </div>
     </a>
   </div>
+</div>
 </div>
 
 <div class="ad-wrapper">
