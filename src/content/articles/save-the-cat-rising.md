@@ -22,9 +22,27 @@ tags:
 
 ---
 
-<RelatedCard heading="前編はこちら" slug="save-the-cat-beginning" />
-
-
+<div class="related-card mb-6 border border-[#EEE8E6] rounded-md">
+  <div class="related-label text-white text-sm font-semibold px-4 py-2" style="background-color: #82A0AA;">
+    前編はこちら
+  </div>
+  <a href="/articles/save-the-cat-beginning/" class="card-link flex gap-4 items-start no-underline p-4">
+    <div class="w-full sm:w-[220px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0">
+      <img
+        src="/images/intro/save-the-cat-beginning.jpg"
+        alt="シナリオ初心者必見！　脚本の救世主「Save the Cat!」前半パートの使い方と事例（サメもいるよ） のサムネイル"
+        class="w-full h-full object-cover block"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <div class="flex flex-col justify-start w-full">
+      <h2 class="text-xl font-bold text-[#6a6a6a] break-jp break-words max-w-full overflow-hidden line-clamp-2 leading-snug">
+        シナリオ初心者必見！　脚本の救世主「Save the Cat!」前半パートの使い方と事例（サメもいるよ）
+      </h2>
+    </div>
+  </a>
+</div>
 <div class="ad-wrapper">
 <ins class="adsbygoogle"
      style="display:block"
