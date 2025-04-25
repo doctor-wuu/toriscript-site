@@ -382,24 +382,26 @@ td {
 
 .related-card {
   display: flex;
-  position: relative;
+  flex-direction: row; /* ← 横並びに！ */
+  align-items: flex-start;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem;
   border: 1px solid #EEE8E6;
   border-radius: 0.5rem;
   background-color: #fff;
   max-width: 95%;
+  position: relative;
 }
 
 .related-label {
   position: absolute;
-  top: -0.75rem;
+  top: -0.9rem;  /* ← 少し下げた */
   left: 1rem;
   background-color: #82A0AA;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 600;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.75rem;
   border-radius: 4px;
   white-space: nowrap;
 }
@@ -418,5 +420,8 @@ td {
   color: #6a6a6a;
   line-height: 1.5;
   margin: 0;
+  border: none;         /* ✅ 上下の線を消す */
+  padding: 0;           /* ✅ 不要な余白もなくす */
 }
+
 
