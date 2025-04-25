@@ -23,7 +23,7 @@ tags:
 ---
 
 <div class="related-card-container mx-auto my-6 px-4">
-  <div class="related-card border border-[#EEE8E6] rounded-md overflow-hidden relative flex gap-4 p-4 max-w-[95%]">
+  <div class="related-card border border-[#EEE8E6] rounded-md overflow-hidden relative flex gap-4 p-4 max-w-[95%] not-prose">
     <div class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded">
       前編はこちら
     </div>
@@ -38,13 +38,14 @@ tags:
         />
       </div>
       <div class="flex flex-col justify-start w-full">
-        <h2 class="text-base font-bold text-[#6a6a6a] break-words leading-snug line-clamp-3">
+        <p class="text-base font-bold text-[#6a6a6a] break-words leading-snug line-clamp-3 m-0 p-0">
           シナリオ初心者必見！　脚本の救世主「Save the Cat!」前半パートの使い方と事例（サメもいるよ）
-        </h2>
+        </p>
       </div>
     </a>
   </div>
 </div>
+
 <div class="ad-wrapper">
 <ins class="adsbygoogle"
      style="display:block"
@@ -56,6 +57,7 @@ tags:
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
+
 
 
 ## 後半8ビートは物語を“爆発”させる構成の核心
