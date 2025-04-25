@@ -22,7 +22,7 @@ tags:
 
 ---
 
-<div class="related-card-container mx-auto my-6 px-4">
+<div class="related-card-container not-prose mx-auto my-6 px-4">
   <div class="related-card border border-[#EEE8E6] rounded-md overflow-hidden relative flex gap-4 p-4 max-w-[95%] not-prose">
     <div class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded">
       前編はこちら
@@ -38,9 +38,9 @@ tags:
         />
       </div>
       <div class="text-block flex flex-col justify-start w-full">
-  <p class="related-card-title line-clamp-3">
+  <div class="related-card-title line-clamp-3">
           シナリオ初心者必見！　脚本の救世主「Save the Cat!」前半パートの使い方と事例（サメもいるよ）
-        </p>
+        </div>
       </div>
     </a>
   </div>
