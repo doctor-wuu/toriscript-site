@@ -24,7 +24,7 @@ tags:
 
 <div class="not-prose">
   <div class="related-card-container mx-auto my-6 px-4 not-prose">
-    <div class="related-card border border-[#EEE8E6] rounded-md relative flex gap-4 p-0 w-1/2 max-w-[24rem]">
+    <div class="related-card border border-[#EEE8E6] rounded-md relative flex gap-4 w-[90%] max-w-[28rem] p-0 mx-auto">
       <div class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded not-prose">
         前編はこちら
       </div>
