@@ -408,6 +408,7 @@ td {
 }
 
 .related-card img {
+  all: unset;
   width: 120px;
   aspect-ratio: 4 / 3;
   object-fit: cover;
