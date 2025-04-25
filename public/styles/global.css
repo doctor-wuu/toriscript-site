@@ -447,3 +447,15 @@ td {
   align-items: flex-start;
   text-decoration: none;
 }
+
+/* 記事カード用リンクに他の a スタイルが干渉しないようにする */
+.prose a.no-article-link {
+  all: unset;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+  position: static;
+}
