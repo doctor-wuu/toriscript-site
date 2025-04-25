@@ -381,7 +381,6 @@ td {
 }
 
 .related-card {
-  all: unset;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
