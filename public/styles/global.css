@@ -424,6 +424,13 @@ td {
   padding: 0;
 }
 
+.related-card .text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  min-width: 0; /* ⬅️ これが意外と重要！ */
+}
 
 
 
