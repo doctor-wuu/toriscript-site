@@ -455,6 +455,6 @@ td {
   align-items: flex-start;
   text-decoration: none;
   color: inherit;
-  font-weight: inherit;
+  font-weight: normal !important; /* ← これで勝てる！ */
   position: static;
 }
