@@ -382,7 +382,7 @@ td {
 
 .related-card {
   display: flex;
-  flex-direction: row; /* ← 横並びに！ */
+  flex-direction: row;
   align-items: flex-start;
   gap: 1rem;
   padding: 1.5rem 1rem 1rem;
@@ -390,12 +390,12 @@ td {
   border-radius: 0.5rem;
   background-color: #fff;
   max-width: 95%;
-  position: relative;
+  position: relative; /* ✅ ラベル重ねるために必要！ */
 }
 
 .related-label {
   position: absolute;
-  top: -0.9rem;  /* ← 少し下げた */
+  top: -0.75rem; /* ✅ 枠に少し重ねる */
   left: 1rem;
   background-color: #82A0AA;
   color: #fff;
@@ -404,6 +404,7 @@ td {
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
   white-space: nowrap;
+  z-index: 1;
 }
 
 .related-card img {
@@ -422,6 +423,7 @@ td {
   margin: 0;
   padding: 0;
 }
+
 
 
 
