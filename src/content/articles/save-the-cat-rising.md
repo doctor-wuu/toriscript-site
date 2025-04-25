@@ -27,7 +27,7 @@ tags:
     <div class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded">
       前編はこちら
     </div>
-    <a href="/articles/save-the-cat-beginning/" class="flex gap-4 items-start no-underline w-full">
+    <a href="/articles/save-the-cat-beginning/" class="not-prose flex gap-4 items-start no-underline w-full">
       <div class="w-[120px] min-w-[120px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0">
         <img
           src="/images/intro/save-the-cat-beginning.jpg"
