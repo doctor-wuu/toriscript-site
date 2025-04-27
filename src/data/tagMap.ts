@@ -81,5 +81,6 @@ export const tagMap = {
   "Warner-Bros.": "ワーナー・ブラザース",
   "Final-Destination": "ファイナル・デスティネーション",
   "Devon-Sawa": "デヴォン・サワ",
-  "Ali-Larter": "アリ・ラーター"
+  "Ali-Larter": "アリ・ラーター",
+  "cliff-hanger": "クリフハンガー"
 };
