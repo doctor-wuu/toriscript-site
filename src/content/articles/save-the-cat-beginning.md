@@ -23,6 +23,34 @@ tags:
 
 ---
 
+<div class="not-prose">
+  <div class="related-card-container mx-auto my-6 px-4 not-prose">
+    <div class="related-card mx-auto border border-[#EEE8E6] rounded-md relative flex gap-4 max-w-[70%]">
+      <div class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded not-prose">
+        前編はこちら
+      </div>
+      <a href="/articles/save-the-cat/" class="not-prose no-article-link flex gap-4 items-start no-underline w-full">
+        <div class="not-prose w-[120px] min-w-[120px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0">
+          <img
+            src="/images/intro/save-the-cat.jpg"
+            alt="サムネイル"
+            class="w-full h-full object-cover block"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+        <div class="text-block not-prose flex flex-col justify-start w-full">
+          <p class="related-card-title line-clamp-3 m-0 p-0">
+            【完全ガイド】脚本の書き方とは？映画・漫画・ライトノベルのシナリオ作りの基本
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
 <div class="ad-wrapper">
 <ins class="adsbygoogle"
      style="display:block"
