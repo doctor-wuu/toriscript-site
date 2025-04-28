@@ -331,34 +331,89 @@ tags:
 
 ## 『ファイナル・デスティネーション』主な制作陣・キャスト
 
-### 主な制作陣
+### ジェームズ・ウォン【監督】
 
-<div class="not-prose overflow-x-auto w-full">
-  <table class="w-full table-auto text-sm border-collapse border">
-    <tbody>
-      <tr style="background-color: #EEE8E6;">
-        <td class="min-w-[140px] px-4 py-2 font-semibold text-left">役職</td>
-        <td class="min-w-[200px] px-4 py-2 font-semibold text-left break-words">名前</td>
-        <td class="min-w-[200px] px-4 py-2 font-semibold text-left break-words">代表作</td>
-      </tr>
-      <tr>
-        <td class="bg-[#EEE8E6] px-4 py-2 border">監督</td>
-        <td class="bg-white px-4 py-2 break-words border">ジェームズ・ウォン</td>
-        <td class="bg-white px-4 py-2 break-words border">『X-ファイル』『ドラゴンボール・エボリューション』</td>
-      </tr>
-      <tr>
-        <td class="bg-[#EEE8E6] px-4 py-2 border">脚本</td>
-        <td class="bg-white px-4 py-2 break-words border">ジェームズ・ウォン、グレン・モーガン</td>
-        <td class="bg-white px-4 py-2 break-words border">『X-ファイル』『ファイナル・デスティネーション』シリーズ</td>
-      </tr>
-      <tr>
-        <td class="bg-[#EEE8E6] px-4 py-2 border">製作</td>
-        <td class="bg-white px-4 py-2 break-words border">クレイグ・ペリー</td>
-        <td class="bg-white px-4 py-2 break-words border">『アメリカン・パイ』『ファイナル・デスティネーション』シリーズ</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+『X-ファイル』出身、緻密なサスペンス演出に定評のある映画監督。
+
+#### 代表作
+
+- X-ファイル
+- ファイナル・デスティネーション
+- ドラゴンボール エボリューション
+- ワイルド・チェイス
+- ファイナル・デッドサーキット
+
+### ジェームズ・ウォン、グレン・モーガン【脚本】
+
+ともに『X-ファイル』を手がけた名コンビ、緻密な脚本構成に定評。
+
+#### 代表作
+
+- X-ファイル
+- ファイナル・デスティネーション
+- ファイナル・デッドコースター
+- ウィラード
+- ブラック・クリスマス（2006）
+
+### クレイグ・ペリー【製作】
+
+ティーン向け映画からホラーまで幅広く手がけるプロデューサー。
+
+#### 代表作
+
+- アメリカン・パイ
+- ファイナル・デスティネーション
+- ファイナル・デッドコースター
+- ファイナル・デッドサーキット
+- ファイナル・デスティネーション5
+
+### デヴォン・サワ【アレックス・ブラウニング役】
+
+90年代に人気を博した青春スター、繊細な演技が魅力。
+
+#### 代表作
+
+- リトル・ジャイアンツ
+- キャスパー
+- ファイナル・デスティネーション
+- NOWHERE BOY
+- ハンターズ
+
+### アリ・ラーター【クレア・リバース役】
+
+知的で芯のある女性キャラを得意とする女優。
+
+#### 代表作
+
+- HEROES
+- レジデント・イービル3
+- ファイナル・デスティネーション2
+- バイオハザードIV アフターライフ
+- OBSSESSED 狙われた愛の標的
+
+### カー・スミス【カーター・ホートン役】
+
+90年代青春ドラマの顔ともいえる俳優。
+
+#### 代表作
+
+- ドーソンズ・クリーク
+- ファイナル・デスティネーション
+- ライフ・アズ・ウィ・ノウ・イット
+- リバーデイル
+- ナイト・ビフォア 俺たちのメリーハングオーバー
+
+### ショーン・ウィリアム・スコット【ビリー・ヒッチコック役】
+
+コメディからシリアスまで幅広くこなす個性派俳優。
+
+#### 代表作
+
+- アメリカン・パイ
+- デュー・デート
+- エボリューション
+- 僕たちのアナ・バナナ
+- ランダウン ロッキング・ザ・アマゾン
 
 ### 主要キャスト
 
