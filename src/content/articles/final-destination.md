@@ -415,40 +415,6 @@ tags:
 - 僕たちのアナ・バナナ
 - ランダウン ロッキング・ザ・アマゾン
 
-### 主要キャスト
-
-<div class="not-prose overflow-x-auto w-full">
-  <table class="w-full table-auto text-sm border-collapse border">
-    <tbody>
-      <tr style="background-color: #EEE8E6;">
-        <td class="min-w-[140px] px-4 py-2 font-semibold text-left">キャラクター</td>
-        <td class="min-w-[200px] px-4 py-2 font-semibold text-left break-words">キャスト</td>
-        <td class="min-w-[200px] px-4 py-2 font-semibold text-left break-words">代表作</td>
-      </tr>
-      <tr>
-        <td class="bg-[#EEE8E6] px-4 py-2 border">アレックス・ブラウニング</td>
-        <td class="bg-white px-4 py-2 break-words border">デヴォン・サワ</td>
-        <td class="bg-white px-4 py-2 break-words border">『リトル・ジャイアンツ』『キャスパー』</td>
-      </tr>
-      <tr>
-        <td class="bg-[#EEE8E6] px-4 py-2 border">クレア・リバース</td>
-        <td class="bg-white px-4 py-2 break-words border">アリ・ラーター</td>
-        <td class="bg-white px-4 py-2 break-words border">『HEROES』『レジデント・イービル3』</td>
-      </tr>
-      <tr>
-        <td class="bg-[#EEE8E6] px-4 py-2 border">カーター・ホートン</td>
-        <td class="bg-white px-4 py-2 break-words border">カー・スミス</td>
-        <td class="bg-white px-4 py-2 break-words border">『ドーソンズ・クリーク』</td>
-      </tr>
-      <tr>
-        <td class="bg-[#EEE8E6] px-4 py-2 border">ビリー・ヒッチコック</td>
-        <td class="bg-white px-4 py-2 break-words border">ショーン・ウィリアム・スコット</td>
-        <td class="bg-white px-4 py-2 break-words border">『アメリカン・パイ』『デュー・デート』</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
 ## なぜ今もファイナル・デスティネーションは語り継がれるのか
 
 その衝撃から半ばネタ的に扱われることもある『ファイナル・デスティネーション』ですが、単なるショック描写に頼ったホラー映画ではありません。**目に見えない「死の力」という概念を、論理的かつサスペンスフルに描ききった異色作**です。
