@@ -434,9 +434,16 @@ tags:
 
 死は、すぐ隣にある。それを静かに、しかし確実に教えてくれる──そんな映画です。2025年公開予定の“Final Destination: Bloodlines”も楽しみすぎます！
 
-
-
 <a href="https://amzn.to/4jK6FdU" target="_blank" rel="noopener">![ブルーレイ](/images/final-destination/1.jpg)</a>
+
+<div class="youtube-wrapper">
+  <iframe
+    src="https://www.youtube.com/embed/UWMzKXsY9A4"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
 
 <ins class="adsbygoogle"
      style="display:block"
