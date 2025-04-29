@@ -11,6 +11,8 @@ export const tagMap = {
   "kisyou-ten-ketsu": "起承転結",
   "sannmaku-kousei": "三幕構成",
   "jo-ha-kyuu": "序破急",
+  "storytelling": "ストーリー作り",
+  "for-beginners": "初心者向け",
   "horor": "ホラー",
   "suspense": "サスペンス",
   "splatter": "スプラッター",
