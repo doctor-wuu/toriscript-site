@@ -4,6 +4,8 @@ export const tagMap = {
   "scenario": "シナリオ",
   "creative": "創作",
   "film": "映画",
+  "Manga-comic": "漫画",
+  "light-novel": "ライトノベル",
   "Series-of-films": "シリーズ映画",
   "Franchise-Films": "フランチャイズ映画",
   "story": "物語",
