@@ -225,6 +225,14 @@ tags:
 
 創作に筋肉を。それは冗談じゃなく、けっこう真面目な話です。
 
+### これがキミの“第二の筆”だよ
+
+
+
+
+
+<a href="https://amzn.to/44mKDcY" target="_blank" rel="noopener">![ケトルベル](/images/creative-writing-fitness/2.jpg)</a>
+
 
 
 <ins class="adsbygoogle"
