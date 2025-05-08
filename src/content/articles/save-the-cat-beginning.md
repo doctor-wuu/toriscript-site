@@ -326,7 +326,7 @@ Bストーリーの登場人物は、主人公にとって鏡のような存在�
       <div class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded not-prose">
         後編はこちら
       </div>
-      <a href="/articles/save-the-cat-beginning/" class="not-prose no-article-link flex gap-4 items-start no-underline w-full">
+      <a href="/articles/save-the-cat-rising/" class="not-prose no-article-link flex gap-4 items-start no-underline w-full">
         <div class="not-prose w-[120px] min-w-[120px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0">
           <img
             src="/images/intro/save-the-cat-rising.jpg"
