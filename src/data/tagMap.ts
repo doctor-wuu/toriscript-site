@@ -101,5 +101,9 @@ export const tagMap = {
   "director": "監督",
   "remake": "リメイク",
   "70s-film": "70年代映画",
-  "george-lucas": "ジョージ・ルーカス"
+  "george-lucas": "ジョージ・ルーカス",
+  "John-Williams": "ジョン・ウィリアムズ",
+  "Mark-Hamill": "マーク・ハミル",
+  "Harrison-Ford": "ハリソン・フォード",
+  "Carrie-Fisher": "キャリー・フィッシャー"
 };
