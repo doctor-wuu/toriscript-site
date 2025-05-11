@@ -19,6 +19,7 @@ export const tagMap = {
   "horor": "ホラー",
   "suspense": "サスペンス",
   "splatter": "スプラッター",
+  "science-fiction": "SF",
   "Gore": "ゴア表現",
   "cosmic-horror": "宇宙的恐怖",
   "lovecraftian-literature": "ラヴクラフト文学",
