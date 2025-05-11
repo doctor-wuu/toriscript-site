@@ -2,6 +2,7 @@ export const tagMap = {
   "save-the-cat": "Save the Cat!",
   "script": "脚本",
   "scenario": "シナリオ",
+  "synopsis": "あらすじ",
   "creative": "創作",
   "film": "映画",
   "Manga-comic": "漫画",
@@ -91,5 +92,13 @@ export const tagMap = {
   "Final-Destination": "ファイナル・デスティネーション",
   "Devon-Sawa": "デヴォン・サワ",
   "Ali-Larter": "アリ・ラーター",
-  "cliff-hanger": "クリフハンガー"
+  "cliff-hanger": "クリフハンガー",
+  "star-wars": "Star Wars",
+  "a-new-hope": "新たなる希望",
+  "voice-actor": "声優",
+  "character": "登場人物",
+  "director": "監督",
+  "remake": "リメイク",
+  "70s-film": "70年代映画",
+  "george-lucas": "ジョージ・ルーカス"
 };
