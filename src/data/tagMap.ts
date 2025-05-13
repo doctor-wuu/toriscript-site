@@ -6,6 +6,7 @@ export const tagMap = {
   "creative": "創作",
   "film": "映画",
   "Manga-comic": "漫画",
+  "anime": "アニメ",
   "light-novel": "ライトノベル",
   "Series-of-films": "シリーズ映画",
   "Franchise-Films": "フランチャイズ映画",
@@ -20,6 +21,7 @@ export const tagMap = {
   "suspense": "サスペンス",
   "splatter": "スプラッター",
   "science-fiction": "SF",
+  "mystery": "ミステリー",
   "Gore": "ゴア表現",
   "cosmic-horror": "宇宙的恐怖",
   "lovecraftian-literature": "ラヴクラフト文学",
@@ -105,5 +107,13 @@ export const tagMap = {
   "John-Williams": "ジョン・ウィリアムズ",
   "Mark-Hamill": "マーク・ハミル",
   "Harrison-Ford": "ハリソン・フォード",
-  "Carrie-Fisher": "キャリー・フィッシャー"
+  "Carrie-Fisher": "キャリー・フィッシャー",
+  "kusuriya": "薬屋のひとりごと",
+  "mystery": "ミステリー",
+  "hyuuganatsu": "日向夏",
+  "shintouko": "しのとうこ",
+  "ntv": "日本テレビ",
+  "toho-animation-studio": "TOHO animation STUDIO",
+  "Noriyuki-Naganuma": "長沼範裕",
+  "Akihiro-Fudesaka": "筆坂明規"
 };
