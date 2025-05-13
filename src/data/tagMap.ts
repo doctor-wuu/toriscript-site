@@ -109,7 +109,6 @@ export const tagMap = {
   "Harrison-Ford": "ハリソン・フォード",
   "Carrie-Fisher": "キャリー・フィッシャー",
   "kusuriya": "薬屋のひとりごと",
-  "mystery": "ミステリー",
   "hyuuganatsu": "日向夏",
   "shintouko": "しのとうこ",
   "ntv": "日本テレビ",
