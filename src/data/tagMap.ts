@@ -4,6 +4,7 @@ export const tagMap = {
   "scenario": "シナリオ",
   "synopsis": "あらすじ",
   "creative": "創作",
+  "bss-analysis": "脚本分析",
   "film": "映画",
   "Manga-comic": "漫画",
   "anime": "アニメ",
@@ -18,6 +19,7 @@ export const tagMap = {
   "jo-ha-kyuu": "序破急",
   "storytelling": "ストーリー作り",
   "for-beginners": "初心者向け",
+  "action": "アクション",
   "horor": "ホラー",
   "suspense": "サスペンス",
   "splatter": "スプラッター",
@@ -131,5 +133,14 @@ export const tagMap = {
   "Britain": "イギリス",
   "Michael-Bond": "マイケル・ボンド",
   "Paddington": "パディントン",
-  "Paddington-Station": "パディントン駅"
+  "Paddington-Station": "パディントン駅",
+  "mission-impossible": "ミッション：インポッシブル",
+  "spy": "スパイ映画",
+  "thriller": "サスペンススリラー",
+  "tom-cruise": "トム・クルーズ",
+  "brian-de-palma": "ブライアン・デ・パルマ",
+  "IMF": "IMF（Impossible Mission Force）",
+  "trick": "変装",
+  "gadget": "ハイテク",
+  "betrayal": "裏切り"
 };
