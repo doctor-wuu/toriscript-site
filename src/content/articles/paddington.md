@@ -415,7 +415,7 @@ Institutionalizedはしばしば重くなりがちなジャンルですが『パ
 
 
 
-<a href=https://amzn.to/3S5lLiw" target="_blank" rel="noopener">![サムネイル](/images/paddington/1.jpg)</a>
+<a href="https://amzn.to/3S5lLiw" target="_blank" rel="noopener">![サムネイル](/images/paddington/1.jpg)</a>
 
 
 
