@@ -25,6 +25,7 @@ export const tagMap = {
   "splatter": "スプラッター",
   "science-fiction": "SF",
   "mystery": "ミステリー",
+  "drama": "ヒューマン",
   "Gore": "ゴア表現",
   "cosmic-horror": "宇宙的恐怖",
   "lovecraftian-literature": "ラヴクラフト文学",
@@ -142,5 +143,15 @@ export const tagMap = {
   "IMF": "IMF（Impossible Mission Force）",
   "trick": "変装",
   "gadget": "ハイテク",
-  "betrayal": "裏切り"
+  "betrayal": "裏切り",
+  "shawshank-redemption": "ショーシャンクの空に",
+  "prison": "刑務所映画",
+  "hope": "希望",
+  "drama": "ヒューマンドラマ",
+  "stephen-king": "スティーブン・キング",
+  "frank-darabont": "フランク・ダラボン",
+  "tim-robbins": "ティム・ロビンス",
+  "morgan-freeman": "モーガン・フリーマン",
+  "friendship": "友情",
+  "wrongful-conviction": "無実の罪"
 };
