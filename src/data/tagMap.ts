@@ -153,5 +153,17 @@ export const tagMap = {
   "tim-robbins": "ティム・ロビンス",
   "morgan-freeman": "モーガン・フリーマン",
   "friendship": "友情",
-  "wrongful-conviction": "無実の罪"
+  "wrongful-conviction": "無実の罪",
+  "Jurassic-Park": "ジュラシック・パーク",
+  "Michael-Crichton": "マイケル・クライトン",
+  "Universal-Pictures": "ユニバーサル・ピクチャーズ",
+  "adventure": "アドベンチャー映画",
+  "dinosaur": "恐竜",
+  "theme-park": "テーマパーク",
+  "cloning": "クローン技術",
+  "chaos-theory": "カオス理論",
+  "Jeff-Goldblum": "ジェフ・ゴールドブラム",
+  "Sam-Neill": "サム・ニール",
+  "Laura-Dern": "ローラ・ダーン",
+  "ILM": "ILM（視覚効果）"
 };
