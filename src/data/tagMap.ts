@@ -165,5 +165,18 @@ export const tagMap = {
   "Jeff-Goldblum": "ジェフ・ゴールドブラム",
   "Sam-Neill": "サム・ニール",
   "Laura-Dern": "ローラ・ダーン",
-  "ILM": "ILM（視覚効果）"
+  "ILM": "ILM（視覚効果）",
+  "Jurassic-World": "ジュラシック・ワールド",
+  "Colin-Trevorrow": "コリン・トレボロウ",
+  "Chris-Pratt": "クリス・プラット",
+  "Bryce-Dallas-Howard": "ブライス・ダラス・ハワード",
+  "Vincent-D-Onofrio": "ヴィンセント・ドノフリオ",
+  "Omar-Sy": "オマール・シー",
+  "BD-Wong": "B・D・ウォン",
+  "Indominus-Rex": "インドミナス・レックス",
+  "Raptor-Squad": "ラプトル・スクワッド",
+  "Jurassic-Park-Series": "ジュラシック・パーク・シリーズ",
+  "Dinosaur-Film": "恐竜映画",
+  "Reboot": "リブート",
+  "Hybrid-Dinosaur": "ハイブリッド恐竜"
 };
