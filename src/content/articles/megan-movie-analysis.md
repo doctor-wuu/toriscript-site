@@ -29,7 +29,7 @@ tags:
   - horor
   - suspense
   - splatter
-  - story-structuretags:
+  - story-structuretags
   - story-structure
   - M3GAN
   - AI-Doll
