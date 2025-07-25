@@ -185,5 +185,10 @@ export const tagMap = {
   "Violet-McGraw": "ヴァイオレット・マグロウ",
   "Amie-Donald": "エイミー・ドナルド",
   "Gerard-Johnstone": "ジェラルド・ジョンストン",
-  "Akela-Cooper": "アケイラ・クーパー"
+  "Akela-Cooper": "アケイラ・クーパー",
+  "ジェームズ・キャメロン": "ジェームズ・キャメロン",
+  "arnold-schwarzenegger": "アーノルド・シュワルツェネッガー",
+  "linda-hamilton": "リンダ・ハミルトン",
+  "edward-furlong": "エドワード・ファーロング",
+  "robert-patrick": "ロバート・パトリック"
 };
