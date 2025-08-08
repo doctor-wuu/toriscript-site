@@ -8,6 +8,7 @@ export const tagMap = {
   "drama": "ヒューマン",
   "adventure": "アドベンチャー",
   "Dinosaur-Film": "恐竜映画",
+  "dystopia": "ディストピア",
   "Reboot": "リブート",
   "save-the-cat": "Save the Cat!",
   "script": "脚本",
