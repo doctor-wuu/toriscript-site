@@ -1,6 +1,6 @@
 ---
 
-slug: megan-movie-analysis
+slug: megan
 title: 脚本術で読む映画『M3GAN／ミーガン』ストーリー・あらすじをラストまでネタバレ解説
 description: 映画『M3GAN／ミーガン』のあらすじを舞台裏まで完全解説！　暴走するAI人形ミーガンの恐怖と悲劇、脚本術「Save the Cat!」の視点から丁寧に読み解きます。
 pubDate: "2025-06-17"
@@ -266,6 +266,7 @@ AIとの決別は本当に果たされたのか？
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
+
 
 
 
