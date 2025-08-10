@@ -1,6 +1,6 @@
 ---
 
-slug: terminator2-movie-analysis
+slug: terminator2
 title: 脚本術で読む映画『ターミネーター2』ストーリー・あらすじをラストまでネタバレ解説
 description: 『ターミネーター2』のあらすじを舞台裏まで完全解説！　未来から送り込まれた新たな殺戮マシンと、成長したジョン・コナーを巡る壮絶な戦いを、脚本術「Save the Cat!」の視点から丁寧に読み解きます。
 pubDate: "2025-07-20"
@@ -147,6 +147,7 @@ tags:
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 </div>
+
 
 
 
