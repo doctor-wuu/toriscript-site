@@ -191,5 +191,16 @@ export const tagMap = {
   "arnold-schwarzenegger": "アーノルド・シュワルツェネッガー",
   "linda-hamilton": "リンダ・ハミルトン",
   "edward-furlong": "エドワード・ファーロング",
-  "robert-patrick": "ロバート・パトリック"
+  "robert-patrick": "ロバート・パトリック",
+  "Ridley-Scott": "リドリー・スコット",
+  "Sigourney-Weaver": "シガニー・ウィーバー",
+  "Tom-Skerritt": "トム・スケリット",
+  "Veronica-Cartwright": "ヴェロニカ・カートライト",
+  "Harry-Dean-Stanton": "ハリー・ディーン・スタントン",
+  "John-Hurt": "ジョン・ハート",
+  "Ian-Holm": "イアン・ホルム",
+  "Yaphet-Kotto": "ヤフェット・コットー",
+  "HR-Giger": "H・R・ギーガー",
+  "20th-Century-Fox": "20世紀フォックス",
+  "Alien-Series": "エイリアンシリーズ"
 };
