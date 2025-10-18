@@ -1,6 +1,6 @@
 export const tagMap = {
   "action": "アクション",
-  "horor": "ホラー",
+  "horror": "ホラー",
   "suspense": "サスペンス",
   "splatter": "スプラッター",
   "science-fiction": "SF",
