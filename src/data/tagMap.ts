@@ -187,7 +187,7 @@ export const tagMap = {
   "Amie-Donald": "エイミー・ドナルド",
   "Gerard-Johnstone": "ジェラルド・ジョンストン",
   "Akela-Cooper": "アケイラ・クーパー",
-  "ジェームズ・キャメロン": "ジェームズ・キャメロン",
+  "James-Francis-Cameron": "ジェームズ・キャメロン",
   "arnold-schwarzenegger": "アーノルド・シュワルツェネッガー",
   "linda-hamilton": "リンダ・ハミルトン",
   "edward-furlong": "エドワード・ファーロング",
