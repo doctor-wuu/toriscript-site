@@ -202,5 +202,16 @@ export const tagMap = {
   "Yaphet-Kotto": "ヤフェット・コットー",
   "HR-Giger": "H・R・ギーガー",
   "20th-Century-Fox": "20世紀フォックス",
-  "Alien-Series": "エイリアンシリーズ"
+  "Alien-Series": "エイリアンシリーズ",
+  "sylvester-stallone": "シルヴェスター・スタローン",
+  "talia-shire": "タリア・シャイア",
+  "burt-young": "バート・ヤング",
+  "carl-weathers": "カール・ウェザース",
+  "burgess-meredith": "バージェス・メレディス",
+  "tony-burton": "トニー・バートン",
+  "thayer-david": "セイヤー・デヴィッド",
+  "john-g-avildsen": "ジョン・G・アヴィルドセン",
+  "bill-conti": "ビル・コンティ",
+  "united-artists": "ユナイテッド・アーティスツ",
+  "rocky-series": "『ロッキー』シリーズ"
 };
