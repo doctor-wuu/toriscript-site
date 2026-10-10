@@ -14,9 +14,20 @@ const post = await getEntryBySlug('articles', slug);
 if (!post) {
   throw new Error(`Article not found: ${slug}`);
 }
-const content = post ? await post.render() : null;
-const html = content?.html ?? post?.rendered?.html ?? '';
-const { headings } = await getHeadingsFromHtml(html);
+const content = await post.render();
+const { Content, headings: astroHeadings } = content;
+const html = content.html ?? post.rendered?.html ?? '';
+const { headings: htmlHeadings } = await getHeadingsFromHtml(html);
+
+const headings = htmlHeadings.length > 0
+  ? htmlHeadings
+  : astroHeadings
+      .filter(h => h.depth >= 2 && h.depth <= 4)
+      .map(h => ({
+        depth: h.depth,
+        text: h.text,
+        id: h.slug,
+      }));
 
 
 
@@ -98,7 +109,9 @@ const authorMap = {
   </div>
 
   <!-- ✅ 本文 -->
-  <div class="prose mx-auto article-page max-w-[48rem] mt-8" set:html={html}></div>
+  <div class="prose mx-auto article-page max-w-[48rem] mt-8">
+  <Content />
+</div>
 
   <!-- ✅ 前後記事 -->
 <div slot="pager" class="flex justify-between items-center gap-4 max-w-[48rem] mx-auto mt-12">
