@@ -12,7 +12,8 @@ const { title, heading = "", fullWidth = false } = Astro.props;
   <slot name="breadcrumbBorder" slot="breadcrumbBorder" />
   <slot name="breadcrumbs" slot="breadcrumbs" />
   <slot name="titleBlock" slot="titleBlock" />
-
+  <slot name="featured" />
+  
   <!-- ✅ メイン + サイドバー -->
   <main class="max-w-7xl mx-auto px-4 py-8 flex gap-8">
     <!-- ✅ 左メインカラム -->

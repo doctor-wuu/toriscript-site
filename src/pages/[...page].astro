@@ -1,18 +1,33 @@
 ---
-// src/pages/index.astro
 import { getCollection } from 'astro:content';
 import Layout from '@/layouts/Layout.astro';
+import FeaturedArticles from '@/components/FeaturedArticles.astro';
 
-// 🔽 pubDate の降順に並べ替え（新しい記事が先頭に来る）
-const articles = (await getCollection('articles')).sort((a, b) => {
-  return new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime();
-});
+export async function getStaticPaths({ paginate }) {
+  const articles = (await getCollection('articles')).sort((a, b) => {
+    const dateDiff =
+      new Date(b.data.pubDate).getTime() -
+      new Date(a.data.pubDate).getTime();
+
+    return dateDiff || a.slug.localeCompare(b.slug);
+  });
+
+  return paginate(articles, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
+const articles = page.data;
+const pageTitle = page.currentPage === 1
+  ? '脚本・シナリオ解析｜Tori Script（トリスクリプト） 記事一覧'
+  : `記事一覧 ${page.currentPage}ページ目｜Tori Script（トリスクリプト）`;
 ---
 
   <!-- 🟩 メインコンテンツ -->
-<Layout title="脚本・シナリオ解析｜Tori Script（トリスクリプト） 記事一覧"
-heading="記事一覧"
-fullWidth={true}
+<!-- 🟩 メインコンテンツ -->
+<Layout
+  title={pageTitle}
+  heading="記事一覧"
+  fullWidth={true}
 >
   <div slot="logo">
     <header class="py-4 flex flex-col items-center">
@@ -21,6 +36,11 @@ fullWidth={true}
       </a>
     </header>
   </div>
+
+<div slot="featured">
+  {page.currentPage === 1 && <FeaturedArticles />}
+</div>
+
 <div slot="main" class="flex flex-col justify-start w-full max-w-screen-md mx-auto px-4 sm:px-6">
   <ul class="space-y-8">
     {articles.map((article) => {
@@ -60,7 +80,32 @@ fullWidth={true}
         </li>
       );
     })}
-  </ul>
+    </ul>
+
+  <nav
+    class="mt-10 flex items-center justify-center gap-6 text-sm"
+    aria-label="記事一覧のページ切り替え"
+  >
+    {page.url.prev ? (
+      <a href={page.url.prev} class="text-[#82A0AA] hover:underline">
+        ← 前の10件
+      </a>
+    ) : (
+      <span></span>
+    )}
+
+    <span class="text-[#66544E]">
+      {page.currentPage} / {page.lastPage}
+    </span>
+
+    {page.url.next ? (
+      <a href={page.url.next} class="text-[#82A0AA] hover:underline">
+        次の10件 →
+      </a>
+    ) : (
+      <span></span>
+    )}
+  </nav>
 </div>
 
 

@@ -6,6 +6,7 @@ import { categoryMap } from '@/data/categoryMap.ts';
 import { tagMap } from '@/data/tagMap.ts';
 import unescapeHTML from '../../utils/unescapeHTML';
 import RelatedCard from "@/components/articles/RelatedCard.astro";
+import SidebarAffiliateCard from '@/components/articles/SidebarAffiliateCard.astro';
 
 
 
@@ -29,6 +30,9 @@ const headings = htmlHeadings.length > 0
         id: h.slug,
       }));
 
+const tocHeadings = headings.filter(
+  h => (h.depth === 2 || h.depth === 3) && h.id
+);
 
 
 export async function getStaticPaths() {
@@ -95,18 +99,20 @@ const authorMap = {
 
 
   <!-- ✅ 目次 -->
-  <div slot="toc">
-    {headings.length > 0 && (
-      <section class="toc mb-6 mx-auto max-w-[42rem] text-left">
-        <h2 class="text-lg font-semibold text-[#66544E] mb-2">Contents</h2>
-        <ul>
-          {headings.filter(h => h.depth <= 3).map(h => (
-            <li class={`depth-${h.depth}`}><a href={`#${h.id}`}>{h.text}</a></li>
-          ))}
-        </ul>
-      </section>
-    )}
-  </div>
+<div slot="toc">
+  {tocHeadings.length > 0 && (
+    <section class="toc" aria-label="記事の目次">
+      <h2 class="text-lg font-semibold text-[#66544E] mb-2">Contents</h2>
+      <ul>
+        {tocHeadings.map(h => (
+          <li class={`depth-${h.depth}`}>
+            <a href={`#${h.id}`}>{h.text}</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</div>
 
   <!-- ✅ 本文 -->
   <div class="prose mx-auto article-page max-w-[48rem] mt-8">
@@ -133,7 +139,8 @@ const authorMap = {
 
 
   <!-- ✅ サイドバー -->
-  <div slot="sidebar">
+ <div slot="sidebar">
+  <SidebarAffiliateCard />
     <aside class="text-sm text-[#66544E] leading-relaxed space-y-4">
       <div>
         <h2 class="text-base font-bold">カテゴリー</h2>

@@ -13,5 +13,9 @@ yarn-error.log*
 # OS / Editor
 .DS_Store
 *.swp
-b a c k u p - m d /  
+b a c k u p - m d / 
+ 
 src/content/articles/*.md
+
+# Local settings
+.env

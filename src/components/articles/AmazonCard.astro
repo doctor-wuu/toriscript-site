@@ -1,0 +1,53 @@
+---
+interface Props {
+  asin: string;
+  title: string;
+  image: string;
+}
+
+const { title, image } = Astro.props;
+const asin = Astro.props.asin.trim().toUpperCase();
+const tag = import.meta.env.PUBLIC_AMAZON_ASSOCIATE_TAG?.trim();
+
+if (!/^[A-Z0-9]{10}$/.test(asin)) {
+  throw new Error(`AmazonCard: ASINの形式が違います: ${asin}`);
+}
+
+if (!tag) {
+  throw new Error('AmazonCard: PUBLIC_AMAZON_ASSOCIATE_TAG が設定されていません');
+}
+
+const url = new URL(`https://www.amazon.co.jp/dp/${asin}/`);
+url.searchParams.set('tag', tag);
+---
+
+<div class="related-card-container mx-auto my-6 px-4 not-prose">
+  <div class="related-card mx-auto border border-[#EEE8E6] rounded-md relative flex gap-4 max-w-[70%]">
+    <span class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded">
+      関連商品
+    </span>
+
+    <a
+      href={url.toString()}
+      rel="sponsored"
+      class="not-prose no-article-link flex gap-4 items-start no-underline w-full"
+    >
+      <div class="not-prose w-[120px] min-w-[120px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0 bg-white">
+        <img
+          src={image}
+          alt={title}
+          class="w-full h-full object-contain block"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+
+      <div class="text-block not-prose flex flex-col justify-start w-full">
+        <p class="related-card-title line-clamp-3 m-0 p-0">
+          {title}
+        </p>
+        <span class="text-xs text-[#82A0AA] mt-2">Amazonで見る →</span>
+      </div>
+    </a>
+  </div>
+</div>

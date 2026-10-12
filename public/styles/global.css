@@ -7,13 +7,13 @@
 =================================*/
 
 /* h2, h3, h4の直前が<p>なら上マージンを詰める（文と見出しの間が空きすぎるのを防ぐ） */
-.prose :where(p + h2),
-.prose h2 {
-  position: relative !important;
-  display: block !important;
-  padding: 1rem 0.5rem !important;
-  margin: 1.25rem 0 1rem !important;
-  border: none !important; /* ← これ追加！ */
+/* 記事本文のh2 */
+.article-page .prose h2 {
+  position: relative;
+  display: block;
+  padding: 1.5rem 0;
+  margin: 2rem 0;
+  border: 0;
 }
 
 
@@ -54,11 +54,6 @@
 
 .prose p {
   text-shadow: 0.03em 0.03em 0.1em rgba(0, 0, 0, 0.06) !important;
-}
-
-.prose h2 {
-  padding: 1.5rem 0 !important;
-  margin: 2rem 0 !important;
 }
 
 
@@ -155,32 +150,31 @@
   background-color: #f5f5f5;  /* ホバー時に背景を変化させる */
 }
 /* 目次ナビゲーション全体のスタイル */
+/* 記事の目次 */
 .toc {
-  padding: 1rem 1.25rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
   border: 2px solid #ddd;
   border-radius: 0.5rem;
   background-color: #fdfdfd;
   font-size: 0.95rem;
-  max-width: 40rem;
-  margin: 2rem auto;
 }
 
-/* .toc 内の ul はマークなしにする（Tailwind proseの影響を打ち消す） */
 .toc ul {
-  list-style: none !important; /* ← ← ← これが効きます！ */
-  padding-left: 0;
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
-
-/* LI共通マージン */
 .toc li {
-  margin-bottom: 0.5rem;
   position: relative;
-  padding-left: 1rem; /* ポチ用のスペース */
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
 }
 
-/* aタグ（リンク）のスタイル */
 .toc li a {
   color: #6b7280;
   text-decoration: none;
@@ -191,46 +185,21 @@
   color: #374151;
 }
 
-/* 見出し階層別のインデントとポチ（ハイフン）スタイル */
 .toc li.depth-2 a {
-  font-size: 1.05rem;   /* 少しだけ大きめ */
-  font-weight: 600;     /* 太字（bold より少し軽い） */
-  color: #4b5563;       /* 文字色も少し強めにするのもおすすめ */
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #4b5563;
 }
-
 
 .toc li.depth-3 {
   padding-left: 2.5rem;
 }
+
 .toc li.depth-3::before {
   content: '-';
   position: absolute;
   left: 1.7rem;
   color: #999;
-}
-
-.toc li.depth-4 {
-  padding-left: 2rem;
-}
-.toc li.depth-4::before {
-  content: '-';
-  position: absolute;
-  left: 1rem;
-  color: #bbb;
-}
-
-.toc li::marker {
-  content: none !important;
-}
-
-.article-page .toc {
-  box-sizing: border-box;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 100%;
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 

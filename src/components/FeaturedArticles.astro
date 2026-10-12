@@ -1,0 +1,259 @@
+---
+import { getCollection } from 'astro:content';
+
+const featuredSlugs = [
+  'save-the-cat',
+  'save-the-cat-beginning',
+  'lovecraftian-literature',
+  'kishoutenketsu-vs-three-act-structure',
+  'learn-from-movies',
+  'narou-structure',
+];
+
+const articles = await getCollection('articles');
+const bySlug = new Map(articles.map(article => [article.slug, article]));
+
+const featured = featuredSlugs.map(slug => {
+  const article = bySlug.get(slug);
+  if (!article) {
+    throw new Error(`ピックアップ記事が見つかりません: ${slug}`);
+  }
+
+  const rawImage = article.data.introImage || 'images/blank.jpg';
+  const image = /^https?:\/\//.test(rawImage)
+    ? rawImage
+    : `${import.meta.env.BASE_URL}${rawImage.replace(/^\/+/, '')}`;
+
+  return {
+    slug,
+    title: article.data.title,
+    image,
+  };
+});
+---
+
+<section class="featured" aria-labelledby="featured-heading" data-featured>
+  <div class="featured-inner">
+    <h2 id="featured-heading">Pick Up</h2>
+
+    <ul class="featured-track" data-track>
+      {featured.map((article, index) => (
+        <li class="featured-item">
+          <a href={`/articles/${article.slug}/`}>
+            <img
+              src={article.image}
+              alt=""
+              loading={index < 4 ? 'eager' : 'lazy'}
+              decoding="async"
+            />
+            <span class="featured-category">{article.category}</span>
+            <span class="featured-caption">
+              <span class="featured-title">{article.title}</span>
+            </span>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="featured-controls">
+      <button type="button" class="featured-arrow" data-prev aria-label="前の記事">
+        ‹
+      </button>
+      <div class="featured-dots" data-dots aria-label="ピックアップのページ"></div>
+      <button type="button" class="featured-arrow" data-next aria-label="次の記事">
+        ›
+      </button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .featured {
+    background: #f5f5f5;
+    padding: 2rem 1rem 1.25rem;
+  }
+
+  .featured-inner {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+
+  .featured h2 {
+    color: #66544e;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0 0 1rem;
+  }
+
+  .featured-track {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .featured-track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .featured-item {
+    flex: 0 0 calc((100% - 3rem) / 4);
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+
+  .featured-item a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 11;
+    color: white;
+    background: #ddd;
+  }
+
+  .featured-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+  }
+
+  .featured-item a:hover img {
+    transform: scale(1.04);
+  }
+
+
+
+  .featured-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1.25rem 0.75rem 0.65rem;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  }
+
+
+
+  .featured-title {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .featured-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .featured-arrow {
+    color: #66544e;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 0 0.4rem;
+  }
+
+  .featured-arrow:disabled {
+    opacity: 0.3;
+  }
+
+  .featured-dots {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  .featured-dots :global(button) {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: #aaa;
+  }
+
+  .featured-dots :global(button[aria-current="true"]) {
+    background: #4a4a4a;
+  }
+
+  @media (max-width: 1023px) {
+    .featured-item {
+      flex-basis: calc((100% - 1rem) / 2);
+    }
+  }
+
+  @media (max-width: 639px) {
+    .featured-item {
+      flex-basis: 100%;
+    }
+  }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-featured]').forEach(root => {
+    const track = root.querySelector<HTMLElement>('[data-track]');
+    const dots = root.querySelector<HTMLElement>('[data-dots]');
+    const prev = root.querySelector<HTMLButtonElement>('[data-prev]');
+    const next = root.querySelector<HTMLButtonElement>('[data-next]');
+    const firstItem = track?.querySelector<HTMLElement>('.featured-item');
+
+    if (!track || !dots || !prev || !next || !firstItem) return;
+
+    const step = () =>
+      firstItem.getBoundingClientRect().width +
+      (parseFloat(getComputedStyle(track).gap) || 0);
+
+    const lastPosition = () =>
+      Math.max(0, Math.round((track.scrollWidth - track.clientWidth) / step()));
+
+    const update = () => {
+      const last = lastPosition();
+      const current = Math.min(last, Math.round(track.scrollLeft / step()));
+
+      if (dots.children.length !== last + 1) {
+        dots.replaceChildren();
+
+        for (let i = 0; i <= last; i++) {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.setAttribute('aria-label', `${i + 1}番目の位置を表示`);
+          button.addEventListener('click', () => {
+            track.scrollTo({ left: i * step(), behavior: 'smooth' });
+          });
+          dots.append(button);
+        }
+      }
+
+      Array.from(dots.children).forEach((dot, index) => {
+        dot.setAttribute('aria-current', String(index === current));
+      });
+
+      prev.disabled = current === 0;
+      next.disabled = current === last;
+    };
+
+    const move = (direction: number) => {
+      const current = Math.round(track.scrollLeft / step());
+      const target = Math.min(lastPosition(), Math.max(0, current + direction));
+      track.scrollTo({ left: target * step(), behavior: 'smooth' });
+    };
+
+    prev.addEventListener('click', () => move(-1));
+    next.addEventListener('click', () => move(1));
+    track.addEventListener('scroll', update, { passive: true });
+    new ResizeObserver(update).observe(track);
+    update();
+  });
+</script>
