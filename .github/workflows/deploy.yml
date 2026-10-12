@@ -32,6 +32,8 @@ jobs:
         run: npm ci
 
       - name: Build project
+        env:
+          PUBLIC_AMAZON_ASSOCIATE_TAG: ${{ secrets.PUBLIC_AMAZON_ASSOCIATE_TAG }}
         run: npm run build
 
       - name: Upload static files
