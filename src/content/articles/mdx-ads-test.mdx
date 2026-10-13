@@ -5,7 +5,7 @@ description: MDXと広告枠の動作確認用記事
 pubDate: "2025-04-08"
 category: 1
 author: 1
-introImage: /images/intro/sample.jpg
+introImage: images/intro/mdx-ads-test.png
 intro: GoogleドキュメントからMDXを出力するテストです。
 tags:
 - save-the-cat
@@ -45,6 +45,17 @@ tags:
 
 import AdSlot from '@/components/articles/AdSlot.astro';
 
+<MessageBox>
+通常版。安直に、さくらちゃんと呼んでおくことにする（苺を想起させる見た目だが）
+</MessageBox>
+
+<RelatedCard slug="save-the-cat-beginning" label="猫が気になる人へ" />
+
+
+
+![雨が多いね](/images/mdx-ads-test/1.png)
+
+
 ## 通常の広告枠
 
 ここではGASの広告記号から、通常の広告枠を生成します。
@@ -52,6 +63,14 @@ import AdSlot from '@/components/articles/AdSlot.astro';
 <AdSlot slotId="6057267145" />
 
 ## Multiplexの広告枠
+
+
+![ラッキーっぽい](/images/mdx-ads-test/2.png)
+
+<MessageBox>
+特にいいことはない
+</MessageBox>
+
 
 こちらは従来のads5に対応する広告枠です。
 
