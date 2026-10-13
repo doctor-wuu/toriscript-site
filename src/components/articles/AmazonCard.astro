@@ -1,24 +1,73 @@
 ---
+import productLedger from "@/data/amazonProducts.json";
+
 interface Props {
-  asin: string;
+  title: string;
+  shortUrl?: string;
+  asin?: string;
+  image?: string;
+}
+
+interface Product {
   title: string;
   image: string;
 }
 
-const { title, image } = Astro.props;
-const asin = Astro.props.asin.trim().toUpperCase();
-const tag = import.meta.env.PUBLIC_AMAZON_ASSOCIATE_TAG?.trim();
+const products = productLedger as Record<string, Product>;
 
-if (!/^[A-Z0-9]{10}$/.test(asin)) {
-  throw new Error(`AmazonCard: ASINの形式が違います: ${asin}`);
+const {
+  title: inputTitle,
+  image: inputImage,
+  shortUrl,
+  asin: inputAsin,
+} = Astro.props;
+
+const productId = shortUrl?.trim();
+const product = productId ? products[productId] : undefined;
+
+const title = product?.title || inputTitle?.trim();
+const image = inputImage?.trim() || product?.image;
+
+let url: URL;
+
+if (productId) {
+  url = new URL(productId);
+
+  if (
+    url.protocol !== "https:" ||
+    !["link.amazon", "amzn.to"].includes(url.hostname) ||
+    url.username ||
+    url.password
+  ) {
+    throw new Error("AmazonCard: Amazonの短縮URLを確認してください");
+  }
+} else {
+  const asin = inputAsin?.trim().toUpperCase();
+  const tag = import.meta.env.PUBLIC_AMAZON_ASSOCIATE_TAG?.trim();
+
+  if (!asin || !/^[A-Z0-9]{10}$/.test(asin)) {
+    throw new Error("AmazonCard: 短縮URLまたは正しいASINが必要です");
+  }
+
+  if (!tag) {
+    throw new Error(
+      "AmazonCard: PUBLIC_AMAZON_ASSOCIATE_TAG が設定されていません"
+    );
+  }
+
+  url = new URL(`https://www.amazon.co.jp/dp/${asin}/`);
+  url.searchParams.set("tag", tag);
 }
 
-if (!tag) {
-  throw new Error('AmazonCard: PUBLIC_AMAZON_ASSOCIATE_TAG が設定されていません');
+if (!title) {
+  throw new Error("AmazonCard: タイトルがありません");
 }
 
-const url = new URL(`https://www.amazon.co.jp/dp/${asin}/`);
-url.searchParams.set('tag', tag);
+if (!image) {
+  throw new Error(
+    `AmazonCard: 商品画像が台帳に登録されていません: ${productId}`
+  );
+}
 ---
 
 <div class="related-card-container mx-auto my-6 px-4 not-prose">
