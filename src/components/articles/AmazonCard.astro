@@ -93,14 +93,30 @@ if (!image) {
 <style>
   .amazon-product-card {
     box-sizing: border-box;
-    display: inline-block;
-    width: 46%;
-    margin: 1.5rem 1%;
+    display: block;
+    width: calc(46% - 3rem);
+    margin: 1.5rem auto;
     vertical-align: top;
     border: 1px solid #eee8e6;
     border-radius: 0.5rem;
     background: #fff;
     overflow: hidden;
+  }
+
+  /* 連続する2枚は横並びにし、組として中央へ寄せる。 */
+  .amazon-product-card:has(+ .amazon-product-card),
+  .amazon-product-card + .amazon-product-card {
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .amazon-product-card:has(+ .amazon-product-card):not(.amazon-product-card + .amazon-product-card) {
+    margin-left: calc(2% + 3rem);
+  }
+
+  .amazon-product-card + .amazon-product-card:not(:has(+ .amazon-product-card)) {
+    margin-right: calc(2% + 3rem);
   }
 
   .amazon-product-card .amazon-product-link {
@@ -126,12 +142,12 @@ if (!image) {
     outline-offset: -3px;
   }
 
-  /* 本文は16px・行高1.75なので7行分＝196px。 */
+  /* 以前の196pxから約1.3倍。 */
   .amazon-product-image-area {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 12.25rem;
+    height: 15.925rem;
     min-width: 0;
   }
 
@@ -170,3 +186,4 @@ if (!image) {
     }
   }
 </style>
+
