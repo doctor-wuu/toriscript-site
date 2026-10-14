@@ -70,33 +70,103 @@ if (!image) {
 }
 ---
 
-<div class="related-card-container mx-auto my-6 px-4 not-prose">
-  <div class="related-card mx-auto border border-[#EEE8E6] rounded-md relative flex gap-4 max-w-[70%]">
-    <span class="related-label absolute -top-3 left-4 bg-[#82A0AA] text-white text-xs font-semibold px-2 py-1 rounded">
-      関連商品
-    </span>
-
-    <a
-      href={url.toString()}
-      rel="sponsored"
-      class="not-prose no-article-link flex gap-4 items-start no-underline w-full"
-    >
-      <div class="not-prose w-[120px] min-w-[120px] aspect-[4/3] overflow-hidden rounded-md flex-shrink-0 bg-white">
-        <img
-          src={image}
-          alt={title}
-          class="w-full h-full object-contain block"
-          loading="lazy"
-          decoding="async"
-        />
-      </div>
-
-      <div class="text-block not-prose flex flex-col justify-start w-full">
-        <p class="related-card-title line-clamp-3 m-0 p-0">
-          {title}
-        </p>
-        <span class="text-xs text-[#82A0AA] mt-2">Amazonで見る →</span>
-      </div>
-    </a>
-  </div>
+<div class="amazon-product-card not-prose">
+  <a
+    href={url.toString()}
+    rel="sponsored"
+    class="amazon-product-link image-link"
+    aria-label={title}
+  >
+    <div class="amazon-product-image-area">
+      <img
+        src={image}
+        alt={title}
+        class="amazon-product-image"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <span class="amazon-product-title" title={title}>{title}</span>
+  </a>
 </div>
+
+<style>
+  .amazon-product-card {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 46%;
+    margin: 1.5rem 1%;
+    vertical-align: top;
+    border: 1px solid #eee8e6;
+    border-radius: 0.5rem;
+    background: #fff;
+    overflow: hidden;
+  }
+
+  .amazon-product-card .amazon-product-link {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    width: 100%;
+    padding: 1rem;
+    color: #6a6a6a;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .amazon-product-card .amazon-product-link:hover {
+    background-color: #fafafa;
+  }
+
+  .amazon-product-card .amazon-product-link:focus-visible {
+    outline: 2px solid #82a0aa;
+    outline-offset: -3px;
+  }
+
+  /* 本文は16px・行高1.75なので7行分＝196px。 */
+  .amazon-product-image-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12.25rem;
+    min-width: 0;
+  }
+
+  .amazon-product-card .amazon-product-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    border-radius: 0;
+    object-fit: contain;
+  }
+
+  .amazon-product-card .amazon-product-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 3.2em;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 480px) {
+    .amazon-product-card .amazon-product-link {
+      padding: 0.75rem;
+      gap: 0.75rem;
+    }
+
+    .amazon-product-card .amazon-product-title {
+      font-size: 0.875rem;
+    }
+  }
+</style>
