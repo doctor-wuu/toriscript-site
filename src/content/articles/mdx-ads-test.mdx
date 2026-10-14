@@ -33,10 +33,13 @@ tags:
 import AdSlot from '@/components/articles/AdSlot.astro';
 import MessageBox from '@/components/articles/MessageBox.astro';
 import RelatedCard from '@/components/articles/RelatedCard.astro';
+import AmazonCard from '@/components/articles/AmazonCard.astro';
 
 <MessageBox>
 雨は降らないらしい
 </MessageBox>
+
+
 
 <RelatedCard slug="save-the-cat-beginning" label="猫が気になる人へ" />
 
@@ -60,9 +63,13 @@ import RelatedCard from '@/components/articles/RelatedCard.astro';
 特にいいことはない
 </MessageBox>
 
-
+<MessageBox>
+ここにメッセージ
+</MessageBox>
 こちらは従来のads5に対応する広告枠です。
 
 <AdSlot slotId="6992270400" format="autorelaxed" />
 
 <AdSlot slotId="4755793766" />
+
+<AmazonCard title={"ああ、"} shortUrl={"https://link.amazon/B00zvbOTr"} />
